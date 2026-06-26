@@ -3,6 +3,7 @@ import { Header } from './components/Header'
 import { GraphWorkspace } from './components/GraphWorkspace'
 import { DataAnalysis } from './components/DataAnalysis'
 import { ErrorConsole } from './components/ErrorConsole'
+import { AppFooter } from './components/AppFooter'
 import {
   buildAnalysisSnapshots,
   createPaneState,
@@ -70,6 +71,7 @@ export default function App() {
       ) : null}
 
       <ErrorConsole />
+      <AppFooter />
     </main>
   )
 }
