@@ -9,6 +9,7 @@ export interface AnalysisResponse {
   results: string
   memory: string
   persisted: boolean
+  persistError?: string
 }
 
 function analysisApiBase(): string | null {
@@ -54,6 +55,7 @@ async function callWorkerApi(request: AnalysisRequest): Promise<AnalysisResponse
     results: data.results,
     memory: data.memory,
     persisted: Boolean(data.persisted),
+    persistError: data.persistError,
   }
 }
 

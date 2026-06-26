@@ -27,8 +27,11 @@ curl -s "https://YOUR-WORKER.workers.dev/health"
 Expected response:
 
 ```json
-{"ok":true,"service":"whack-o-meter-analysis","model":"gemini-3.1-flash-lite","version":"2025-06-25-flash-lite"}
+{"ok":true,"service":"whack-o-meter-analysis","model":"gemini-3.1-flash-lite","githubPatConfigured":true,"githubRepository":"Gparrine/Whack-O-Meter"}
 ```
+
+- `githubPatConfigured: false` → run `npx wrangler secret put GITHUB_PAT` in this folder (exact name).
+- `githubPatConfigured: true` but analysis still fails to save memory → token lacks **Contents: Read and write** on `Gparrine/Whack-O-Meter`, or `main` branch protection blocks direct commits.
 
 If `model` is still `gemini-3.1-flash`, you deployed stale code (wrong folder or old checkout). Pull latest `main` and redeploy from **`worker/` at the repo root**.
 
