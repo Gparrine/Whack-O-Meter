@@ -6,12 +6,15 @@ Live site: **https://gparrine.github.io/Whack-O-Meter/**
 
 ## Features
 
-- Graph force vs. time from CSV files in `raw_data/`
-- Auto-trim to significant impact regions
+- Graph force vs. time from Loadstar LV-1000HS-10K CSV exports in `raw_data/`
+- **CSV Manager Bot** trims baseline noise from files and assigns descriptive nicknames
+- **Impact Readout** panel: peak force (N/lbf), time to peak, force decay, impulse, weapon type
+- Auto-trim and optional full-timeline reconstruction from preserved trim metadata
 - Axis scale slider to zoom in/out from auto bounds
-- Search and cycle through CSV files with prev/next controls
+- Search and cycle through CSV files by nickname or filename
+- Centralized **error console** for system failures
 - AI analysis panel backed by `analysis/memory.md`
-- GitHub Actions workflow for LLM + web research enrichment
+- GitHub Actions workflows for CSV optimization, LLM analysis, and web research
 
 ## Local development
 
@@ -25,10 +28,12 @@ The dev server runs at `http://localhost:5173/Whack-O-Meter/`.
 ## Adding CSV data
 
 1. Drop `.csv` files into [`raw_data/`](raw_data/)
-2. Include headers with recognizable time/force columns (`time_s`, `force_N`, `timestamp_ms`, `impact_g`, etc.)
-3. Run `npm run generate:manifest` or `npm run build` to refresh the manifest
+2. Push to `main` — the CSV Manager Bot runs automatically
+3. The bot trims insignificant baseline readings, preserves trim timestamps, and updates [`raw_data/csv_manager_memory.md`](raw_data/csv_manager_memory.md)
 
 CSV files stay in `raw_data/` on GitHub and are loaded at runtime via raw URLs (not bundled into the Pages deploy).
+
+See [`raw_data/README.md`](raw_data/README.md) for details on the CSV manager bot.
 
 ## GitHub Pages deployment
 
@@ -40,11 +45,17 @@ CSV files stay in `raw_data/` on GitHub and are loaded at runtime via raw URLs (
 
 Push to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
 
-## AI analysis workflow
+## Workflows
 
-Run [`.github/workflows/analyze.yml`](.github/workflows/analyze.yml) manually or push new CSV files to `raw_data/`.
+| Workflow | Trigger | Purpose |
+|----------|---------|---------|
+| [csv_manager.yml](.github/workflows/csv_manager.yml) | Push to `raw_data/` | Trim CSVs, assign nicknames, update manager memory |
+| [analyze.yml](.github/workflows/analyze.yml) | Push to `raw_data/` | AI analysis + web research |
+| [deploy.yml](.github/workflows/deploy.yml) | Push to `main` | Build and deploy GitHub Pages |
 
-### Required secrets
+Run **CSV Manager Bot** manually with **Reprocess all** to optimize every existing file.
+
+## AI analysis secrets
 
 | Secret | Purpose |
 |--------|---------|
@@ -55,18 +66,16 @@ Run [`.github/workflows/analyze.yml`](.github/workflows/analyze.yml) manually or
 | `TAVILY_API_KEY` | Web research (preferred) |
 | `SERPER_API_KEY` | Alternative web search API |
 
-At least one LLM key and one search key are recommended for full analysis.
-
-The workflow updates [`analysis/memory.md`](analysis/memory.md), which the UI reads in the Data Analysis panel. Use **Check for Updates** in the app to poll for new results after triggering the workflow.
+The AI workflow updates [`analysis/memory.md`](analysis/memory.md), which the UI reads in the Data Analysis panel.
 
 ## Project structure
 
 ```
-raw_data/           CSV sensor exports (served via raw.githubusercontent.com)
-analysis/           AI memory markdown
-public/data/        Generated manifest (build step)
-scripts/            Manifest generator + AI analyzer
-src/                React frontend
+raw_data/                  CSV sensor exports + csv_manager_memory.md
+analysis/                  AI memory markdown
+public/data/               Generated manifest (build step)
+scripts/                   CSV manager, manifest generator, AI analyzer
+src/                       React frontend
 ```
 
 ## License

@@ -1,8 +1,32 @@
+export interface TrimMeta {
+  eventStart?: number
+  eventEnd?: number
+  prefixTrimStart?: number
+  prefixTrimEnd?: number
+  suffixTrimStart?: number
+  suffixTrimEnd?: number
+  originalStart?: number
+  originalEnd?: number
+  baseline?: number
+}
+
+export interface FileMetrics {
+  peakForceN: number
+  peakForceLbf: number
+  timeToPeakMs: number
+  forceDecayMs: number
+  impulseNs: number
+  weaponType: string
+}
+
 export interface ManifestEntry {
   filename: string
   title: string
+  nickname?: string
   path: string
   rawUrl: string
+  metrics?: FileMetrics
+  trimMeta?: TrimMeta
 }
 
 export interface Manifest {

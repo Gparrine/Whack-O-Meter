@@ -32,6 +32,7 @@ FORCE_PATTERNS = (
     re.compile(r"^g_", re.I),
     re.compile(r"accel", re.I),
     re.compile(r"^impact", re.I),
+    re.compile(r"reading", re.I),
     re.compile(r"_n$", re.I),
     re.compile(r"^n$", re.I),
 )
@@ -59,52 +60,71 @@ class Metrics:
 def read_csv(path: Path) -> Series:
     import csv
 
-    with path.open(newline="", encoding="utf-8") as handle:
-        reader = csv.DictReader(handle)
-        rows = [row for row in reader if any(v.strip() for v in row.values())]
-        if not rows:
-            raise ValueError(f"{path.name} is empty")
+    text = path.read_text(encoding="utf-8", errors="replace")
+    lines = text.splitlines()
+    data_lines: list[str] = []
+    started = False
 
-        headers = reader.fieldnames or list(rows[0].keys())
+    for line in lines:
+        if line.startswith("#"):
+            continue
+        if not started:
+            if re.search(r"time", line, re.I) and re.search(
+                r"reading|force|\(n\)|impact|_g\b|\bg\b", line, re.I
+            ):
+                started = True
+                data_lines.append(line)
+            continue
+        data_lines.append(line)
 
-        def numeric(header: str) -> bool:
-            values = [row.get(header, "") for row in rows]
-            nums = [v for v in values if v not in ("", None)]
-            if not nums:
-                return False
-            try:
-                [float(v) for v in nums]
-                return True
-            except ValueError:
-                return False
+    if len(data_lines) < 2:
+        raise ValueError(f"{path.name} has no recognizable data rows")
 
-        numeric_headers = [h for h in headers if numeric(h)]
+    reader = csv.DictReader(data_lines)
+    rows = [row for row in reader if any((value or "").strip() for value in row.values())]
+    if not rows:
+        raise ValueError(f"{path.name} is empty")
 
-        def match(headers_list: list[str], patterns: tuple[re.Pattern[str], ...]) -> str | None:
-            for pattern in patterns:
-                for header in headers_list:
-                    if pattern.search(header.strip()):
-                        return header
-            return None
+    headers = reader.fieldnames or list(rows[0].keys())
 
-        time_header = match(headers, TIME_PATTERNS) or numeric_headers[0]
-        force_header = (
-            match(headers, FORCE_PATTERNS)
-            or next((h for h in numeric_headers if h != time_header), None)
-        )
-        if not time_header or not force_header:
-            raise ValueError(f"Could not detect columns in {path.name}")
+    def numeric(header: str) -> bool:
+        values = [row.get(header, "") for row in rows]
+        nums = [v for v in values if v not in ("", None)]
+        if not nums:
+            return False
+        try:
+            [float(v) for v in nums]
+            return True
+        except ValueError:
+            return False
 
-        time = [float(row[time_header]) for row in rows]
-        force = [float(row[force_header]) for row in rows]
+    numeric_headers = [h for h in headers if numeric(h)]
 
-        if re.search(r"ms", time_header, re.I) and not re.search(r"seconds?", time_header, re.I):
-            time = [value / 1000 for value in time]
+    def match(headers_list: list[str], patterns: tuple[re.Pattern[str], ...]) -> str | None:
+        for pattern in patterns:
+            for header in headers_list:
+                if pattern.search(header.strip()):
+                    return header
+        return None
 
-        start = time[0]
-        time = [value - start for value in time]
+    time_header = match(headers, TIME_PATTERNS) or numeric_headers[0]
+    force_header = (
+        match(headers, FORCE_PATTERNS)
+        or next((h for h in numeric_headers if h != time_header), None)
+    )
+    if not time_header or not force_header:
+        raise ValueError(f"Could not detect columns in {path.name}")
 
-        return Series(path.name, time, force, time_header, force_header)
+    time = [float(row[time_header]) for row in rows]
+    force = [float(row[force_header]) for row in rows]
+
+    if re.search(r"ms", time_header, re.I) and not re.search(r"seconds?", time_header, re.I):
+        time = [value / 1000 for value in time]
+
+    start = time[0]
+    time = [value - start for value in time]
+
+    return Series(path.name, time, force, time_header, force_header)
 
 
 def compute_metrics(series: Series) -> Metrics:
