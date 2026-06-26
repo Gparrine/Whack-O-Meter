@@ -15,7 +15,7 @@ async function callGemini(env, prompt) {
     throw new Error('GEMINI_API_KEY is not configured on the analysis worker.')
   }
 
-  const model = env.GEMINI_MODEL || 'gemini-2.0-flash'
+  const model = env.GEMINI_MODEL || 'gemini-3.1-flash'
   const response = await fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`,
     {
