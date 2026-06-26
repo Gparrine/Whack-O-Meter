@@ -16,7 +16,7 @@ Use the URL printed by `wrangler deploy` as the GitHub repo variable **`ANALYSIS
 
 ## Model
 
-This worker always calls **`gemini-3.1-flash`** (hardcoded in `analyze.js`).
+This worker always calls **`gemini-3.5-flash`** (hardcoded in `analyze.js`).
 
 If you previously ran `wrangler secret put GEMINI_MODEL`, delete it so it cannot override the model:
 

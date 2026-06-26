@@ -42,7 +42,7 @@ async function callGeminiServer(prompt: string): Promise<string> {
     throw new Error('GEMINI_API_KEY is not set in the dev server environment.')
   }
 
-  const model = process.env.GEMINI_MODEL?.trim() || 'gemini-3.1-flash'
+  const model = process.env.GEMINI_MODEL?.trim() || 'gemini-3.5-flash'
   const systemPrompt = `You are a sports biomechanics analyst specializing in HEMA impact force curves, concussion research, head acceleration literature, and automotive crash-test biomechanics (HIC, NCAP, sled tests). Write concise markdown bullet observations.
 
 Always respond using EXACTLY this format:

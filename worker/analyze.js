@@ -10,7 +10,7 @@ Always respond using EXACTLY this format:
 <!-- /MEMORY -->`
 
 // Hardcoded so a stale Cloudflare secret named GEMINI_MODEL cannot override this.
-const GEMINI_MODEL = 'gemini-3.1-flash'
+const GEMINI_MODEL = 'gemini-3.5-flash'
 
 async function callGemini(env, prompt) {
   const apiKey = env.GEMINI_API_KEY || env.GOOGLE_API_KEY
