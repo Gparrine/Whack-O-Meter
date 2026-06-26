@@ -19,6 +19,7 @@ export function GraphWorkspace({
   onPaneDataChange,
 }: GraphWorkspaceProps) {
   const [dragSourceId, setDragSourceId] = useState<string | null>(null)
+  const isDual = panes.length > 1
 
   const handlePaneChange = useCallback(
     (id: string, patch: Partial<GraphPaneState>) => {
@@ -38,10 +39,20 @@ export function GraphWorkspace({
     [dragSourceId, onPanesChange],
   )
 
+  const handleRemovePane = useCallback(
+    (paneId: string) => {
+      onPanesChange((current) => {
+        if (current.length <= 1) return current
+        return current.filter((pane) => pane.id !== paneId)
+      })
+    },
+    [onPanesChange],
+  )
+
   const canAddPane = panes.length < 2
 
   return (
-    <section className="graph-workspace">
+    <section className={`graph-workspace${isDual ? ' graph-workspace--dual' : ''}`}>
       <div className="workspace-toolbar">
         {canAddPane ? (
           <button type="button" className="action-button add-readout-button" onClick={onAddPane}>
@@ -55,9 +66,11 @@ export function GraphWorkspace({
             key={pane.id}
             pane={pane}
             entries={entries}
-            draggable={panes.length > 1}
+            draggable={isDual}
+            showRemove={isDual}
             dragSourceId={dragSourceId}
             onPaneChange={handlePaneChange}
+            onRemove={() => handleRemovePane(pane.id)}
             onDragStart={setDragSourceId}
             onDragOver={(event) => event.preventDefault()}
             onDrop={handleDrop}

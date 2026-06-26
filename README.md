@@ -50,9 +50,10 @@ Reprocess everything manually: **Actions → CSV Manager → Run workflow → re
 
 ### In the browser (Data Analysis panel)
 
-- Click **Run AI Analysis** to call Gemini directly from the app.
-- Enter a **Gemini API Key** in the panel (stored in `sessionStorage` for the session only).
-- Optional **GitHub PAT** (fine-grained, Contents read/write on this repo) persists the hidden memory summary to `analysis/memory.md`.
+- Click **Run AI Analysis** to call Gemini directly — no manual API key entry in the UI.
+- **Local dev:** set `GEMINI_API_KEY` (or `GOOGLE_API_KEY`) in your shell before `npm run dev`; the Vite dev server proxies `/api/analyze`.
+- **Production (GitHub Pages):** the deploy workflow injects `GEMINI_API_KEY` at build time as `VITE_GEMINI_API_KEY`.
+- Optional repo secret **`ANALYSIS_COMMIT_PAT`** (fine-grained, Contents write) is injected at build to persist analysis memory automatically.
 - Use **Analysis Parameters** to add custom questions or context to the prompt.
 - With two readout panes loaded, the AI compares both curves automatically.
 - **Check for Previous Analysis** loads stored memory for the selected curve(s).

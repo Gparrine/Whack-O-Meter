@@ -6,7 +6,7 @@ interface SearchBarProps {
 
 export function SearchBar({ value, onChange, resultCount }: SearchBarProps) {
   return (
-    <div>
+    <div className="search-bar-wrap">
       <input
         className="search-input"
         type="search"

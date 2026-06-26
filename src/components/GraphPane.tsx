@@ -18,8 +18,10 @@ interface GraphPaneProps {
   pane: GraphPaneState
   entries: ManifestEntry[]
   draggable: boolean
+  showRemove: boolean
   dragSourceId: string | null
   onPaneChange: (id: string, patch: Partial<GraphPaneState>) => void
+  onRemove: () => void
   onDragStart: (paneId: string) => void
   onDragOver: (event: React.DragEvent) => void
   onDrop: (paneId: string) => void
@@ -31,8 +33,10 @@ export function GraphPane({
   pane,
   entries,
   draggable,
+  showRemove,
   dragSourceId,
   onPaneChange,
+  onRemove,
   onDragStart,
   onDragOver,
   onDrop,
@@ -130,11 +134,18 @@ export function GraphPane({
 
   return (
     <div className="graph-pane">
-      <SearchBar
-        value={pane.search}
-        onChange={(search) => onPaneChange(pane.id, { search, index: 0, viewBounds: null })}
-        resultCount={filtered.length}
-      />
+      <div className="graph-pane-toolbar">
+        <SearchBar
+          value={pane.search}
+          onChange={(search) => onPaneChange(pane.id, { search, index: 0, viewBounds: null })}
+          resultCount={filtered.length}
+        />
+        {showRemove ? (
+          <button type="button" className="action-button remove-readout-button" onClick={onRemove}>
+            - Remove
+          </button>
+        ) : null}
+      </div>
       <TelemetryBundle
         data={paneData}
         draggable={draggable}
