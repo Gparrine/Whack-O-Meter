@@ -11,12 +11,21 @@ Always respond using EXACTLY this format:
 
 // Hardcoded so a stale Cloudflare secret named GEMINI_MODEL cannot override this.
 const GEMINI_MODEL = 'gemini-3.1-flash-lite'
-const WORKER_VERSION = '2025-06-26-persist-diagnostics'
+const WORKER_VERSION = '2025-06-26-github-user-agent'
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
   'Access-Control-Allow-Headers': 'Content-Type',
+}
+
+function githubApiHeaders(token) {
+  return {
+    Authorization: `Bearer ${token}`,
+    Accept: 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28',
+    'User-Agent': 'Whack-O-Meter-Analysis-Worker',
+  }
 }
 
 async function callGemini(env, prompt) {
@@ -96,11 +105,7 @@ async function persistMemory(env, sectionKey, memoryContent) {
   const repo = env.GITHUB_REPOSITORY || 'Gparrine/Whack-O-Meter'
   const path = 'analysis/memory.md'
   const getUrl = `https://api.github.com/repos/${repo}/contents/${path}`
-  const headers = {
-    Authorization: `Bearer ${token}`,
-    Accept: 'application/vnd.github+json',
-    'X-GitHub-Api-Version': '2022-11-28',
-  }
+  const headers = githubApiHeaders(token)
 
   const getResponse = await fetch(getUrl, { headers })
 

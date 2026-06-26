@@ -4,17 +4,22 @@ interface GitHubContentResponse {
   sha?: string
 }
 
+function githubApiHeaders(pat: string) {
+  return {
+    Authorization: `Bearer ${pat}`,
+    Accept: 'application/vnd.github+json',
+    'Content-Type': 'application/json',
+    'X-GitHub-Api-Version': '2022-11-28',
+    'User-Agent': 'Whack-O-Meter-Analysis-Worker',
+  }
+}
+
 export async function persistMemoryMarkdown(
   pat: string,
   markdown: string,
   commitMessage = 'Update AI analysis memory from Whack-O-Meter UI',
 ): Promise<void> {
-  const headers = {
-    Authorization: `Bearer ${pat}`,
-    Accept: 'application/vnd.github+json',
-    'Content-Type': 'application/json',
-    'X-GitHub-Api-Version': '2022-11-28',
-  }
+  const headers = githubApiHeaders(pat)
 
   const getUrl = `https://api.github.com/repos/${REPO_FULL}/contents/${MEMORY_PATH}`
   const getResponse = await fetch(getUrl, { headers })
