@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { Header } from './components/Header'
+import { UsageGuide } from './components/UsageGuide'
 import { GraphWorkspace } from './components/GraphWorkspace'
 import { DataAnalysis } from './components/DataAnalysis'
 import { ErrorConsole } from './components/ErrorConsole'
@@ -48,6 +49,8 @@ export default function App() {
   return (
     <main className="app-shell">
       <Header />
+
+      {entries.length > 0 ? <UsageGuide /> : null}
 
       {loading && entries.length === 0 ? (
         <p className="status-text">Loading telemetry catalog...</p>
