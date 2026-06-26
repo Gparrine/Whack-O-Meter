@@ -192,6 +192,37 @@ def web_search(query: str, max_results: int = 4) -> list[dict[str, str]]:
 
 
 def call_llm(prompt: str) -> str:
+    system_prompt = (
+        "You are a sports biomechanics analyst specializing in impact force "
+        "curves, concussion research, and head acceleration literature. "
+        "Write concise markdown bullet observations."
+    )
+
+    gemini_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+    if gemini_key:
+        model = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+        payload = json.dumps(
+            {
+                "systemInstruction": {"parts": [{"text": system_prompt}]},
+                "contents": [{"parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0.2},
+            }
+        ).encode()
+        url = (
+            "https://generativelanguage.googleapis.com/v1beta/models/"
+            f"{model}:generateContent?key={gemini_key}"
+        )
+        request = urllib.request.Request(
+            url,
+            data=payload,
+            headers={"Content-Type": "application/json"},
+            method="POST",
+        )
+        with urllib.request.urlopen(request, timeout=60) as response:
+            data = json.loads(response.read().decode())
+        parts = data.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+        return "".join(part.get("text", "") for part in parts).strip()
+
     openai_key = os.getenv("OPENAI_API_KEY")
     if openai_key:
         payload = json.dumps(
@@ -200,11 +231,7 @@ def call_llm(prompt: str) -> str:
                 "messages": [
                     {
                         "role": "system",
-                        "content": (
-                            "You are a sports biomechanics analyst specializing in impact force "
-                            "curves, concussion research, and head acceleration literature. "
-                            "Write concise markdown bullet observations."
-                        ),
+                        "content": system_prompt,
                     },
                     {"role": "user", "content": prompt},
                 ],
@@ -250,7 +277,8 @@ def call_llm(prompt: str) -> str:
 
     return (
         "- **Summary**: LLM API key not configured. Metrics were computed locally.\n"
-        "- **Observations**: Configure OPENAI_API_KEY or ANTHROPIC_API_KEY for narrative analysis."
+        "- **Observations**: Configure GEMINI_API_KEY, OPENAI_API_KEY, or ANTHROPIC_API_KEY "
+        "for narrative analysis."
     )
 
 
