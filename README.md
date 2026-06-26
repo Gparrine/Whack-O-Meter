@@ -2,7 +2,7 @@
 
 Browser-based force curve viewer with cassette-futurism UI, automatic signal trimming, and AI-powered sports-science analysis.
 
-Live site: **https://gparrine.github.io/whack-o-meter/**
+Live site: **https://gparrine.github.io/Whack-O-Meter/**
 
 ## Features
 
@@ -20,7 +20,7 @@ npm install
 npm run dev
 ```
 
-The dev server runs at `http://localhost:5173/whack-o-meter/`.
+The dev server runs at `http://localhost:5173/Whack-O-Meter/`.
 
 ## Adding CSV data
 
@@ -28,11 +28,17 @@ The dev server runs at `http://localhost:5173/whack-o-meter/`.
 2. Include headers with recognizable time/force columns (`time_s`, `force_N`, `timestamp_ms`, `impact_g`, etc.)
 3. Run `npm run generate:manifest` or `npm run build` to refresh the manifest
 
+CSV files stay in `raw_data/` on GitHub and are loaded at runtime via raw URLs (not bundled into the Pages deploy).
+
 ## GitHub Pages deployment
 
-Push to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+**One-time setup (required — site 404s without this):**
 
-In repository settings, enable **GitHub Pages** with source **GitHub Actions**.
+1. Open [Repository Settings → Pages](https://github.com/Gparrine/Whack-O-Meter/settings/pages)
+2. Under **Build and deployment**, set **Source** to **GitHub Actions**
+3. Push to `main` or re-run the [Deploy GitHub Pages](https://github.com/Gparrine/Whack-O-Meter/actions/workflows/deploy.yml) workflow
+
+Push to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
 
 ## AI analysis workflow
 
@@ -56,7 +62,7 @@ The workflow updates [`analysis/memory.md`](analysis/memory.md), which the UI re
 ## Project structure
 
 ```
-raw_data/           CSV sensor exports
+raw_data/           CSV sensor exports (served via raw.githubusercontent.com)
 analysis/           AI memory markdown
 public/data/        Generated manifest (build step)
 scripts/            Manifest generator + AI analyzer
