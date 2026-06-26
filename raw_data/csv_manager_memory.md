@@ -45,8 +45,8 @@
 - **Content hash**: eb2dbfa7eb36b5e2d8d745c683497f36d6d1bef68f559f9ddea75b49f56dacf0
 
 ## 6mm eva+2mm kydex-20240501183109.CSV
-- **Nickname**: 6mm eva 2mm kydex · 11.1kN peak · slow decay
-- **Processed**: 2026-06-26T14:55:35Z
+- **Nickname**: 6mm eva 2mm kydex · 11.1kN peak · slow decay · run 3
+- **Processed**: 2026-06-26T18:16:50Z
 - **Original samples**: 50000 → **Retained**: 13852
 - **Event window**: 0.60588 – 0.88290 sec
 - **Prefix trimmed**: 0.00000 – 0.60588 sec
@@ -56,7 +56,7 @@
 - **Force decay**: 271.22 ms
 - **Impulse**: 12.21 N·s
 - **Weapon type**: Rengenyei Standard
-- **Content hash**: 2e5e032390c3ac30dab755086d0965d87b61aa3d4b6fa9ad209aef088ca2fa95
+- **Content hash**: da939ea4456db746e97245ee8819f64d9f6b6df80447e2bb996c4517d2dfbfd1
 
 ## 6mm eva+2mm kydex-20240501183145.CSV
 - **Nickname**: 6mm eva 2mm kydex · 11.4kN peak · slow decay
@@ -101,8 +101,8 @@
 - **Content hash**: e804d7b1bc1910a5f9713ae08cc262cd90a3c3bf5bbcf9685b407f547a400347
 
 ## 6mm eva+2mm kydex-20240501183346.CSV
-- **Nickname**: 6mm eva 2mm kydex · 10.8kN peak · slow decay
-- **Processed**: 2026-06-26T14:55:35Z
+- **Nickname**: 6mm eva 2mm kydex · 10.8kN peak · slow decay · run 2
+- **Processed**: 2026-06-26T18:16:50Z
 - **Original samples**: 50000 → **Retained**: 11905
 - **Event window**: 0.56242 – 0.80050 sec
 - **Prefix trimmed**: 0.00000 – 0.56242 sec
@@ -112,7 +112,7 @@
 - **Force decay**: 233.06 ms
 - **Impulse**: 7.65 N·s
 - **Weapon type**: Rengenyei Standard
-- **Content hash**: 25b0612273c43259d2ca9fb02145f8645ee07cb03b7d17b7f748d7fccd02208b
+- **Content hash**: 6a5e7088ccf4e183efe2966de70b1586199c95ed84f7c19ddd3699cf7c3133c2
 
 ## 6mm eva+2mm kydex-20240501183434.CSV
 - **Nickname**: 6mm eva 2mm kydex · 11.1kN peak · slow decay · run 2
