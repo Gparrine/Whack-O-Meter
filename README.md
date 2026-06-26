@@ -37,13 +37,18 @@ See [`raw_data/README.md`](raw_data/README.md) for details on the CSV manager bo
 
 ## GitHub Pages deployment
 
-**One-time setup (required — site 404s without this):**
+The built site is published to [`docs/`](docs/) on each deploy.
+
+**One-time setup (fixes blank white screen):**
 
 1. Open [Repository Settings → Pages](https://github.com/Gparrine/Whack-O-Meter/settings/pages)
-2. Under **Build and deployment**, set **Source** to **GitHub Actions**
-3. Push to `main` or re-run the [Deploy GitHub Pages](https://github.com/Gparrine/Whack-O-Meter/actions/workflows/deploy.yml) workflow
+2. Under **Build and deployment**, choose **Deploy from a branch**
+3. Set **Branch** to `main` and folder to **`/docs`**
+4. Save, then re-run [Deploy GitHub Pages](https://github.com/Gparrine/Whack-O-Meter/actions/workflows/deploy.yml) if needed
 
-Push to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+Alternatively, set **Source** to **GitHub Actions** (the deploy workflow also uploads a Pages artifact).
+
+Push to `main` triggers [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml), which builds the app and commits updated files to `docs/`.
 
 ## Workflows
 
