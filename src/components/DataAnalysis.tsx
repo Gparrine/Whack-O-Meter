@@ -74,7 +74,7 @@ export function DataAnalysis({ filename }: DataAnalysisProps) {
         </button>
         <a
           className="action-button"
-          href="https://github.com/gparrine/whack-o-meter/actions/workflows/analyze.yml"
+          href="https://github.com/Gparrine/Whack-O-Meter/actions/workflows/analyze.yml"
           target="_blank"
           rel="noreferrer"
         >

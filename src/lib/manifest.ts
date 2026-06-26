@@ -2,10 +2,13 @@ export interface ManifestEntry {
   filename: string
   title: string
   path: string
+  rawUrl: string
 }
 
 export interface Manifest {
   generatedAt: string
+  repo: string
+  branch: string
   files: ManifestEntry[]
 }
 
@@ -17,10 +20,24 @@ export async function loadManifest(): Promise<Manifest> {
   return response.json() as Promise<Manifest>
 }
 
-export async function loadCsvText(path: string): Promise<string> {
-  const response = await fetch(`${import.meta.env.BASE_URL}${path}`)
-  if (!response.ok) {
-    throw new Error(`Failed to load ${path}`)
+export async function loadCsvText(entry: ManifestEntry): Promise<string> {
+  const localUrl = `${import.meta.env.BASE_URL}${entry.path}`
+  const candidates = import.meta.env.DEV
+    ? [localUrl, entry.rawUrl]
+    : [entry.rawUrl, localUrl]
+
+  let lastError = `Failed to load ${entry.filename}`
+  for (const url of candidates) {
+    try {
+      const response = await fetch(url)
+      if (response.ok) {
+        return response.text()
+      }
+      lastError = `Failed to load ${entry.filename} (${response.status})`
+    } catch (error) {
+      lastError = error instanceof Error ? error.message : lastError
+    }
   }
-  return response.text()
+
+  throw new Error(lastError)
 }

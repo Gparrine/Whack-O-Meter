@@ -54,7 +54,7 @@ export default function App() {
 
     setLoading(true)
     setError(null)
-    void loadCsvText(current.path)
+    void loadCsvText(current)
       .then((text) => {
         const parsed = parseForceCsv(text)
         const trimmed = autoTrim(parsed.time, parsed.force)
