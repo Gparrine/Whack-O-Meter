@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react'
 import uPlot from 'uplot'
 import 'uplot/dist/uPlot.min.css'
 import type { AxisBounds } from '../lib/autoTrim'
+import { useErrors } from '../lib/errors'
 
 interface ForceGraphProps {
   time: number[]
@@ -10,6 +11,7 @@ interface ForceGraphProps {
   timeLabel: string
   forceLabel: string
   filename: string
+  nickname?: string
   warning?: string
 }
 
@@ -20,82 +22,101 @@ export function ForceGraph({
   timeLabel,
   forceLabel,
   filename,
+  nickname,
   warning,
 }: ForceGraphProps) {
   const containerRef = useRef<HTMLDivElement | null>(null)
   const plotRef = useRef<uPlot | null>(null)
+  const { reportError, clearSource } = useErrors()
 
   useEffect(() => {
     if (!containerRef.current) return undefined
 
     plotRef.current?.destroy()
+    clearSource('Graph')
 
-    const data: uPlot.AlignedData = [time, force]
-    const plot = new uPlot(
-      {
-        width: containerRef.current.clientWidth,
-        height: 320,
-        scales: {
-          x: { time: false, range: [bounds.xMin, bounds.xMax] },
-          y: { range: [bounds.yMin, bounds.yMax] },
+    try {
+      const data: uPlot.AlignedData = [time, force]
+      const plot = new uPlot(
+        {
+          width: containerRef.current.clientWidth,
+          height: 320,
+          scales: {
+            x: { time: false, range: [bounds.xMin, bounds.xMax] },
+            y: { range: [bounds.yMin, bounds.yMax] },
+          },
+          axes: [
+            {
+              stroke: '#6b8f71',
+              grid: { stroke: 'rgba(57, 255, 20, 0.12)' },
+              label: timeLabel,
+            },
+            {
+              stroke: '#6b8f71',
+              grid: { stroke: 'rgba(57, 255, 20, 0.12)' },
+              label: forceLabel,
+            },
+          ],
+          series: [
+            {},
+            {
+              label: forceLabel,
+              stroke: '#39ff14',
+              width: 2,
+              fill: 'rgba(57, 255, 20, 0.08)',
+            },
+          ],
+          cursor: {
+            drag: { x: true, y: true },
+          },
         },
-        axes: [
-          {
-            stroke: '#6b8f71',
-            grid: { stroke: 'rgba(57, 255, 20, 0.12)' },
-            label: timeLabel,
-          },
-          {
-            stroke: '#6b8f71',
-            grid: { stroke: 'rgba(57, 255, 20, 0.12)' },
-            label: forceLabel,
-          },
-        ],
-        series: [
-          {},
-          {
-            label: forceLabel,
-            stroke: '#39ff14',
-            width: 2,
-            fill: 'rgba(57, 255, 20, 0.08)',
-          },
-        ],
-        cursor: {
-          drag: { x: true, y: true },
-        },
-      },
-      data,
-      containerRef.current,
-    )
+        data,
+        containerRef.current,
+      )
 
-    plotRef.current = plot
+      plotRef.current = plot
 
-    const resize = () => {
-      if (!containerRef.current || !plotRef.current) return
-      plotRef.current.setSize({
-        width: containerRef.current.clientWidth,
-        height: 320,
-      })
+      const resize = () => {
+        if (!containerRef.current || !plotRef.current) return
+        plotRef.current.setSize({
+          width: containerRef.current.clientWidth,
+          height: 320,
+        })
+      }
+
+      window.addEventListener('resize', resize)
+      return () => {
+        window.removeEventListener('resize', resize)
+        plot.destroy()
+        plotRef.current = null
+      }
+    } catch (error) {
+      reportError('Graph', error instanceof Error ? error.message : 'Failed to render graph')
+      return undefined
     }
-
-    window.addEventListener('resize', resize)
-    return () => {
-      window.removeEventListener('resize', resize)
-      plot.destroy()
-      plotRef.current = null
-    }
-  }, [time, force, bounds, timeLabel, forceLabel])
+  }, [time, force, bounds, timeLabel, forceLabel, reportError, clearSource])
 
   return (
     <div className="graph-panel panel">
       <div className="graph-meta">
         <span>
-          File: <strong>{filename}</strong>
+          {nickname ? (
+            <>
+              Run: <strong>{nickname}</strong>
+            </>
+          ) : (
+            <>
+              File: <strong>{filename}</strong>
+            </>
+          )}
         </span>
         <span>
           Samples: <strong>{time.length}</strong>
         </span>
       </div>
+      {nickname ? (
+        <p className="graph-filename-muted">{filename}</p>
+      ) : null}
       <div ref={containerRef} />
       {warning ? <p className="warning-text">{warning}</p> : null}
     </div>

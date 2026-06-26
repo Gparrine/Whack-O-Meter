@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import { useErrors } from '../lib/errors'
 import {
   getSectionForFile,
   loadMemoryMarkdown,
@@ -13,23 +14,26 @@ interface DataAnalysisProps {
 }
 
 export function DataAnalysis({ filename }: DataAnalysisProps) {
+  const { reportError, clearSource } = useErrors()
   const [sections, setSections] = useState<MemorySection[]>([])
   const [loading, setLoading] = useState(false)
-  const [error, setError] = useState<string | null>(null)
   const [polling, setPolling] = useState(false)
 
   const refreshMemory = useCallback(async () => {
     setLoading(true)
-    setError(null)
+    clearSource('Analysis')
     try {
       const markdown = await loadMemoryMarkdown()
       setSections(parseMemorySections(markdown))
     } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to load analysis')
+      reportError(
+        'Analysis',
+        err instanceof Error ? err.message : 'Failed to load analysis memory',
+      )
     } finally {
       setLoading(false)
     }
-  }, [])
+  }, [reportError, clearSource])
 
   useEffect(() => {
     void refreshMemory()
@@ -49,7 +53,6 @@ export function DataAnalysis({ filename }: DataAnalysisProps) {
     <section className="analysis-panel panel">
       <h2 className="section-title">Data Analysis</h2>
       {loading && !section ? <p className="status-text">Loading analysis memory...</p> : null}
-      {error ? <p className="error-text">{error}</p> : null}
       {section ? (
         <div className="analysis-content">
           <ReactMarkdown remarkPlugins={[remarkGfm]}>{section.content}</ReactMarkdown>

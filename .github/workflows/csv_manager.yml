@@ -1,0 +1,49 @@
+name: CSV Manager Bot
+
+on:
+  workflow_dispatch:
+    inputs:
+      csv_filename:
+        description: Optional CSV filename to process (blank = changed/new files)
+        required: false
+        type: string
+      reprocess_all:
+        description: Reprocess every CSV in raw_data
+        required: false
+        type: boolean
+        default: false
+  push:
+    paths:
+      - 'raw_data/**'
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  manage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run CSV manager bot
+        env:
+          CSV_FILENAME: ${{ github.event.inputs.csv_filename || '' }}
+          REPROCESS_ALL: ${{ github.event.inputs.reprocess_all || 'false' }}
+        run: python scripts/csv_manager.py
+
+      - name: Commit optimized CSV files and manager memory
+        run: |
+          if git diff --quiet raw_data; then
+            echo "No CSV manager changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add raw_data/
+          git commit -m "Optimize CSV files with CSV manager bot"
+          git push
