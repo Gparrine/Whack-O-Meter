@@ -68,6 +68,8 @@ npx wrangler deploy
 
 Then set **Settings → Secrets and variables → Actions → Variables → `ANALYSIS_API_URL`** to the deployed worker URL and redeploy the site.
 
+See [`worker/README.md`](worker/README.md) for deploy details. If analysis still hits an old Gemini model, run `npx wrangler secret delete GEMINI_MODEL` from the `worker/` folder and redeploy.
+
 ### GitHub Actions (batch)
 
 `.github/workflows/analyze.yml` runs `scripts/analyze_csv.py` when CSVs change. Set repository secret **`GEMINI_API_KEY`** (or `GOOGLE_API_KEY`) for Gemini. Output: `analysis/memory.md`, copied into the site at build time.
