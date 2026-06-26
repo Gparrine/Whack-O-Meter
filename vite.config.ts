@@ -32,7 +32,99 @@ function serveRawData(): Plugin {
   }
 }
 
+async function callGeminiServer(prompt: string): Promise<string> {
+  const apiKey =
+    process.env.GEMINI_API_KEY?.trim() ||
+    process.env.GOOGLE_API_KEY?.trim() ||
+    process.env.VITE_GEMINI_API_KEY?.trim()
+
+  if (!apiKey) {
+    throw new Error('GEMINI_API_KEY is not set in the dev server environment.')
+  }
+
+  const model = process.env.GEMINI_MODEL?.trim() || 'gemini-2.0-flash'
+  const systemPrompt = `You are a sports biomechanics analyst specializing in HEMA impact force curves, concussion research, head acceleration literature, and automotive crash-test biomechanics (HIC, NCAP, sled tests). Write concise markdown bullet observations.
+
+Always respond using EXACTLY this format:
+
+<!-- RESULTS -->
+(user-facing markdown bullets for the operator)
+<!-- /RESULTS -->
+<!-- MEMORY -->
+(concise memory summary for future runs; lightweight, no fluff)
+<!-- /MEMORY -->`
+
+  const response = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`,
+    {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        systemInstruction: { parts: [{ text: systemPrompt }] },
+        contents: [{ parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.2 },
+      }),
+    },
+  )
+
+  if (!response.ok) {
+    const detail = await response.text()
+    throw new Error(`Gemini API error (${response.status}): ${detail.slice(0, 240)}`)
+  }
+
+  const data = (await response.json()) as {
+    candidates?: Array<{ content?: { parts?: Array<{ text?: string }> } }>
+  }
+  const parts = data.candidates?.[0]?.content?.parts ?? []
+  const text = parts.map((part) => part.text ?? '').join('').trim()
+  if (!text) throw new Error('Gemini returned an empty response')
+  return text
+}
+
+function analyzeApiRoute(): Plugin {
+  return {
+    name: 'analyze-api-route',
+    configureServer(server) {
+      server.middlewares.use(`${base}api/analyze`, (req, res, next) => {
+        if (req.method !== 'POST') {
+          next()
+          return
+        }
+
+        const chunks: Buffer[] = []
+        req.on('data', (chunk) => chunks.push(chunk))
+        req.on('end', () => {
+          void (async () => {
+            try {
+              const body = JSON.parse(Buffer.concat(chunks).toString('utf8')) as { prompt?: string }
+              if (!body.prompt?.trim()) {
+                res.statusCode = 400
+                res.setHeader('Content-Type', 'application/json')
+                res.end(JSON.stringify({ error: 'Missing prompt' }))
+                return
+              }
+
+              const text = await callGeminiServer(body.prompt)
+              res.statusCode = 200
+              res.setHeader('Content-Type', 'application/json')
+              res.end(JSON.stringify({ text }))
+            } catch (error) {
+              res.statusCode = 500
+              res.setHeader('Content-Type', 'application/json')
+              res.end(
+                JSON.stringify({
+                  error: error instanceof Error ? error.message : 'Analysis failed',
+                }),
+              )
+            }
+          })()
+        })
+      })
+    },
+  }
+}
+
 export default defineConfig({
-  plugins: [react(), serveRawData()],
+  plugins: [react(), serveRawData(), analyzeApiRoute()],
   base,
 })
