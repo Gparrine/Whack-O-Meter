@@ -11,6 +11,13 @@ Always respond using EXACTLY this format:
 
 // Hardcoded so a stale Cloudflare secret named GEMINI_MODEL cannot override this.
 const GEMINI_MODEL = 'gemini-3.1-flash-lite'
+const WORKER_VERSION = '2025-06-25-flash-lite'
+
+const CORS_HEADERS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+}
 
 async function callGemini(env, prompt) {
   const apiKey = env.GEMINI_API_KEY || env.GOOGLE_API_KEY
@@ -132,17 +139,23 @@ export default {
     const url = new URL(request.url)
 
     if (request.method === 'OPTIONS') {
-      return new Response(null, {
-        headers: {
-          'Access-Control-Allow-Origin': '*',
-          'Access-Control-Allow-Methods': 'POST, OPTIONS',
-          'Access-Control-Allow-Headers': 'Content-Type',
+      return new Response(null, { headers: CORS_HEADERS })
+    }
+
+    if (request.method === 'GET' && (url.pathname === '/health' || url.pathname === '/')) {
+      return Response.json(
+        {
+          ok: true,
+          service: 'whack-o-meter-analysis',
+          model: GEMINI_MODEL,
+          version: WORKER_VERSION,
         },
-      })
+        { headers: CORS_HEADERS },
+      )
     }
 
     if (request.method !== 'POST' || url.pathname !== '/analyze') {
-      return new Response('Not found', { status: 404 })
+      return new Response('Not found', { status: 404, headers: CORS_HEADERS })
     }
 
     try {
@@ -166,7 +179,9 @@ export default {
         },
         {
           headers: {
-            'Access-Control-Allow-Origin': '*',
+            ...CORS_HEADERS,
+            'X-Gemini-Model': GEMINI_MODEL,
+            'X-Worker-Version': WORKER_VERSION,
           },
         },
       )
@@ -175,9 +190,7 @@ export default {
         { error: error instanceof Error ? error.message : 'Analysis failed' },
         {
           status: 500,
-          headers: {
-            'Access-Control-Allow-Origin': '*',
-          },
+          headers: CORS_HEADERS,
         },
       )
     }
