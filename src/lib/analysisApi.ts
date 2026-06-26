@@ -1,46 +1,75 @@
-import { callGemini } from './geminiClient'
+import { REPO_FULL } from './repoConfig'
 
-function configuredGeminiKey(): string {
-  return (import.meta.env.VITE_GEMINI_API_KEY as string | undefined)?.trim() ?? ''
+export interface AnalysisRequest {
+  prompt: string
+  sectionKey: string
 }
 
-function configuredGithubPat(): string {
-  return (import.meta.env.VITE_GITHUB_COMMIT_PAT as string | undefined)?.trim() ?? ''
+export interface AnalysisResponse {
+  results: string
+  memory: string
+  persisted: boolean
 }
 
-async function callAnalyzeProxy(prompt: string): Promise<string | null> {
+function analysisApiBase(): string | null {
+  const configured = (import.meta.env.VITE_ANALYSIS_API_URL as string | undefined)?.trim()
+  if (configured) return configured.replace(/\/$/, '')
+  return null
+}
+
+async function callDevProxy(request: AnalysisRequest): Promise<AnalysisResponse | null> {
   try {
     const response = await fetch(`${import.meta.env.BASE_URL}api/analyze`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prompt }),
+      body: JSON.stringify(request),
     })
     if (!response.ok) return null
-    const data = (await response.json()) as { text?: string }
-    return data.text?.trim() ?? null
+    return (await response.json()) as AnalysisResponse
   } catch {
     return null
   }
 }
 
-export async function runAnalysisPrompt(prompt: string): Promise<string> {
-  const fromProxy = await callAnalyzeProxy(prompt)
-  if (fromProxy) return fromProxy
-
-  const apiKey = configuredGeminiKey()
-  if (!apiKey) {
+async function callWorkerApi(request: AnalysisRequest): Promise<AnalysisResponse> {
+  const base = analysisApiBase()
+  if (!base) {
     throw new Error(
-      'Analysis is not configured. Set GEMINI_API_KEY in the deploy environment or local shell before running npm run dev.',
+      'Live analysis is not configured for production yet. Set the repository variable ANALYSIS_API_URL to your deployed Cloudflare Worker URL, or run the app locally with GEMINI_API_KEY set.',
     )
   }
 
-  return callGemini(apiKey, prompt)
+  const response = await fetch(`${base}/analyze`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(request),
+  })
+
+  const data = (await response.json()) as AnalysisResponse & { error?: string }
+  if (!response.ok) {
+    throw new Error(data.error ?? `Analysis API error (${response.status})`)
+  }
+
+  return {
+    results: data.results,
+    memory: data.memory,
+    persisted: Boolean(data.persisted),
+  }
 }
 
-export function getConfiguredGithubPat(): string {
-  return configuredGithubPat()
+export async function runAnalysisRequest(request: AnalysisRequest): Promise<AnalysisResponse> {
+  const fromDev = await callDevProxy(request)
+  if (fromDev) return fromDev
+
+  if (import.meta.env.DEV) {
+    throw new Error(
+      'Set GEMINI_API_KEY in your shell before running npm run dev to use live analysis locally.',
+    )
+  }
+
+  return callWorkerApi(request)
 }
 
-export function canPersistMemory(): boolean {
-  return configuredGithubPat().length > 0
+export function getRepoLinks() {
+  return { full: REPO_FULL }
 }

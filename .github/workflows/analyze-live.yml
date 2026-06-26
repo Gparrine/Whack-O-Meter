@@ -1,0 +1,47 @@
+name: Live AI Analysis
+
+on:
+  workflow_dispatch:
+    inputs:
+      payload_b64:
+        description: Base64-encoded JSON analysis request
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run live analysis
+        env:
+          PAYLOAD_B64: ${{ github.event.inputs.payload_b64 }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_MODEL: gemini-2.0-flash
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/analyze_live.py
+
+      - name: Commit analysis outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis/memory.md public/analysis/live-result.json public/analysis/memory.md
+          if git diff --staged --quiet; then
+            echo "No analysis changes to commit."
+            exit 0
+          fi
+          git commit -m "Update live AI analysis result"
+          git push

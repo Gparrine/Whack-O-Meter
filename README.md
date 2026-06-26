@@ -50,13 +50,23 @@ Reprocess everything manually: **Actions → CSV Manager → Run workflow → re
 
 ### In the browser (Data Analysis panel)
 
-- Click **Run AI Analysis** to call Gemini directly — no manual API key entry in the UI.
-- **Local dev:** set `GEMINI_API_KEY` (or `GOOGLE_API_KEY`) in your shell before `npm run dev`; the Vite dev server proxies `/api/analyze`.
-- **Production (GitHub Pages):** the deploy workflow injects `GEMINI_API_KEY` at build time as `VITE_GEMINI_API_KEY`.
-- Optional repo secret **`ANALYSIS_COMMIT_PAT`** (fine-grained, Contents write) is injected at build to persist analysis memory automatically.
+- Click **Run AI Analysis** — no API key fields in the UI.
+- **Local dev:** set `GEMINI_API_KEY` in your shell before `npm run dev`; Vite proxies `/api/analyze` server-side.
+- **Production (GitHub Pages):** deploy the Cloudflare Worker in `worker/` and set repository variable **`ANALYSIS_API_URL`** to its public URL (for example `https://whack-o-meter-analysis.your-subdomain.workers.dev`). The worker holds `GEMINI_API_KEY` and optional `GITHUB_PAT` as Cloudflare secrets — they are never baked into the static site bundle.
 - Use **Analysis Parameters** to add custom questions or context to the prompt.
 - With two readout panes loaded, the AI compares both curves automatically.
 - **Check for Previous Analysis** loads stored memory for the selected curve(s).
+
+### Cloudflare Worker setup (production analysis)
+
+```bash
+cd worker
+npx wrangler secret put GEMINI_API_KEY
+npx wrangler secret put GITHUB_PAT   # optional, for memory commits
+npx wrangler deploy
+```
+
+Then set **Settings → Secrets and variables → Actions → Variables → `ANALYSIS_API_URL`** to the deployed worker URL and redeploy the site.
 
 ### GitHub Actions (batch)
 

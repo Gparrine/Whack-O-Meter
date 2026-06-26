@@ -2,16 +2,13 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { buildAnalysisPrompt } from '../lib/analysisPrompt'
-import { canPersistMemory, getConfiguredGithubPat, runAnalysisPrompt } from '../lib/analysisApi'
+import { runAnalysisRequest } from '../lib/analysisApi'
 import type { AnalysisPaneSnapshot } from '../lib/graphPane'
-import { persistMemoryMarkdown } from '../lib/githubMemory'
 import { useErrors } from '../lib/errors'
 import {
   compositeMemoryKey,
   getSectionsForFiles,
   loadMemoryMarkdown,
-  mergeMemorySection,
-  parseAnalysisResponse,
   parseMemorySections,
 } from '../lib/memoryParser'
 
@@ -79,31 +76,18 @@ export function DataAnalysis({ panes }: DataAnalysisProps) {
       const filenames = activePanes.map((pane) => pane.filename!).filter(Boolean)
       const priorSections = getSectionsForFiles(sections, filenames)
       const prompt = buildAnalysisPrompt(panes, analysisParameters, priorSections)
-      const raw = await runAnalysisPrompt(prompt)
-      const parsed = parseAnalysisResponse(raw)
-      setResultsMarkdown(parsed.results)
-
       const sectionKey =
         filenames.length > 1 ? compositeMemoryKey(filenames) : filenames[0] ?? 'unknown'
-      const currentMarkdown = sections.length
-        ? `# Whack-O-Meter Analysis Memory\n\n> Auto-updated by AI analysis pipeline. Do not edit structure headers.\n\n${sections
-            .map((section) => `## ${section.filename}\n${section.content}`)
-            .join('\n\n')}`
-        : ''
-      const merged = mergeMemorySection(
-        currentMarkdown || (await loadMemoryMarkdown().catch(() => '')),
-        sectionKey,
-        parsed.memory,
-      )
 
-      const githubPat = getConfiguredGithubPat()
-      if (githubPat && canPersistMemory()) {
-        await persistMemoryMarkdown(githubPat, merged)
-        setSections(parseMemorySections(merged))
+      const response = await runAnalysisRequest({ prompt, sectionKey })
+      setResultsMarkdown(response.results)
+
+      if (response.persisted) {
+        await refreshMemory()
         setStatusMessage(null)
       } else {
         setStatusMessage(
-          'Analysis complete. Memory was not persisted to the repo (deploy secret VITE_GITHUB_COMMIT_PAT not configured).',
+          'Analysis complete. Memory was not persisted to the repo (configure GITHUB_PAT on the analysis worker).',
         )
       }
     } catch (err) {
