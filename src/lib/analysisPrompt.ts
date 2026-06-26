@@ -1,5 +1,5 @@
 import type { AnalysisPaneSnapshot } from './graphPane'
-import { compositeMemoryKey } from './memoryParser'
+import { collectResearchFindingsForPrompt, compositeMemoryKey } from './memoryParser'
 import type { MemorySection } from './memoryParser'
 
 function samplePoints(series: NonNullable<AnalysisPaneSnapshot['series']>): Array<{ t: number; f: number }> {
@@ -39,11 +39,13 @@ export function buildAnalysisPrompt(
   panes: AnalysisPaneSnapshot[],
   userParameters: string,
   priorSections: MemorySection[],
+  allMemorySections: MemorySection[] = priorSections,
 ): string {
   const activePanes = panes.filter((pane) => pane.filename && pane.series && pane.metrics)
   const filenames = activePanes.map((pane) => pane.filename!).filter(Boolean)
   const isComparison = activePanes.length > 1
   const memoryKey = filenames.length > 0 ? compositeMemoryKey(filenames) : 'unknown'
+  const researchFindings = collectResearchFindingsForPrompt(allMemorySections)
 
   const comparisonInstructions = isComparison
     ? `Compare the two force curves directly. Highlight similarities and differences in peak force, impulse, rise/decay timing, and overall curve shape. Relate differences to potential protective gear, strike mechanics, or experimental conditions.`
@@ -60,6 +62,8 @@ export function buildAnalysisPrompt(
 ${comparisonInstructions}
 ${automotiveContext}
 
+Use Google Search on this request to find current authoritative sources for the user parameters, concussion/head-impact thresholds, and automotive HIC/NCAP comparisons relevant to these curves.
+
 Memory section key for this request: ${memoryKey}
 
 Selected curves:
@@ -71,14 +75,18 @@ ${userParameters.trim() || '(none)'}
 Prior memory for these files:
 ${priorMemoryBlock(priorSections)}
 
+Stored research findings from analysis/memory.md (reuse and extend; do not duplicate):
+${researchFindings}
+
 Return markdown bullets in RESULTS covering:
 - **Last analyzed**: ISO timestamp
 - **Peak force**: values with units
 - **Summary**: 2-4 sentences
+- **Research findings**: cite web sources discovered this run with specific metrics/thresholds
 - **Automotive comparison**: relate curve metrics to crash-test / HIC context when relevant
-- **Research context**: biomechanics and concussion framing
+- **Research context**: biomechanics and concussion framing grounded in search results
 - **Observations**: concise notes
 ${isComparison ? '- **Comparison**: explicit similarities and differences between curves' : ''}
 
-Keep MEMORY extremely concise but preserve key metrics, comparisons, and user parameter intent for future runs.`
+In MEMORY, include a ### Research findings subsection with one line per source (\`source | metric | finding\`). Merge with stored research findings above: update changed metrics, add new sources, remove superseded lines. Keep MEMORY compact.`
 }

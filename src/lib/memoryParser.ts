@@ -101,6 +101,26 @@ export function getSectionsForFiles(
   return [...matches.values()]
 }
 
+const RESEARCH_FINDINGS_PATTERN =
+  /### Research findings\s*\n([\s\S]*?)(?=\n### |\n- \*\*[A-Z][^\n]*\*\*:|\s*$)/i
+
+export function extractResearchFindings(content: string): string {
+  const match = content.match(RESEARCH_FINDINGS_PATTERN)
+  return match?.[1]?.trim() ?? ''
+}
+
+export function collectResearchFindingsForPrompt(sections: MemorySection[]): string {
+  const blocks = sections
+    .map((section) => {
+      const findings = extractResearchFindings(section.content)
+      if (!findings) return null
+      return `From ${section.filename}:\n${findings}`
+    })
+    .filter((block): block is string => Boolean(block))
+
+  return blocks.length > 0 ? blocks.join('\n\n') : 'none'
+}
+
 export async function loadMemoryMarkdown(): Promise<string> {
   const response = await fetch(`${import.meta.env.BASE_URL}analysis/memory.md`)
   if (!response.ok) {

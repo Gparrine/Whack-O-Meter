@@ -75,7 +75,7 @@ export function DataAnalysis({ panes }: DataAnalysisProps) {
     try {
       const filenames = activePanes.map((pane) => pane.filename!).filter(Boolean)
       const priorSections = getSectionsForFiles(sections, filenames)
-      const prompt = buildAnalysisPrompt(panes, analysisParameters, priorSections)
+      const prompt = buildAnalysisPrompt(panes, analysisParameters, priorSections, sections)
       const sectionKey =
         filenames.length > 1 ? compositeMemoryKey(filenames) : filenames[0] ?? 'unknown'
 
