@@ -25,21 +25,9 @@ jobs:
 
       - run: npm ci
 
-      - name: Configure analysis env for production build
-        run: |
-          if [ -n "${{ secrets.GEMINI_API_KEY }}" ]; then
-            echo "VITE_GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" >> "$GITHUB_ENV"
-          elif [ -n "${{ secrets.GOOGLE_API_KEY }}" ]; then
-            echo "VITE_GEMINI_API_KEY=${{ secrets.GOOGLE_API_KEY }}" >> "$GITHUB_ENV"
-          fi
-          if [ -n "${{ secrets.ANALYSIS_COMMIT_PAT }}" ]; then
-            echo "VITE_GITHUB_COMMIT_PAT=${{ secrets.ANALYSIS_COMMIT_PAT }}" >> "$GITHUB_ENV"
-          fi
-
       - run: npm run build
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          VITE_ANALYSIS_API_URL: ${{ vars.ANALYSIS_API_URL }}
 
       - name: Deploy to gh-pages branch
         uses: peaceiris/actions-gh-pages@v4

@@ -81,6 +81,15 @@ Always respond using EXACTLY this format:
   return text
 }
 
+function parseAnalysisResponse(raw: string): { results: string; memory: string } {
+  const resultsMatch = raw.match(/<!--\s*RESULTS\s*-->([\s\S]*?)<!--\s*\/RESULTS\s*-->/i)
+  const memoryMatch = raw.match(/<!--\s*MEMORY\s*-->([\s\S]*?)<!--\s*\/MEMORY\s*-->/i)
+  if (resultsMatch && memoryMatch) {
+    return { results: resultsMatch[1]!.trim(), memory: memoryMatch[1]!.trim() }
+  }
+  return { results: raw.trim(), memory: raw.trim() }
+}
+
 function analyzeApiRoute(): Plugin {
   return {
     name: 'analyze-api-route',
@@ -96,18 +105,28 @@ function analyzeApiRoute(): Plugin {
         req.on('end', () => {
           void (async () => {
             try {
-              const body = JSON.parse(Buffer.concat(chunks).toString('utf8')) as { prompt?: string }
-              if (!body.prompt?.trim()) {
+              const body = JSON.parse(Buffer.concat(chunks).toString('utf8')) as {
+                prompt?: string
+                sectionKey?: string
+              }
+              if (!body.prompt?.trim() || !body.sectionKey?.trim()) {
                 res.statusCode = 400
                 res.setHeader('Content-Type', 'application/json')
-                res.end(JSON.stringify({ error: 'Missing prompt' }))
+                res.end(JSON.stringify({ error: 'Missing prompt or sectionKey' }))
                 return
               }
 
-              const text = await callGeminiServer(body.prompt)
+              const raw = await callGeminiServer(body.prompt)
+              const parsed = parseAnalysisResponse(raw)
               res.statusCode = 200
               res.setHeader('Content-Type', 'application/json')
-              res.end(JSON.stringify({ text }))
+              res.end(
+                JSON.stringify({
+                  results: parsed.results,
+                  memory: parsed.memory,
+                  persisted: false,
+                }),
+              )
             } catch (error) {
               res.statusCode = 500
               res.setHeader('Content-Type', 'application/json')
