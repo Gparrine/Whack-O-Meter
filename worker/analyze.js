@@ -9,15 +9,17 @@ Always respond using EXACTLY this format:
 (concise memory summary for future runs; lightweight, no fluff)
 <!-- /MEMORY -->`
 
+// Hardcoded so a stale Cloudflare secret named GEMINI_MODEL cannot override this.
+const GEMINI_MODEL = 'gemini-3.1-flash'
+
 async function callGemini(env, prompt) {
   const apiKey = env.GEMINI_API_KEY || env.GOOGLE_API_KEY
   if (!apiKey) {
     throw new Error('GEMINI_API_KEY is not configured on the analysis worker.')
   }
 
-  const model = env.GEMINI_MODEL || 'gemini-3.1-flash'
   const response = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`,
+    `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${encodeURIComponent(apiKey)}`,
     {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -31,7 +33,9 @@ async function callGemini(env, prompt) {
 
   if (!response.ok) {
     const detail = await response.text()
-    throw new Error(`Gemini API error (${response.status}): ${detail.slice(0, 240)}`)
+    throw new Error(
+      `Gemini API error (${response.status}) for model ${GEMINI_MODEL}: ${detail.slice(0, 240)}`,
+    )
   }
 
   const data = await response.json()
