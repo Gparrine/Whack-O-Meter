@@ -1,15 +1,5 @@
 import { DEFAULT_GEMINI_MODEL } from './repoConfig'
-
-const SYSTEM_PROMPT = `You are a sports biomechanics analyst specializing in HEMA impact force curves, concussion research, head acceleration literature, and automotive crash-test biomechanics (HIC, NCAP, sled tests). Write concise markdown bullet observations.
-
-Always respond using EXACTLY this format:
-
-<!-- RESULTS -->
-(user-facing markdown bullets for the operator)
-<!-- /RESULTS -->
-<!-- MEMORY -->
-(concise memory summary for future runs; lightweight, no fluff)
-<!-- /MEMORY -->`
+import { buildGeminiGenerateContentBody } from './geminiAnalysisConfig'
 
 export async function callGemini(apiKey: string, prompt: string, model = DEFAULT_GEMINI_MODEL): Promise<string> {
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`
@@ -17,11 +7,7 @@ export async function callGemini(apiKey: string, prompt: string, model = DEFAULT
   const response = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.2 },
-    }),
+    body: JSON.stringify(buildGeminiGenerateContentBody(prompt)),
   })
 
   if (!response.ok) {

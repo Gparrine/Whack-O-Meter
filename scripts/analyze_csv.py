@@ -158,57 +158,48 @@ def compute_metrics(series: Series) -> Metrics:
     )
 
 
-def web_search(query: str, max_results: int = 4) -> list[dict[str, str]]:
-    tavily_key = os.getenv("TAVILY_API_KEY")
-    if tavily_key:
-        payload = json.dumps(
-            {"api_key": tavily_key, "query": query, "max_results": max_results}
-        ).encode()
-        request = urllib.request.Request(
-            "https://api.tavily.com/search",
-            data=payload,
-            headers={"Content-Type": "application/json"},
-            method="POST",
-        )
-        with urllib.request.urlopen(request, timeout=30) as response:
-            data = json.loads(response.read().decode())
-        return [
-            {
-                "title": item.get("title", ""),
-                "url": item.get("url", ""),
-                "snippet": item.get("content", ""),
-            }
-            for item in data.get("results", [])
-        ]
+RESEARCH_FINDINGS_PATTERN = re.compile(
+    r"### Research findings\s*\n([\s\S]*?)(?=\n### |\n- \*\*[A-Z][^\n]*\*\*:|\s*$)",
+    re.I,
+)
 
-    serper_key = os.getenv("SERPER_API_KEY")
-    if serper_key:
-        payload = json.dumps({"q": query, "num": max_results}).encode()
-        request = urllib.request.Request(
-            "https://google.serper.dev/search",
-            data=payload,
-            headers={"X-API-KEY": serper_key, "Content-Type": "application/json"},
-            method="POST",
-        )
-        with urllib.request.urlopen(request, timeout=30) as response:
-            data = json.loads(response.read().decode())
-        organic = data.get("organic", [])
-        return [
-            {
-                "title": item.get("title", ""),
-                "url": item.get("link", ""),
-                "snippet": item.get("snippet", ""),
-            }
-            for item in organic[:max_results]
-        ]
+ANALYSIS_SYSTEM_PROMPT = """You are a sports biomechanics analyst specializing in HEMA impact force curves, concussion research, head acceleration literature, and automotive crash-test biomechanics (HIC, NCAP, sled tests). Write concise markdown bullet observations.
 
-    return [
-        {
-            "title": "No web search API configured",
-            "url": "",
-            "snippet": "Set TAVILY_API_KEY or SERPER_API_KEY to enrich analysis with research.",
-        }
-    ]
+On every analysis request, use Google Search to find current, authoritative data relevant to the user parameters, curve metrics, concussion thresholds, and automotive head-impact context. Cite sources in RESULTS and compress durable findings into MEMORY.
+
+Always respond using EXACTLY this format:
+
+<!-- RESULTS -->
+(user-facing markdown bullets for the operator)
+<!-- /RESULTS -->
+<!-- MEMORY -->
+(concise memory summary for future runs; lightweight, no fluff)
+<!-- /MEMORY -->
+
+MEMORY structure (keep terse; merge/update prior research lines; drop superseded items):
+- **Last analyzed**: ISO timestamp
+- **Summary**: 1-2 sentences
+- **Metrics**: peak, impulse, key timing (only if notable)
+### Research findings
+(one line per source; max ~8 lines; format: `- source | metric/threshold | finding`)
+- `Org/Author` url | metric | one-line takeaway
+- **Observations**: optional brief notes
+
+In ### Research findings, store sources and metrics efficiently so future runs can reuse them without re-searching."""
+
+
+def extract_research_findings(content: str) -> str:
+    match = RESEARCH_FINDINGS_PATTERN.search(content)
+    return match.group(1).strip() if match else ""
+
+
+def collect_research_findings(sections: dict[str, str]) -> str:
+    blocks = []
+    for filename in sorted(sections):
+        findings = extract_research_findings(sections[filename])
+        if findings:
+            blocks.append(f"From {filename}:\n{findings}")
+    return "\n\n".join(blocks) if blocks else "none"
 
 
 def parse_analysis_response(raw: str) -> tuple[str, str]:
@@ -224,27 +215,15 @@ def parse_analysis_response(raw: str) -> tuple[str, str]:
 
 
 def call_llm(prompt: str) -> str:
-    system_prompt = (
-        "You are a sports biomechanics analyst specializing in HEMA impact force curves, "
-        "concussion research, head acceleration literature, and automotive crash-test biomechanics "
-        "(HIC, NCAP, sled tests). Write concise markdown bullet observations.\n\n"
-        "Always respond using EXACTLY this format:\n\n"
-        "<!-- RESULTS -->\n"
-        "(user-facing markdown bullets)\n"
-        "<!-- /RESULTS -->\n"
-        "<!-- MEMORY -->\n"
-        "(concise memory summary for future runs)\n"
-        "<!-- /MEMORY -->"
-    )
-
     gemini_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
     if gemini_key:
         model = os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite")
         payload = json.dumps(
             {
-                "systemInstruction": {"parts": [{"text": system_prompt}]},
+                "systemInstruction": {"parts": [{"text": ANALYSIS_SYSTEM_PROMPT}]},
                 "contents": [{"parts": [{"text": prompt}]}],
                 "generationConfig": {"temperature": 0.2},
+                "tools": [{"google_search": {}}],
             }
         ).encode()
         url = (
@@ -270,7 +249,7 @@ def call_llm(prompt: str) -> str:
                 "messages": [
                     {
                         "role": "system",
-                        "content": system_prompt,
+                        "content": ANALYSIS_SYSTEM_PROMPT,
                     },
                     {"role": "user", "content": prompt},
                 ],
@@ -344,23 +323,10 @@ def render_memory(sections: dict[str, str]) -> str:
     return header + "\n".join(body)
 
 
-def analyze_file(path: Path, existing: dict[str, str]) -> tuple[str, bool]:
+def analyze_file(path: Path, sections: dict[str, str]) -> tuple[str, bool]:
     series = read_csv(path)
     metrics = compute_metrics(series)
-
-    queries = [
-        "concussion head impact force threshold sports science",
-        "head acceleration HIC biomechanics study",
-        "impact force time curve athletic injury research",
-        "NHTSA head injury criterion automotive crash test force",
-        "automobile impact testing concussion biomechanics comparison",
-    ]
-    research: list[dict[str, str]] = []
-    for query in queries:
-        try:
-            research.extend(web_search(query, max_results=2))
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError):
-            continue
+    research_findings = collect_research_findings(sections)
 
     sample_points = [
         {"t": series.time[i], "f": series.force[i]}
@@ -369,6 +335,8 @@ def analyze_file(path: Path, existing: dict[str, str]) -> tuple[str, bool]:
 
     prompt = f"""
 Analyze this Whack-O-Meter HEMA force curve and integrate sports-science and automotive crash-test context (HIC, NCAP, sled testing) where relevant.
+
+Use Google Search on this request to find current authoritative sources for concussion/head-impact thresholds and automotive HIC/NCAP comparisons relevant to this curve.
 
 File: {series.filename}
 Columns: time={series.time_label}, force={series.force_label}
@@ -381,28 +349,29 @@ Metrics:
 - sample_count: {metrics.sample_count}
 Sample points: {json.dumps(sample_points[:10])}
 
-Research snippets:
-{json.dumps(research[:8], indent=2)}
+Stored research findings from analysis/memory.md (reuse and extend; do not duplicate):
+{research_findings}
 
-Existing memory section (may be empty):
-{existing.get(series.filename, "")}
+Existing memory section for this file (may be empty):
+{sections.get(series.filename, "")}
 
 Return RESULTS markdown bullets covering:
 - **Last analyzed**: ISO timestamp
 - **Peak force**: value with units inferred from column label
 - **Summary**: 2-3 sentences
+- **Research findings**: cite web sources discovered this run with specific metrics/thresholds
 - **Automotive comparison**: relate metrics to crash-test / HIC context when relevant
-- **Research context**: integrate web findings with curve interpretation
+- **Research context**: integrate search results with curve interpretation
 - **Observations**: concise biomechanics notes
 
-Return MEMORY as a concise summary for future runs.
+In MEMORY, include a ### Research findings subsection with one line per source (`source | metric | finding`). Merge with stored research findings above.
 
 If existing content is substantially the same, reply with EXACTLY: NO_SIGNIFICANT_CHANGE
 """
 
     llm_output = call_llm(prompt)
-    if llm_output.strip() == "NO_SIGNIFICANT_CHANGE" and series.filename in existing:
-        return existing[series.filename], False
+    if llm_output.strip() == "NO_SIGNIFICANT_CHANGE" and series.filename in sections:
+        return sections[series.filename], False
 
     _, memory_output = parse_analysis_response(llm_output)
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")

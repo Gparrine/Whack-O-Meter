@@ -2,6 +2,7 @@ import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import { createReadStream, existsSync } from 'node:fs'
 import { join } from 'node:path'
+import { buildGeminiGenerateContentBody } from './src/lib/geminiAnalysisConfig.js'
 
 const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'Whack-O-Meter'
 const base = `/${repoName}/`
@@ -43,27 +44,13 @@ async function callGeminiServer(prompt: string): Promise<string> {
   }
 
   const model = process.env.GEMINI_MODEL?.trim() || 'gemini-3.1-flash-lite'
-  const systemPrompt = `You are a sports biomechanics analyst specializing in HEMA impact force curves, concussion research, head acceleration literature, and automotive crash-test biomechanics (HIC, NCAP, sled tests). Write concise markdown bullet observations.
-
-Always respond using EXACTLY this format:
-
-<!-- RESULTS -->
-(user-facing markdown bullets for the operator)
-<!-- /RESULTS -->
-<!-- MEMORY -->
-(concise memory summary for future runs; lightweight, no fluff)
-<!-- /MEMORY -->`
 
   const response = await fetch(
     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${encodeURIComponent(apiKey)}`,
     {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        systemInstruction: { parts: [{ text: systemPrompt }] },
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { temperature: 0.2 },
-      }),
+      body: JSON.stringify(buildGeminiGenerateContentBody(prompt)),
     },
   )
 
