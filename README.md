@@ -68,7 +68,7 @@ npx wrangler deploy
 
 Then set **Settings → Secrets and variables → Actions → Variables → `ANALYSIS_API_URL`** to the deployed worker URL and redeploy the site.
 
-See [`worker/README.md`](worker/README.md) for deploy details. If analysis still hits an old Gemini model, run `npx wrangler secret delete GEMINI_MODEL` from the `worker/` folder and redeploy.
+See [`worker/README.md`](worker/README.md) for deploy details. After deploy, verify with `curl https://YOUR-WORKER.workers.dev/health` — `model` must be `gemini-3.1-flash-lite`. If you still see a 404 for `gemini-3.1-flash`, pull latest `main` and run `npx wrangler deploy` again from the repo-root `worker/` folder.
 
 ### GitHub Actions (batch)
 
