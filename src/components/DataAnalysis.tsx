@@ -84,10 +84,11 @@ export function DataAnalysis({ panes }: DataAnalysisProps) {
 
       if (response.persisted) {
         await refreshMemory()
-        setStatusMessage(null)
+        setStatusMessage('Analysis complete. Memory was saved to the repo.')
       } else {
         setStatusMessage(
-          'Analysis complete. Memory was not persisted to the repo (configure GITHUB_PAT on the analysis worker).',
+          response.persistError ??
+            'Analysis complete. Memory was not persisted to the repo (configure GITHUB_PAT on the analysis worker).',
         )
       }
     } catch (err) {

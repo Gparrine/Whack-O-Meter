@@ -11,7 +11,7 @@ Always respond using EXACTLY this format:
 
 // Hardcoded so a stale Cloudflare secret named GEMINI_MODEL cannot override this.
 const GEMINI_MODEL = 'gemini-3.1-flash-lite'
-const WORKER_VERSION = '2025-06-25-flash-lite'
+const WORKER_VERSION = '2025-06-26-persist-diagnostics'
 
 const CORS_HEADERS = {
   'Access-Control-Allow-Origin': '*',
@@ -88,27 +88,35 @@ function renderMemory(sections) {
 }
 
 async function persistMemory(env, sectionKey, memoryContent) {
-  const token = env.GITHUB_PAT
-  if (!token) return false
+  const token = env.GITHUB_PAT?.trim()
+  if (!token) {
+    return { ok: false, error: 'GITHUB_PAT is not configured on the worker.' }
+  }
 
   const repo = env.GITHUB_REPOSITORY || 'Gparrine/Whack-O-Meter'
   const path = 'analysis/memory.md'
   const getUrl = `https://api.github.com/repos/${repo}/contents/${path}`
+  const headers = {
+    Authorization: `Bearer ${token}`,
+    Accept: 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28',
+  }
 
-  const getResponse = await fetch(getUrl, {
-    headers: {
-      Authorization: `Bearer ${token}`,
-      Accept: 'application/vnd.github+json',
-      'X-GitHub-Api-Version': '2022-11-28',
-    },
-  })
+  const getResponse = await fetch(getUrl, { headers })
 
   let sha
-  let markdown = '# Whack-O-Meter Analysis Memory\n\n> Auto-updated by AI analysis pipeline. Do not edit structure headers.\n\n'
+  let markdown =
+    '# Whack-O-Meter Analysis Memory\n\n> Auto-updated by AI analysis pipeline. Do not edit structure headers.\n\n'
   if (getResponse.ok) {
     const existing = await getResponse.json()
     sha = existing.sha
     markdown = decodeURIComponent(escape(atob(existing.content.replace(/\n/g, ''))))
+  } else if (getResponse.status !== 404) {
+    const detail = await getResponse.text()
+    return {
+      ok: false,
+      error: `Failed to read analysis/memory.md (${getResponse.status}): ${detail.slice(0, 220)}`,
+    }
   }
 
   const sections = parseSections(markdown)
@@ -118,10 +126,8 @@ async function persistMemory(env, sectionKey, memoryContent) {
   const putResponse = await fetch(getUrl, {
     method: 'PUT',
     headers: {
-      Authorization: `Bearer ${token}`,
-      Accept: 'application/vnd.github+json',
+      ...headers,
       'Content-Type': 'application/json',
-      'X-GitHub-Api-Version': '2022-11-28',
     },
     body: JSON.stringify({
       message: `Update analysis memory for ${sectionKey}`,
@@ -131,7 +137,15 @@ async function persistMemory(env, sectionKey, memoryContent) {
     }),
   })
 
-  return putResponse.ok
+  if (!putResponse.ok) {
+    const detail = await putResponse.text()
+    return {
+      ok: false,
+      error: `Failed to commit analysis/memory.md (${putResponse.status}): ${detail.slice(0, 220)}`,
+    }
+  }
+
+  return { ok: true }
 }
 
 export default {
@@ -149,6 +163,8 @@ export default {
           service: 'whack-o-meter-analysis',
           model: GEMINI_MODEL,
           version: WORKER_VERSION,
+          githubPatConfigured: Boolean(env.GITHUB_PAT?.trim()),
+          githubRepository: env.GITHUB_REPOSITORY || 'Gparrine/Whack-O-Meter',
         },
         { headers: CORS_HEADERS },
       )
@@ -168,14 +184,15 @@ export default {
 
       const raw = await callGemini(env, prompt)
       const parsed = parseAnalysisResponse(raw)
-      const persisted = await persistMemory(env, sectionKey, parsed.memory)
+      const persistResult = await persistMemory(env, sectionKey, parsed.memory)
 
       return Response.json(
         {
           text: raw,
           results: parsed.results,
           memory: parsed.memory,
-          persisted,
+          persisted: persistResult.ok,
+          persistError: persistResult.ok ? undefined : persistResult.error,
         },
         {
           headers: {
