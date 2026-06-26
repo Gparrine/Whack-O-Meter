@@ -3,10 +3,12 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'docs/**'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -18,9 +20,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: npm
@@ -34,9 +36,28 @@ jobs:
           GITHUB_REF_NAME: ${{ github.ref_name }}
         run: npm run build
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Publish built site to docs/
+        run: |
+          rm -rf docs
+          cp -r dist docs
+          cp docs/index.html docs/404.html
+          touch docs/.nojekyll
+
+      - name: Commit docs/ for GitHub Pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          if git diff --staged --quiet; then
+            echo "No docs/ changes to commit."
+          else
+            git commit -m "Deploy built site to docs/ [skip ci]"
+            git push
+          fi
+
+      - uses: actions/upload-pages-artifact@v4
         with:
-          path: dist
+          path: docs
 
   deploy:
     needs: build
@@ -47,9 +68,9 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
 
       - name: Pages setup reminder
         if: failure()
         run: |
-          echo "::error::GitHub Pages is not enabled. Open https://github.com/${{ github.repository }}/settings/pages and set Source to 'GitHub Actions', then re-run this workflow."
+          echo "::error::If the site is blank, open https://github.com/${{ github.repository }}/settings/pages and set Source to 'Deploy from branch: main /docs' OR 'GitHub Actions'."
