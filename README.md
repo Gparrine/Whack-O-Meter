@@ -48,7 +48,18 @@ Reprocess everything manually: **Actions → CSV Manager → Run workflow → re
 
 ## AI analysis
 
-`.github/workflows/analyze.yml` runs `scripts/analyze_csv.py` when CSVs or analysis inputs change. Set repository secret **`GEMINI_API_KEY`** (or `GOOGLE_API_KEY`) for Gemini. Output: `analysis/memory.md`, copied into the site manifest at build time.
+### In the browser (Data Analysis panel)
+
+- Click **Run AI Analysis** to call Gemini directly from the app.
+- Enter a **Gemini API Key** in the panel (stored in `sessionStorage` for the session only).
+- Optional **GitHub PAT** (fine-grained, Contents read/write on this repo) persists the hidden memory summary to `analysis/memory.md`.
+- Use **Analysis Parameters** to add custom questions or context to the prompt.
+- With two readout panes loaded, the AI compares both curves automatically.
+- **Check for Previous Analysis** loads stored memory for the selected curve(s).
+
+### GitHub Actions (batch)
+
+`.github/workflows/analyze.yml` runs `scripts/analyze_csv.py` when CSVs change. Set repository secret **`GEMINI_API_KEY`** (or `GOOGLE_API_KEY`) for Gemini. Output: `analysis/memory.md`, copied into the site at build time.
 
 ## Project layout
 

@@ -86,11 +86,41 @@ body::after {
   text-align: center;
 }
 
+.subtitle-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 0 0 1.25rem;
+}
+
 .subtitle {
   text-align: center;
   color: var(--muted);
-  margin: 0 0 1.25rem;
+  margin: 0;
   font-size: 0.95rem;
+}
+
+@keyframes swordPulse {
+  0%,
+  100% {
+    opacity: 0.75;
+    filter: drop-shadow(0 0 4px rgba(255, 0, 110, 0.4));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 12px rgba(255, 0, 110, 0.85))
+      drop-shadow(0 0 6px rgba(57, 255, 20, 0.35));
+  }
+}
+
+.longsword-icon {
+  flex-shrink: 0;
+  animation: swordPulse 2.5s ease-in-out infinite;
+}
+
+.subtitle-row .longsword-icon:last-child {
+  transform: scaleX(-1);
 }
 
 .search-input {
@@ -120,6 +150,142 @@ body::after {
   gap: 0.75rem;
   align-items: stretch;
   margin-top: 1rem;
+}
+
+.graph-workspace {
+  margin-top: 1rem;
+}
+
+.workspace-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.75rem;
+}
+
+.add-readout-button {
+  border-color: var(--magenta);
+  color: var(--magenta);
+  box-shadow: var(--glow-magenta);
+}
+
+.graph-workspace-panes {
+  display: flex;
+  gap: 0.75rem;
+  align-items: stretch;
+}
+
+.graph-pane {
+  flex: 1 1 0;
+  min-width: 320px;
+}
+
+.telemetry-pane {
+  min-width: 0;
+}
+
+.telemetry-pane-dragging {
+  opacity: 0.65;
+}
+
+.telemetry-bundle {
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+  padding-left: 0.5rem;
+  border-color: rgba(255, 0, 110, 0.45);
+  box-shadow:
+    inset 0 0 24px rgba(255, 0, 110, 0.04),
+    var(--glow-magenta);
+}
+
+.telemetry-bundle-inner {
+  display: grid;
+  grid-template-columns: auto 1fr 240px auto;
+  gap: 0.75rem;
+  align-items: stretch;
+  flex: 1;
+  min-width: 0;
+}
+
+.bundle-grip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.1rem;
+  cursor: grab;
+  touch-action: none;
+  border-right: 1px dashed rgba(255, 0, 110, 0.35);
+  padding-right: 0.35rem;
+}
+
+.bundle-grip:active {
+  cursor: grabbing;
+}
+
+.bundle-grip-ridges {
+  display: block;
+  width: 0.45rem;
+  height: 4.5rem;
+  background: repeating-linear-gradient(
+    180deg,
+    rgba(255, 0, 110, 0.85) 0,
+    rgba(255, 0, 110, 0.85) 4px,
+    transparent 4px,
+    transparent 8px
+  );
+  border-radius: 1px;
+  box-shadow: 0 0 8px rgba(255, 0, 110, 0.35);
+}
+
+.graph-canvas-wrap {
+  min-height: 320px;
+}
+
+.graph-axis-footer {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed rgba(57, 255, 20, 0.15);
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
+.graph-axis-footer-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: baseline;
+}
+
+.graph-sensor-name {
+  color: var(--amber);
+}
+
+.graph-force-unit {
+  color: var(--green);
+}
+
+.graph-axis-time-label {
+  margin-top: 0.25rem;
+  color: var(--green);
+}
+
+.graph-axis-footnote {
+  margin-top: 0.35rem;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+.reset-zoom-link {
+  margin-top: 0.35rem;
+  background: transparent;
+  border: none;
+  color: var(--amber);
+  font: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
 }
 
 .graph-panel {
@@ -324,6 +490,54 @@ body::after {
   margin-top: 1rem;
 }
 
+.analysis-credentials {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.analysis-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  color: var(--muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.analysis-parameters {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  background: #080810;
+  border: 1px solid var(--border);
+  color: var(--green);
+  font: inherit;
+  border-radius: 2px;
+  resize: vertical;
+  min-height: 4.5rem;
+}
+
+.analysis-parameters:focus {
+  outline: none;
+  border-color: var(--green);
+  box-shadow: inset 0 0 12px rgba(57, 255, 20, 0.12), var(--glow-green);
+}
+
+.analysis-results {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed rgba(255, 0, 110, 0.25);
+}
+
+.analysis-results-title {
+  font-family: 'VT323', monospace;
+  color: var(--green);
+  margin: 0 0 0.75rem;
+  font-size: 1.35rem;
+}
+
 .section-title {
   font-family: 'VT323', monospace;
   font-size: 1.75rem;
@@ -413,6 +627,18 @@ body::after {
 }
 
 @media (max-width: 960px) {
+  .graph-workspace-panes {
+    flex-direction: column;
+  }
+
+  .graph-pane {
+    min-width: 0;
+  }
+
+  .telemetry-bundle-inner {
+    grid-template-columns: 1fr;
+  }
+
   .graph-row {
     grid-template-columns: 1fr;
   }

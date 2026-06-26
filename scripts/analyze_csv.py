@@ -211,11 +211,30 @@ def web_search(query: str, max_results: int = 4) -> list[dict[str, str]]:
     ]
 
 
+def parse_analysis_response(raw: str) -> tuple[str, str]:
+    results_match = re.search(
+        r"<!--\s*RESULTS\s*-->([\s\S]*?)<!--\s*/RESULTS\s*-->", raw, re.I
+    )
+    memory_match = re.search(
+        r"<!--\s*MEMORY\s*-->([\s\S]*?)<!--\s*/MEMORY\s*-->", raw, re.I
+    )
+    if results_match and memory_match:
+        return results_match.group(1).strip(), memory_match.group(1).strip()
+    return raw.strip(), raw.strip()
+
+
 def call_llm(prompt: str) -> str:
     system_prompt = (
-        "You are a sports biomechanics analyst specializing in impact force "
-        "curves, concussion research, and head acceleration literature. "
-        "Write concise markdown bullet observations."
+        "You are a sports biomechanics analyst specializing in HEMA impact force curves, "
+        "concussion research, head acceleration literature, and automotive crash-test biomechanics "
+        "(HIC, NCAP, sled tests). Write concise markdown bullet observations.\n\n"
+        "Always respond using EXACTLY this format:\n\n"
+        "<!-- RESULTS -->\n"
+        "(user-facing markdown bullets)\n"
+        "<!-- /RESULTS -->\n"
+        "<!-- MEMORY -->\n"
+        "(concise memory summary for future runs)\n"
+        "<!-- /MEMORY -->"
     )
 
     gemini_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
@@ -333,6 +352,8 @@ def analyze_file(path: Path, existing: dict[str, str]) -> tuple[str, bool]:
         "concussion head impact force threshold sports science",
         "head acceleration HIC biomechanics study",
         "impact force time curve athletic injury research",
+        "NHTSA head injury criterion automotive crash test force",
+        "automobile impact testing concussion biomechanics comparison",
     ]
     research: list[dict[str, str]] = []
     for query in queries:
@@ -347,7 +368,7 @@ def analyze_file(path: Path, existing: dict[str, str]) -> tuple[str, bool]:
     ]
 
     prompt = f"""
-Analyze this force-meter CSV curve and integrate relevant sports-science context.
+Analyze this Whack-O-Meter HEMA force curve and integrate sports-science and automotive crash-test context (HIC, NCAP, sled testing) where relevant.
 
 File: {series.filename}
 Columns: time={series.time_label}, force={series.force_label}
@@ -361,17 +382,20 @@ Metrics:
 Sample points: {json.dumps(sample_points[:10])}
 
 Research snippets:
-{json.dumps(research[:6], indent=2)}
+{json.dumps(research[:8], indent=2)}
 
-Existing section (may be empty):
+Existing memory section (may be empty):
 {existing.get(series.filename, "")}
 
-Return markdown bullet content ONLY (no ## header) with these fields:
+Return RESULTS markdown bullets covering:
 - **Last analyzed**: ISO timestamp
 - **Peak force**: value with units inferred from column label
 - **Summary**: 2-3 sentences
+- **Automotive comparison**: relate metrics to crash-test / HIC context when relevant
 - **Research context**: integrate web findings with curve interpretation
 - **Observations**: concise biomechanics notes
+
+Return MEMORY as a concise summary for future runs.
 
 If existing content is substantially the same, reply with EXACTLY: NO_SIGNIFICANT_CHANGE
 """
@@ -380,11 +404,12 @@ If existing content is substantially the same, reply with EXACTLY: NO_SIGNIFICAN
     if llm_output.strip() == "NO_SIGNIFICANT_CHANGE" and series.filename in existing:
         return existing[series.filename], False
 
+    _, memory_output = parse_analysis_response(llm_output)
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    if "**Last analyzed**" not in llm_output:
-        llm_output = f"- **Last analyzed**: {timestamp}\n{llm_output}"
+    if "**Last analyzed**" not in memory_output:
+        memory_output = f"- **Last analyzed**: {timestamp}\n{memory_output}"
 
-    return llm_output.strip(), True
+    return memory_output.strip(), True
 
 
 def main() -> int:
