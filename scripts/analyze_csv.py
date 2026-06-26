@@ -200,7 +200,7 @@ def call_llm(prompt: str) -> str:
 
     gemini_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
     if gemini_key:
-        model = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+        model = os.getenv("GEMINI_MODEL", "gemini-3.1-flash")
         payload = json.dumps(
             {
                 "systemInstruction": {"parts": [{"text": system_prompt}]},

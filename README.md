@@ -42,7 +42,7 @@ Run [`.github/workflows/analyze.yml`](.github/workflows/analyze.yml) manually or
 
 | Secret | Purpose |
 |--------|---------|
-| `GEMINI_API_KEY` | LLM analysis via Google Gemini (preferred) |
+| `GEMINI_API_KEY` | LLM analysis via Google Gemini (`gemini-3.1-flash`) |
 | `GOOGLE_API_KEY` | Alias for Gemini if named that way in repo secrets |
 | `OPENAI_API_KEY` | Alternative LLM provider |
 | `ANTHROPIC_API_KEY` | Alternative LLM provider |
