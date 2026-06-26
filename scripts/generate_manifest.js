@@ -62,7 +62,7 @@ function buildCatalog(body) {
           timeToPeakMs: readNumber(body, 'Time to peak') ?? 0,
           forceDecayMs: readNumber(body, 'Force decay') ?? 0,
           impulseNs: readNumber(body, 'Impulse') ?? 0,
-          weaponType: readField(body, 'Weapon type') ?? 'Rengenyei Standard',
+          weaponType: 'Steel Test Ball Drop',
         }
       : undefined,
     trimMeta: {

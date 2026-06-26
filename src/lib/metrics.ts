@@ -10,7 +10,7 @@ export interface ImpactMetrics {
 }
 
 const LBF_PER_N = 1 / 4.44822
-export const DEFAULT_WEAPON_TYPE = 'Rengenyei Standard'
+export const DEFAULT_WEAPON_TYPE = 'Steel Test Ball Drop'
 
 function median(values: number[]): number {
   const sorted = [...values].sort((a, b) => a - b)

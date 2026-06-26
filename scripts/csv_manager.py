@@ -15,7 +15,7 @@ from statistics import median, pstdev
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw_data"
 MEMORY_PATH = RAW_DIR / "csv_manager_memory.md"
-WEAPON_TYPE = "Rengenyei Standard"
+WEAPON_TYPE = "Steel Test Ball Drop"
 LBF_PER_N = 1 / 4.44822
 MANAGER_VERSION = "Whack-O-Meter CSV Manager v1"
 TIMESTAMP_SUFFIX = re.compile(r"-20\d{12}$", re.I)

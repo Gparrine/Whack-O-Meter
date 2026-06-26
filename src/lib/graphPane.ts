@@ -59,7 +59,7 @@ export function manifestMetrics(entry: ManifestEntry | null): ImpactMetrics | nu
     timeToPeakMs: entry.metrics.timeToPeakMs,
     forceDecayMs: entry.metrics.forceDecayMs,
     impulseNs: entry.metrics.impulseNs,
-    weaponType: entry.metrics.weaponType ?? DEFAULT_WEAPON_TYPE,
+    weaponType: DEFAULT_WEAPON_TYPE,
   }
 }
 
