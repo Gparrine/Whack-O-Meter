@@ -19,6 +19,16 @@ MEMORY_PATH = RAW_DIR / "csv_manager_memory.md"
 DEFAULT_WEAPON_TYPE = "Steel Test Ball Drop"
 DEFAULT_CATEGORY_SLUG = "steel-test-ball-drop"
 UNSORTED_ROOT = "unsorted"
+# Folder slug → weapon type and optional nickname prefix for the UI readout.
+CATEGORY_REGISTRY: dict[str, dict[str, str]] = {
+    "steel-test-ball-drop": {
+        "weapon_type": "Steel Test Ball Drop",
+    },
+    "Regenyei_Standard_Federschwert": {
+        "weapon_type": "Regenyei Standard Feder",
+        "nickname_prefix": "Regenyei",
+    },
+}
 LBF_PER_N = 1 / 4.44822
 MANAGER_VERSION = "Whack-O-Meter CSV Manager v2"
 TIMESTAMP_SUFFIX = re.compile(r"-20\d{12}$", re.I)
@@ -79,6 +89,49 @@ def slugify_category(name: str) -> str:
     return slug or "uncategorized"
 
 
+def normalize_category_key(category: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "-", category.strip().lower()).strip("-")
+
+
+def lookup_category_registry(category: str) -> dict[str, str] | None:
+    if not category:
+        return None
+    normalized = normalize_category_key(category)
+    for key, entry in CATEGORY_REGISTRY.items():
+        if normalize_category_key(key) == normalized:
+            return entry
+    return None
+
+
+def category_weapon_type(category: str) -> str | None:
+    entry = lookup_category_registry(category)
+    return entry.get("weapon_type") if entry else None
+
+
+def category_nickname_prefix(category: str) -> str | None:
+    entry = lookup_category_registry(category)
+    if entry and entry.get("nickname_prefix"):
+        return entry["nickname_prefix"]
+    if not category or category == DEFAULT_CATEGORY_SLUG:
+        return None
+    if category.startswith(f"{UNSORTED_ROOT}/") or category == UNSORTED_ROOT:
+        return None
+    token = re.split(r"[_\-]+", category.strip())[0]
+    if not token or token.lower() in {"steel", "unsorted", "sample"}:
+        return None
+    return token.replace("-", " ").title()
+
+
+def parent_category(relative: str) -> str | None:
+    parts = relative.split("/")
+    if len(parts) <= 1:
+        return None
+    parent = parts[0]
+    if parent == UNSORTED_ROOT:
+        return parts[1] if len(parts) > 2 else UNSORTED_ROOT
+    return parent
+
+
 def discover_csv_files() -> list[Path]:
     files: list[Path] = []
     for path in RAW_DIR.rglob("*"):
@@ -127,12 +180,47 @@ def read_weapon_from_memory(sections: dict[str, str], key: str) -> str | None:
     return match.group(1).strip() if match else None
 
 
-def read_category_from_memory(sections: dict[str, str], key: str) -> str | None:
+def read_nickname_from_memory(sections: dict[str, str], key: str) -> str | None:
     section = sections.get(key)
     if not section:
         return None
-    match = re.search(r"\*\*Category\*\*:\s*(.+)$", section, re.M)
+    match = re.search(r"\*\*Nickname\*\*:\s*(.+)$", section, re.M)
     return match.group(1).strip() if match else None
+
+
+def needs_metadata_refresh(
+    path: Path,
+    parsed: ParsedCsv | None,
+    sections: dict[str, str],
+) -> bool:
+    rel = relative_path(path)
+    weapon_type, category = resolve_category(path, parsed, sections)
+    stored_weapon = read_weapon_from_memory(sections, rel) or read_weapon_from_memory(
+        sections, path.name
+    )
+    if stored_weapon and stored_weapon != weapon_type:
+        return True
+
+    prefix = category_nickname_prefix(category)
+    if not prefix:
+        return False
+
+    stored_nickname = read_nickname_from_memory(sections, rel) or read_nickname_from_memory(
+        sections, path.name
+    )
+    if stored_nickname and not stored_nickname.lower().startswith(f"{prefix.lower()} ·"):
+        return True
+
+    parsed_weapon = read_weapon_from_parsed(parsed)
+    if parsed_weapon and parsed_weapon != weapon_type:
+        return True
+
+    parsed_metadata = parse_manager_metadata(parsed.manager_lines) if parsed else {}
+    parsed_nickname = parsed_metadata.get("nickname")
+    if prefix and parsed_nickname and not parsed_nickname.lower().startswith(f"{prefix.lower()} ·"):
+        return True
+
+    return False
 
 
 def migrate_memory_key(sections: dict[str, str], old_key: str, new_key: str) -> None:
@@ -155,6 +243,12 @@ def resolve_category(
     if env_weapon:
         return env_weapon, env_category or slugify_category(env_weapon)
 
+    folder = parent_category(rel)
+    if folder and folder != UNSORTED_ROOT and not folder.startswith(f"{UNSORTED_ROOT}/"):
+        folder_weapon = category_weapon_type(folder)
+        if folder_weapon:
+            return folder_weapon, folder
+
     parsed_weapon = read_weapon_from_parsed(parsed)
     parsed_category = read_category_from_parsed(parsed)
     if parsed_weapon:
@@ -169,12 +263,8 @@ def resolve_category(
     if memory_weapon:
         return memory_weapon, memory_category or slugify_category(memory_weapon)
 
-    parts = rel.split("/")
-    if len(parts) > 1:
-        parent = parts[0]
-        if parent != UNSORTED_ROOT:
-            weapon = parsed_weapon or memory_weapon or DEFAULT_WEAPON_TYPE
-            return weapon, parent
+    if folder and folder != UNSORTED_ROOT:
+        return DEFAULT_WEAPON_TYPE, folder
 
     if path.parent == RAW_DIR:
         return DEFAULT_WEAPON_TYPE, DEFAULT_CATEGORY_SLUG
@@ -375,17 +465,24 @@ def decay_descriptor(force_decay_ms: float) -> str:
     return "slow decay" if force_decay_ms >= 8 else "fast decay"
 
 
-def build_nickname(filename: str, metrics: CatalogMetrics, assigned: set[str]) -> str:
+def build_nickname(
+    filename: str,
+    metrics: CatalogMetrics,
+    assigned: set[str],
+    category: str,
+) -> str:
     base = filename_base(filename)
     descriptor = f"{peak_descriptor(metrics.peak_force_n)} · {decay_descriptor(metrics.force_decay_ms)}"
-    nickname = f"{base} · {descriptor}"
+    prefix = category_nickname_prefix(category)
+    nickname = f"{prefix} · {base} · {descriptor}" if prefix else f"{base} · {descriptor}"
     if nickname not in assigned:
         assigned.add(nickname)
         return nickname
 
     counter = 2
     while True:
-        candidate = f"{base} · {descriptor} · run {counter}"
+        stem = f"{prefix} · {base}" if prefix else base
+        candidate = f"{stem} · {descriptor} · run {counter}"
         if candidate not in assigned:
             assigned.add(candidate)
             return candidate
@@ -490,7 +587,7 @@ def process_file(
     weapon_type, category = resolve_category(path, parsed, sections)
     window = detect_impact_window(parsed.rows)
     metrics = compute_metrics(parsed.rows, window, weapon_type)
-    nickname = build_nickname(path.name, metrics, assigned_nicknames)
+    nickname = build_nickname(path.name, metrics, assigned_nicknames, category)
     rendered = render_csv(parsed, window, metrics, nickname, category)
 
     existing_hash = None
@@ -561,7 +658,11 @@ def main() -> int:
                 stored_hash_match = re.search(
                     r"\*\*Content hash\*\*:\s*([a-f0-9]+)", sections.get(path.name, ""), re.I
                 )
-            if stored_hash_match and stored_hash_match.group(1) == current_hash:
+            if (
+                stored_hash_match
+                and stored_hash_match.group(1) == current_hash
+                and not needs_metadata_refresh(path, read_csv(path), sections)
+            ):
                 print(f"Skipping unchanged {rel}")
                 continue
 
