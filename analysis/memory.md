@@ -16,6 +16,383 @@
 - `Sports Biomechanics` | 70-120g / 4.5k-6k rad/s² | General concussion threshold range for linear/rotational acceleration.
 - `Material Science` | Foam/Kydex | Foam extends impact duration to lower peak force; Kydex distributes load.
 
+## Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419154646.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Low-energy impact (29.8 N, 308.8 ms) well below concussion and automotive injury thresholds.
+- **Metrics**: Peak 29.8 N; Duration 0.3088 s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out (not applicable to this low-force event).
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419154810.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Low-force, long-duration impact (83.1 N, 169.88 ms) well below concussion and automotive injury thresholds.
+- **Metrics**: Peak 83.1 N, Impulse 3.93 N·s, Duration 0.16988 s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out (not applicable to this low-force event).
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419155030.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Impact analysis of a 4.25 kN, 2.86 ms event; high rise rate indicates insufficient energy dissipation.
+- **Metrics**: Peak Force: 4254.6 N; Impulse: 5.1583 Ns; Rise Rate: 6.45 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155317.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Impact analysis of a 4.25 kN strike; characterized by high rise rate and short duration, indicating a stiff impact with limited energy dissipation.
+- **Metrics**: Peak Force: 4.25 kN; Rise Rate: 7.58 MN/s; Impulse: 6.97 Ns.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155835.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-force (5.16 kN), ultra-short duration (0.14 ms) impact indicating material bottoming out.
+- **Metrics**: Peak 5157.6 N; Duration 0.00014 s; Rise Rate 6.45e7 N/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155903.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-magnitude, ultra-short duration impact (5.93 kN, 80 µs).
+- **Metrics**: Peak Force: 5931.3 N; Duration: 0.00008 s; Impulse: 0.4690 Ns.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155943.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-force (6.36 kN), short-duration (< 3 ms) impact indicating material bottoming out.
+- **Metrics**: Peak 6.36 kN, Rise Rate ~3.5 MN/s, Duration < 3 ms.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419160013.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High peak force (5.26 kN) but extremely short duration (0.14 ms) indicates a rigid, localized impact with low HIC potential.
+- **Metrics**: Peak Force: 5255.6 N; Duration: 0.14 ms; Rise Rate: 87.6 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher peak forces to reach injury thresholds.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-5-20240419155656.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Impact event (5.41 kN, 0.16 ms) shows high-frequency, short-duration loading characteristic of rigid contact.
+- **Metrics**: Peak Force: 5.41 kN; Duration: 0.16 ms; Rise Rate: 135.3 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-5-20240419155738.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-intensity, short-duration impact (5.26 kN, 0.16 ms) with a very high rise rate, indicating insufficient energy dissipation/bottoming out.
+- **Metrics**: Peak Force: 5260.6 N; Impulse: 0.7818 Ns; Rise Rate: 87.7 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419155358.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Analyzed a 6.05 kN HEMA impact with a 0.6 ms duration. The event is characterized by a very high rise rate and short duration, suggesting a rigid impact with limited energy dissipation.
+- **Metrics**: Peak Force: 6047.5 N; Duration: 0.6 ms; Rise Rate: 9.75 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | General linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161041.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-intensity, short-duration impact (5.17 kN, 1.12 ms) indicating material bottoming out.
+- **Metrics**: Peak Force: 5166.4 N; Rise Rate: 8.33 MN/s; Duration: 1.12 ms.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161110.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-force (8.58 kN), short-duration (0.52 ms) impact indicating material bottoming out.
+- **Metrics**: Peak 8582.1 N; Rise Rate 33.0 MN/s; Duration 0.52 ms.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161137.CSV
+- **Last analyzed**: 2026-06-29 19:04:00
+- **Summary**: High-force (5.5 kN), short-duration (8.5 ms) impact event. High rise rate indicates potential bottoming out of protective gear.
+- **Metrics**: Peak Force: 5503.4 N; Impulse: 7.75 Ns; Duration: 8.54 ms.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161224.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-force (6.69 kN), ultra-short duration (0.2 ms) impact; lacks the duration for significant HIC-15 risk but indicates rigid contact.
+- **Metrics**: Peak Force: 6689.5 N; Duration: 0.2 ms; Rise Rate: 66.9 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher peak forces to reach injury thresholds.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161301.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Low-force HEMA impact (263.2 N) well below concussion and automotive injury thresholds.
+- **Metrics**: Peak 263.2 N, Impulse 32.16 Ns, Rise Rate 18,561 N/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161308.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Low-force impact (732.8 N) well below concussive thresholds (typically 5.6-7.6 kN in NFL studies).
+- **Metrics**: Peak Force: 732.8 N; Impulse: -6.42 Ns; Rise Rate: 721.9 N/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161535.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-magnitude (7.45 kN), ultra-short duration (<0.2 ms) impact; likely represents a rigid-surface collision with low HIC risk despite high peak force.
+- **Metrics**: Peak Force: 7452.4 N; Duration: 0.12 ms; Rise Rate: 124.2 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161703.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-peak, short-duration impact (7.09 kN, 0.42 ms) indicating rigid contact; force magnitude is in the concussive range but duration is likely too brief for high HIC risk.
+- **Metrics**: Peak Force: 7091.9 N; Impulse: 2.33 Ns; Rise Rate: 35.46 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161835.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Low-energy impact (4.4 kN) with short duration (4.8 ms); well below concussion and automotive injury thresholds.
+- **Metrics**: Peak 4393.5 N; Duration 4.8 ms; Rise Rate 4178.56 N/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `EN 12492` | 10 kN | Common threshold for crown impact force transmission in safety helmets.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419162115.CSV
+- **Last analyzed**: 2026-06-29 19:06:00
+- **Summary**: High-intensity, short-duration impact (6.72 kN, 1.6 ms) indicating material bottoming out.
+- **Metrics**: Peak 6.72 kN, Duration 1.6 ms, Rise Rate 12.01 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419163421.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-frequency, short-duration impact (3.67 kN, 0.28 ms) indicating potential material bottoming out; well below NFL concussive force means but exhibits concerningly high rise rate.
+- **Metrics**: Peak: 3666 N; Duration: 0.28 ms; Rise Rate: 18.33 GN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419163507.CSV
+- **Last analyzed**: 2026-06-29 19:06:00 UTC
+- **Summary**: High-force (7.62 kN), short-duration (2.28 ms) impact indicating poor energy dissipation and potential bottoming out.
+- **Metrics**: Peak 7.62 kN, Impulse 5.96 Ns, Rise Rate 3.2 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419170545.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Low-force (165.70 N), long-duration (2s) impact event; negligible concussion risk.
+- **Metrics**: Peak Force: 165.70 N; Duration: 2.0s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `MTBI Research` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes (linear acceleration).
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-3-20240419155433.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-intensity, short-duration impact (6.28 kN, 0.38 ms). Lacks sufficient energy dissipation; pulse is too brief for standard HIC-15 severity, but peak force is in the concussive range.
+- **Metrics**: Peak Force: 6279.3 N; Duration: 0.38 ms; Rise Rate: 34.89 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-Thrust-Broke-feder-20240419171633.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-force (9.29 kN) short-duration thrust impact; indicates stiff, non-dissipative energy transfer.
+- **Metrics**: Peak 9292.3 N, Duration ~0.56 ms, Rise Rate ~51.6 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171416.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-force, ultra-short duration impact (0.1 ms) indicating material bottoming out; low total impulse suggests lower injury risk than peak force alone implies.
+- **Metrics**: Peak 6754.9 N, Duration ~0.1 ms, Rise Rate ~112.6 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171442.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-force (8.4 kN), ultra-short duration (0.12 ms) impact; likely localized trauma risk rather than concussion due to insufficient duration for brain shearing.
+- **Metrics**: Peak Force: 8404.2 N; Duration: 0.12 ms; Rise Rate: 2.1e8 N/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171617.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-force (7.6 kN), short-duration impact; indicates material bottoming out.
+- **Metrics**: Peak: 7638.3 N; Rise Rate: 54.5 MN/s; Impulse: 3.45 Ns.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419173234.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-force (6.95 kN), ultra-short duration (0.32 ms) impact; indicates material bottoming out.
+- **Metrics**: Peak 6.95 kN, Duration 0.32 ms, Rise Rate 34.7 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175007.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: High-force (3.7 kN), ultra-short duration (0.14 ms) impact; indicates "bottoming out" or stiff contact with minimal energy dissipation.
+- **Metrics**: Peak Force: 3699.7 N; Duration: 0.14 ms; Rise Rate: 46.2 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175026.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: 5.15 kN peak force, <5ms duration; high rise rate indicates poor energy dissipation/bottoming out.
+- **Metrics**: Peak 5151.2 N, Duration ~4.78 ms, Rise Rate 7.36 MN/s.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175045.CSV
+- **Last analyzed**: 2026-06-29
+- **Summary**: Impact analysis of 4.7 kN peak force; high rise rate indicates insufficient energy dissipation/bottoming out.
+- **Metrics**: Peak Force: 4714.5 N; Peak Time: 0.62 ms; Impulse: 9.31 Ns; Duration: 7.2 ms.
+### Research findings
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120 g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `Injury Tolerance` | 165 g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+
 ## sample_impact_001.csv
 - **Last analyzed**: 2026-06-26T00:13:32Z
 - **Summary**: LLM API key not configured. Metrics were computed locally.
