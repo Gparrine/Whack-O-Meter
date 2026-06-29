@@ -47,7 +47,8 @@ export function filterEntries(entries: ManifestEntry[], query: string): Manifest
     (entry) =>
       entry.filename.toLowerCase().includes(normalized) ||
       entry.title.toLowerCase().includes(normalized) ||
-      entry.nickname?.toLowerCase().includes(normalized),
+      entry.nickname?.toLowerCase().includes(normalized) ||
+      entry.category?.toLowerCase().includes(normalized),
   )
 }
 
