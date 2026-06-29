@@ -789,33 +789,30 @@ body::after {
 }
 
 @media (max-width: 960px) {
-  .graph-workspace--dual .graph-pane {
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-
   .graph-workspace-panes {
     flex-direction: column;
+    align-items: stretch;
   }
 
   .graph-pane {
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 100%;
     min-width: 0;
+    overflow: visible;
   }
 
-  .telemetry-bundle-inner {
-    grid-template-columns: minmax(0, 5%) minmax(0, 1fr) minmax(0, 20%) minmax(0, 5%);
+  .graph-pane-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
   }
 
-  .graph-row {
-    grid-template-columns: 1fr;
+  .graph-pane-toolbar .search-bar-wrap,
+  .graph-pane-toolbar > div:first-child {
+    width: 100%;
   }
 
-  .metrics-readout {
-    min-width: 0;
-  }
-}
-
-@media (max-width: 720px) {
   .telemetry-bundle-inner {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
@@ -825,7 +822,23 @@ body::after {
     min-height: 2.25rem;
   }
 
-  .graph-pane-toolbar {
-    flex-direction: column;
+  .graph-row {
+    grid-template-columns: 1fr;
+  }
+
+  .metrics-readout {
+    min-width: 0;
+  }
+
+  .graph-panel {
+    min-height: 280px;
+  }
+
+  .telemetry-pane {
+    width: 100%;
+  }
+
+  .telemetry-bundle {
+    width: 100%;
   }
 }
