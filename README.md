@@ -84,3 +84,5 @@ See [`worker/README.md`](worker/README.md) for deploy details. After deploy, ver
 | `scripts/analyze_csv.py` | Gemini analysis |
 | `scripts/generate_manifest.js` | Builds `public/data/manifest.json` |
 | `.github/workflows/deploy.yml` | Build + push to `gh-pages` |
+
+See [`CHAT_HISTORY.md`](CHAT_HISTORY.md) for a session-by-session log of agent work, production setup, and troubleshooting.
