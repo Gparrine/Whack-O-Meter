@@ -7,6 +7,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from dataclasses import dataclass
@@ -236,10 +237,17 @@ def call_llm(prompt: str) -> str:
             headers={"Content-Type": "application/json"},
             method="POST",
         )
-        with urllib.request.urlopen(request, timeout=60) as response:
-            data = json.loads(response.read().decode())
-        parts = data.get("candidates", [{}])[0].get("content", {}).get("parts", [])
-        return "".join(part.get("text", "") for part in parts).strip()
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(request, timeout=60) as response:
+                    data = json.loads(response.read().decode())
+                parts = data.get("candidates", [{}])[0].get("content", {}).get("parts", [])
+                return "".join(part.get("text", "") for part in parts).strip()
+            except urllib.error.HTTPError as exc:
+                if exc.code in (429, 500, 502, 503, 504) and attempt < 2:
+                    time.sleep(2**attempt)
+                    continue
+                raise
 
     openai_key = os.getenv("OPENAI_API_KEY")
     if openai_key:
@@ -401,6 +409,7 @@ def relative_key(path: Path) -> str:
 
 def main() -> int:
     target = os.getenv("CSV_FILENAME", "").strip()
+    reanalyze_all = os.getenv("REANALYZE_ALL", "").lower() in ("1", "true", "yes")
     csv_files = discover_csv_files()
     if target:
         csv_files = [
@@ -409,13 +418,20 @@ def main() -> int:
             if path.name == target or relative_key(path) == target or path.name.endswith(target)
         ]
 
-    if not csv_files:
-        print("No CSV files found to analyze.")
-        return 0
-
     MEMORY_PATH.parent.mkdir(parents=True, exist_ok=True)
     markdown = MEMORY_PATH.read_text(encoding="utf-8") if MEMORY_PATH.exists() else ""
     sections = parse_sections(markdown)
+
+    if not reanalyze_all and not target:
+        pending = [path for path in csv_files if relative_key(path) not in sections]
+        skipped = len(csv_files) - len(pending)
+        if skipped:
+            print(f"Skipping {skipped} file(s) already present in analysis/memory.md.")
+        csv_files = pending
+
+    if not csv_files:
+        print("No CSV files found to analyze.")
+        return 0
 
     changed = False
     for path in csv_files:
