@@ -31,18 +31,20 @@
 - **Summary**: High peak force (11.7 kN) with very short duration (3 ms) indicates rigid impact behavior; likely insufficient attenuation for high-energy strikes.
 - **Metrics**: Peak: 11,736.6 N; Impulse: 8.29 Ns; Duration: 0.003 s; Rise Rate: 1.79 MN/s.
 ### Research findings
-- `NHTSA` | HIC-15 < 700 | Threshold for acceptable automotive head injury risk.
-- `Sports Biomechanics` | 70-120g / 4.5k-6k rad/s² | General concussion threshold range for linear/rotational acceleration.
-- `Material Science` | Foam/Kydex | Foam extends impact duration to lower peak force; Kydex distributes load.
-- `Biomechanics` | HIC-15 | Sensitive to duration; short-duration pulses (3ms) may have lower HIC than longer, lower-force pulses.
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501182938.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-magnitude (11.96 kN), short-duration (3.5 ms) impact; potential material bottoming-out; exceeds typical concussion acceleration thresholds if applied to a human head mass.
+- **Summary**: High-magnitude (11.96 kN), short-duration (3.52 ms) impact; potential material bottoming-out; exceeds typical concussion acceleration thresholds if applied to a human head mass.
 - **Metrics**: Peak Force: 11,960 N; Duration: 3.52 ms; Rise Rate: 1.79 MN/s.
 ### Research findings
-- `NHTSA` | HIC-15 < 700 | Threshold for acceptable automotive head injury risk.
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70-120g / 4.5k-6k rad/s² | General concussion threshold range for linear/rotational acceleration.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical duration of sports-related head impacts; shorter pulses require higher peak forces to reach injury thresholds.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Material Science` | Foam/Kydex | Foam extends impact duration to lower peak force; Kydex distributes load; high peak force suggests potential bottoming out.
@@ -52,15 +54,16 @@
 - **Summary**: High-intensity impact (9.47 kN) with rapid rise rate (2.29 MN/s) indicates padding bottoming out; likely exceeds safe concussion thresholds.
 - **Metrics**: Peak Force: 9467.4 N; Peak Time: 4.14 ms; Rise Rate: 2.29 MN/s.
 ### Research findings
-- `NHTSA` | HIC-15 < 700 | Threshold for acceptable automotive head injury risk.
-- `Sports Biomechanics` | 70-120g | General concussion threshold range for linear acceleration.
-- `Biomechanics` | < 15 ms | Typical duration of sports-related head impacts; shorter pulses require higher peak forces for injury.
+- `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
+- `Sports Biomechanics` | 70–120g | General concussion threshold range for linear acceleration.
+- `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
+- `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
-- `Material Science` | Foam/Kydex | Foam extends impact duration to lower peak force; high peak force suggests potential bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183109.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Peak force (11.1 kN) exceeds typical concussive impact benchmarks (7.2 kN). The short pulse duration (3.44 ms) indicates insufficient energy dissipation/bottoming out of the 6mm EVA/2mm Kydex.
+- **Summary**: Peak force (11.1 kN) significantly exceeds concussive benchmarks (7.2 kN). The 3.44 ms pulse duration indicates severe bottoming out of the 6mm EVA/2mm Kydex.
 - **Metrics**: Peak: 11,112 N; Duration: 3.44 ms; Rise Rate: 1.9 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -78,7 +81,7 @@
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
-- `Material Science` | Foam/Kydex | Foam extends impact duration to lower peak force; high peak force suggests potential bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183225.CSV
 - **Last analyzed**: 2026-06-29
@@ -90,23 +93,23 @@
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183308.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: 10.2 kN peak force at 2.7 ms duration indicates material bottoming out; exceeds typical NFL concussive force (7.2 kN) but duration is very short.
-- **Metrics**: Peak Force: 10.2 kN | Duration: 2.7 ms | Impulse: 4.55 Ns
+- **Summary**: 10.21 kN peak force at 2.72 ms duration indicates material bottoming out; exceeds typical NFL concussive force (7.2 kN).
+- **Metrics**: Peak Force: 10.21 kN | Duration: 2.72 ms | Impulse: 4.55 Ns | Rise Rate: 3.04 MN/s
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183346.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High peak force (10.76 kN) with very short duration (4.2 ms) indicates a stiff impact; likely "bottoming out" of the 6mm EVA+2mm Kydex.
+- **Summary**: High peak force (10.76 kN) with very short duration (4.22 ms) indicates a stiff impact; likely "bottoming out" of the 6mm EVA+2mm Kydex.
 - **Metrics**: Peak Force: 10,756.8 N; Duration: 4.22 ms; Rise Rate: 2.14 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -118,27 +121,27 @@
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183434.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-force, short-duration impact (11.05 kN, 5.6ms peak) exceeds NFL concussive benchmarks (~7.2 kN), indicating potential material bottoming out.
+- **Summary**: High-force (11.05 kN), short-duration (5.6 ms) impact indicates material bottoming out; exceeds NFL concussive benchmarks (~7.2 kN) and industrial safety limits (10 kN).
 - **Metrics**: Peak Force: 11.05 kN; Impulse: 8.03 Ns; Rise Rate: 1.96 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
-- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `Sports Biomechanics` | 70–120g | General linear acceleration concussion threshold range.
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `EN 12492` | 10 kN | Common threshold for crown impact force transmission in safety helmets.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201230.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High peak force (7.9 kN) indicates material bottoming out; pulse duration is too short for optimal energy dissipation.
+- **Summary**: High peak force (7.9 kN) and short duration (3.54 ms) indicate material bottoming out; current configuration provides insufficient energy dissipation.
 - **Metrics**: Peak: 7900.1 N | Duration: 3.54 ms | Rise Rate: 3.26 MN/s
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
-- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `Sports Biomechanics` | 70–120g / 4.5k–6k rad/s² | General concussion threshold range for linear/rotational acceleration.
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201301.CSV
 - **Last analyzed**: 2026-06-29
@@ -154,7 +157,7 @@
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201327.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-force, short-duration impact (7.02 kN, 3.44 ms) indicates material bottoming out; peak force approaches NFL concussive mean (7.2 kN), but short duration likely limits HIC-15 severity.
+- **Summary**: High-force (7.02 kN), short-duration (3.44 ms) impact indicates material bottoming out; peak force nears NFL concussive mean (7.2 kN).
 - **Metrics**: Peak Force: 7016 N | Duration: 3.44 ms | Rise Rate: 3.02 MN/s
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -162,35 +165,35 @@
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201358.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Peak force of 5.25 kN approaches concussive thresholds (NFL mean ~5.6-7.6 kN). Material appears to be bottoming out; short duration (<4ms) increases risk of focal injury over diffuse.
+- **Summary**: Peak force of 5.25 kN approaches concussive thresholds (NFL mean ~5.6-7.6 kN). Material appears to be bottoming out; short duration (<4ms) increases risk of focal injury.
 - **Metrics**: Peak Force: 5245.7 N; Duration: 3.32 ms; Rise Rate: 2.98 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
-- `NFL/Lab Studies` | ~5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force/rise rate suggests bottoming out.
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201430.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Impact analysis of 6mm-ensilite-foam+2mmkydex shows high peak force (5.69 kN) and short duration (3.2 ms), indicating potential bottoming out.
-- **Metrics**: Peak Force: 5685.7 N; Rise Rate: 3.55 MN/s; Impulse: 6.28 Ns.
+- **Summary**: Impact analysis of 6mm-ensilite-foam+2mmkydex shows high peak force (5.69 kN) and short duration (3.24 ms), indicating potential bottoming out.
+- **Metrics**: Peak Force: 5685.7 N; Rise Rate: 3.55 MN/s; Impulse: 6.28 Ns; Duration: 3.24 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
-- `NFL/Lab Studies` | ~5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201508.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Impact analysis of 6mm Ensilite + 2mm Kydex shows a 5.13 kN peak force and 3.5 ms duration, indicating potential material bottoming out.
+- **Summary**: Impact analysis of 6mm Ensilite + 2mm Kydex shows a 5.13 kN peak force and 3.5 ms duration, indicating potential material bottoming out and insufficient energy dissipation.
 - **Metrics**: Peak Force: 5.13 kN; Duration: 3.5 ms; Rise Rate: 2.5 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -198,18 +201,19 @@
 - `NFL/Lab Studies` | ~5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force/rise rate suggests bottoming out.
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201811.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Peak force of 8.8 kN exceeds typical NFL concussive mean (5.6-7.6 kN); suggests potential bottoming out of 6mm ensilite foam.
+- **Summary**: Peak force of 8.8 kN exceeds typical NFL concussive mean (5.6-7.6 kN); suggests potential bottoming out of 6mm ensilite foam + 2mm kydex.
 - **Metrics**: Peak Force: 8.8 kN; Duration: 3.2 ms; Rise Rate: 4.1 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
-- `NFL/Lab Studies` | ~5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201908.CSV
 - **Last analyzed**: 2026-06-29
@@ -221,19 +225,19 @@
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201953.CSV
 - **Last analyzed**: 2026-06-29
 - **Summary**: High-severity impact (8.36 kN) exceeding typical NFL concussive force means (5.6-7.6 kN); suggests potential bottoming out of the 6mm Ensilite/2mm Kydex stack.
-- **Metrics**: Peak Force: 8359.5 N; Peak Time: 1.8 ms; Impulse: 5.85 Ns.
+- **Metrics**: Peak Force: 8359.5 N; Peak Time: 1.8 ms; Impulse: 5.85 Ns; Rise Rate: 4.64 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
-- `NFL/Lab Studies` | ~5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501202019.CSV
 - **Last analyzed**: 2026-06-29
@@ -242,14 +246,14 @@
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
-- `NFL/Lab Studies` | ~5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195242.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-energy impact (8.33 kN) exceeding NFL concussive means; indicates potential material bottoming out.
+- **Summary**: High-energy impact (8.33 kN) exceeding NFL concussive means; indicates material bottoming out.
 - **Metrics**: Peak Force: 8328.6 N; Duration: 5.1 ms; Rise Rate: 2.85 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -257,7 +261,7 @@
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195318.CSV
 - **Last analyzed**: 2026-06-29
@@ -269,7 +273,7 @@
 - `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195400.CSV
 - **Last analyzed**: 2026-06-29
@@ -278,22 +282,22 @@
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
-- `NFL/Lab Studies` | ~5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force/rise rate suggests bottoming out.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195434.CSV
 - **Last analyzed**: 2026-06-29
 - **Summary**: 6mm Shoktec/2mm Kydex stack shows high peak force (6.1 kN) and short duration (1.7ms peak), indicating material bottoming out.
-- **Metrics**: Peak Force: 6086.2 N; Peak Time: 1.7ms; Duration: 3.28ms.
+- **Metrics**: Peak Force: 6086.2 N; Peak Time: 1.7ms; Duration: 3.28ms; Rise Rate: 3.58 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
 - `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195501.CSV
 - **Last analyzed**: 2026-06-29
@@ -309,7 +313,7 @@
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195537.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-force (8.4 kN), short-duration (4.7 ms) impact on 6mm Shoktec/2mm Kydex; suggests material bottoming out.
+- **Summary**: High-force (8.4 kN), short-duration (4.7 ms) impact on 6mm Shoktec/2mm Kydex; indicates material bottoming out.
 - **Metrics**: Peak 8.4 kN, Duration 4.7 ms, Rise Rate 2.7 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -317,7 +321,7 @@
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195616.CSV
 - **Last analyzed**: 2026-06-29
@@ -329,7 +333,7 @@
 - `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195740.CSV
 - **Last analyzed**: 2026-06-29
@@ -345,15 +349,15 @@
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195818.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Impact analysis of 6mm Shoktec + 2mm Kydex shows 8.5 kN peak force with 4.4 ms duration; high peak suggests potential bottoming out despite protective layers.
+- **Summary**: Impact analysis of 6mm Shoktec + 2mm Kydex shows 8.5 kN peak force with 4.4 ms duration; high peak/rise rate suggests bottoming out.
 - **Metrics**: Peak: 8510.9 N; Duration: 4.4 ms; Rise Rate: 2.6 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
-- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `Sports Biomechanics` | 70–120g | General linear acceleration concussion threshold range.
 - `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195857.CSV
 - **Last analyzed**: 2026-06-29
@@ -362,10 +366,10 @@
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
-- `NFL/Lab Studies` | ~5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force suggests bottoming out.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-abs-20240501192349.CSV
 - **Last analyzed**: 2026-06-29
@@ -381,15 +385,15 @@
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192552.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-stiffness impact (5.73 kN, 4.6 ms duration) with rapid rise rate (1.76 MN/s); suggests material bottoming out.
+- **Summary**: High-stiffness impact (5.73 kN, 4.6 ms) with rapid rise rate (1.76 MN/s); suggests material bottoming out.
 - **Metrics**: Peak Force: 5729.1 N; Rise Rate: 1.76 MN/s; Duration: 4.6 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
-- `Material Science` | Foam/Kydex | Foam extends impact duration; high peak force/rise rate suggests bottoming out.
+- `EN 12492` | 10 kN | Threshold for crown impact force transmission in safety helmets.
+- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192642.CSV
 - **Last analyzed**: 2026-06-29
@@ -405,11 +409,11 @@
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192846.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-intensity, short-duration impact (4.8 kN, 2.9 ms peak). Material (6mm Shoktec/2mm Kydex) shows signs of bottoming out; rapid rise rate indicates stiff response.
+- **Summary**: High-intensity, short-duration impact (4.83 kN, 2.9 ms peak). Material (6mm Shoktec/2mm Kydex) shows signs of bottoming out; rapid rise rate indicates stiff response.
 - **Metrics**: Peak Force: 4830.5 N; Peak Time: 2.9 ms; Impulse: 7.29 Ns; Rise Rate: ~1.67 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
-- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `Sports Biomechanics` | 70–120g / 4.5k–6k rad/s² | General concussion threshold range for linear/rotational acceleration.
 - `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
@@ -447,9 +451,8 @@
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
-- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193202.CSV
 - **Last analyzed**: 2026-06-29
@@ -465,7 +468,7 @@
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193252.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-impact event (5.3 kN) with rapid rise rate (1.65 MN/s) indicating material bottoming out.
+- **Summary**: High-impact event (5.35 kN) with rapid rise rate (1.65 MN/s) indicating material bottoming out.
 - **Metrics**: Peak 5346 N, Peak Time 3.24 ms, Impulse 6.92 Ns.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -477,7 +480,7 @@
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193323.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Impact analysis of 6mm Shoktec + 2mm Kydex shows 5.34 kN peak force with high rise rate, indicating material bottoming out.
+- **Summary**: 6mm Shoktec + 2mm Kydex exhibits 5.34 kN peak force and 1.83 MN/s rise rate, indicating material bottoming out.
 - **Metrics**: Peak Force: 5.34 kN; Rise Rate: 1.83 MN/s; Impulse: 6.66 Ns.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -489,7 +492,7 @@
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193356.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Impact data (5.26 kN peak) indicates material bottoming out; current foam/Kydex configuration is insufficient for high-energy mitigation.
+- **Summary**: Impact (5.26 kN) shows material bottoming out; high rise rate (1.89 MN/s) indicates insufficient energy dissipation.
 - **Metrics**: Peak Force: 5263.4 N | Impulse: 6.48 Ns | Rise Rate: 1.89 MN/s
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -513,7 +516,7 @@
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193658.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-force (6.32 kN) short-duration impact; suggests material bottoming out.
+- **Summary**: High-force (6.32 kN) short-duration impact; indicates material bottoming out.
 - **Metrics**: Peak Force: 6319.6 N; Peak Time: 9.12 ms; Duration > threshold: 6.2 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -521,11 +524,11 @@
 - `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
-- `Material Science` | Foam/Kydex | High peak force/rise rate suggests bottoming out; material fails to extend impact duration sufficiently.
+- `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193736.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High peak force (6.46 kN) and rapid rise rate indicate material bottoming out; insufficient energy dissipation for effective impact attenuation.
+- **Summary**: High peak force (6.46 kN) and rapid rise rate (2.26 MN/s) indicate material bottoming out; insufficient energy dissipation for effective impact attenuation.
 - **Metrics**: Peak Force: 6.46 kN; Rise Rate: 2.26 MN/s; Impulse: 5.05 Ns.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -537,7 +540,7 @@
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193815.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High peak force (6.5 kN) with rapid rise rate (2.35 MN/s) indicates material bottoming out; impact duration (5.12 ms) is too short for optimal energy dissipation.
+- **Summary**: High peak force (6.54 kN) with rapid rise rate (2.35 MN/s) indicates material bottoming out; impact duration (5.12 ms) is too short for optimal energy dissipation.
 - **Metrics**: Peak 6538.7 N, Duration 5.12 ms, Rise Rate 2.35 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -608,7 +611,7 @@
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194148.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Impact profile (6.75 kN, 4.8 ms) aligns with concussive NFL event forces; high rise rate suggests material bottoming out.
+- **Summary**: Impact profile (6.75 kN, 4.8 ms) aligns with concussive NFL event forces; high rise rate (775.9 kN/s) suggests material bottoming out.
 - **Metrics**: Peak 6750.2 N, Duration 4.82 ms, Rise Rate 775.9 kN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -655,8 +658,8 @@
 
 ## steel-test-ball-drop/6mmEVA-20240501191408.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Impact analysis of 6mm EVA foam shows a 10.6 kN peak force, exceeding typical concussive thresholds (5.6–7.6 kN) and suggesting material bottoming out.
-- **Metrics**: Peak Force: 10.6 kN; Rise Rate: 5.15 MN/s; Duration: < 15 ms.
+- **Summary**: 10.62 kN peak force indicates material bottoming out; exceeds NFL concussive force range (5.6-7.6 kN).
+- **Metrics**: Peak Force: 10.62 kN; Rise Rate: 5.16 MN/s; Duration: < 15 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
@@ -679,8 +682,8 @@
 
 ## steel-test-ball-drop/6mmEVA-20240501191607.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High peak force (10.9 kN) indicates material bottoming out; exceeds NFL concussive mean (7.2 kN).
-- **Metrics**: Peak: 10.9 kN; Duration: 2.24 ms; Rise Rate: 7.01 MN/s.
+- **Summary**: High peak force (10.94 kN) and rapid rise rate (7.01 MN/s) indicate material bottoming out; exceeds NFL concussive mean (7.2 kN).
+- **Metrics**: Peak: 10.94 kN; Duration: 2.24 ms; Rise Rate: 7.01 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
@@ -691,8 +694,8 @@
 
 ## steel-test-ball-drop/6mmEVA-20240501191644.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High peak force (10.5 kN) and rapid rise rate indicate material bottoming out; exceeds typical concussive force thresholds (5.6-7.6 kN).
-- **Metrics**: Peak Force: 10.5 kN; Rise Rate: 3.89 MN/s; Duration: 4.14 ms.
+- **Summary**: High peak force (10.49 kN) and rapid rise rate (3.89 MN/s) indicate material bottoming out; exceeds typical concussive force thresholds (5.6-7.6 kN).
+- **Metrics**: Peak Force: 10.49 kN; Rise Rate: 3.89 MN/s; Duration: 4.14 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g / 4.5k–6k rad/s² | General concussion threshold range for linear/rotational acceleration.
@@ -703,19 +706,18 @@
 
 ## steel-test-ball-drop/6mmEVA-20240501191733.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: 10.7 kN peak force indicates severe bottoming out of 6mm EVA foam; significantly exceeds NFL concussive force means (5.6-7.6 kN).
+- **Summary**: 10.74 kN peak force indicates severe bottoming out of 6mm EVA foam; significantly exceeds NFL concussive force means (5.6-7.6 kN).
 - **Metrics**: Peak Force: 10.74 kN | Rise Rate: 4.07 MN/s | Duration: ~4 ms
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
 - `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
-- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
 ## steel-test-ball-drop/6mmEVA-20240501191823.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-intensity impact (9.8 kN) with rapid rise rate (4.24 MN/s) indicates material bottoming out; exceeds typical concussive force thresholds (5.6–7.6 kN).
+- **Summary**: High-intensity impact (9.84 kN) with rapid rise rate (4.24 MN/s) indicates material bottoming out; exceeds typical concussive force thresholds (5.6–7.6 kN).
 - **Metrics**: Peak: 9835.6 N; Rise Rate: 4.24 MN/s; Impulse: 4.8 Ns.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -727,7 +729,7 @@
 
 ## steel-test-ball-drop/6mmEVA-20240501191929.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: 11kN peak force with 2.6ms duration indicates severe bottoming out of 6mm EVA foam.
+- **Summary**: 10.9 kN peak force with 2.6 ms duration indicates severe bottoming out of 6mm EVA foam.
 - **Metrics**: Peak Force: 10.9 kN; Duration: 2.6 ms; Rise Rate: 5.4 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -740,7 +742,7 @@
 ## steel-test-ball-drop/6mmEVA-20240501192008.CSV
 - **Last analyzed**: 2026-06-29
 - **Summary**: High-force (11.7 kN), short-duration (3 ms) impact indicates material bottoming out and high concussion risk.
-- **Metrics**: Peak: 11.7 kN; Rise Rate: 1.74 MN/s; Duration: 3.06 ms.
+- **Metrics**: Peak: 11.73 kN; Rise Rate: 1.74 MN/s; Duration: 3.06 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
@@ -763,8 +765,8 @@
 
 ## steel-test-ball-drop/6mmEVA-20240501192142.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: 10.9 kN peak force indicates severe impact; material bottoming out.
-- **Metrics**: Peak Force: 10.9 kN; Rise Rate: 5.02 MN/s; Duration: 3.48 ms.
+- **Summary**: 10.94 kN peak force indicates severe impact and material bottoming out; pulse duration (3.48 ms) is too short for effective energy dissipation.
+- **Metrics**: Peak Force: 10.94 kN; Rise Rate: 5.02 MN/s; Duration: 3.48 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
@@ -809,7 +811,7 @@
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200506.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: 7mm Poron XRD/Kydex stack shows signs of bottoming out (high peak force 4.15 kN, rapid rise rate 1.5 MN/s).
+- **Summary**: 7mm Poron XRD/Kydex stack shows signs of bottoming out (peak force 4.15 kN, rise rate 1.5 MN/s).
 - **Metrics**: Peak Force: 4146 N; Rise Rate: 1.5 MN/s; Duration: 4.14 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -832,7 +834,7 @@
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200622.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: 7mm Poron XRD + 2mm Kydex stack shows high peak force (4.19 kN) and rapid rise rate (1.4 MN/s), indicating bottoming out under test conditions.
+- **Summary**: 7mm Poron XRD + 2mm Kydex stack shows high peak force (4.19 kN) and rapid rise rate (1.4 MN/s), indicating bottoming out.
 - **Metrics**: Peak Force: 4186.1 N; Rise Rate: 1.4 MN/s; Impulse: 7.25 Ns.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -856,7 +858,7 @@
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200736.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: 4.14 kN peak force, 4ms duration; high rise rate suggests material bottoming out.
+- **Summary**: 4.14 kN peak force, 4.08 ms duration; high rise rate (1.3 MN/s) indicates material bottoming out.
 - **Metrics**: Peak Force: 4141.9 N; Impulse: 5.5 Ns; Duration: 4.08 ms; Rise Rate: 1.3 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -867,19 +869,19 @@
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200824.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: 7mm Poron XRD + 2mm Kydex stack exhibits high peak force (3.95 kN) and rapid rise rate, indicating potential bottoming out under test conditions.
+- **Summary**: 7mm Poron XRD + 2mm Kydex stack exhibits high peak force (3.95 kN) and rapid rise rate (1.69 MN/s), indicating potential bottoming out.
 - **Metrics**: Peak Force: 3948.8 N; Peak Time: 0.00234 s; Rise Rate: 1.69 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
-- `NFL/Lab Studies` | ~5.6–7.6 kN | Mean impact force in concussive NFL events.
+- `NFL/Lab Studies` | 5.6–7.6 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Material Science` | Poron XRD | Non-Newtonian; dissipates energy but requires sufficient thickness to prevent bottoming out.
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200915.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: 4.28 kN peak force, 4ms duration; high rise rate suggests bottoming out of 7mm Poron XRD/Kydex stack.
+- **Summary**: 4.28 kN peak force, 4ms duration; high rise rate (1.42 MN/s) confirms bottoming out of 7mm Poron XRD/Kydex stack.
 - **Metrics**: Peak Force: 4280.3 N; Rise Rate: 1.42 MN/s; Duration: ~4 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -915,7 +917,7 @@
 
 ## steel-test-ball-drop/control-bare-plate-20240501185351.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Control-plate impact (8.87 kN) shows high injury potential due to lack of mitigation; exceeds mean NFL concussive force (7.2 kN).
+- **Summary**: Control-plate impact (8.87 kN) shows high injury potential; exceeds mean NFL concussive force (7.2 kN) and lacks sufficient energy dissipation.
 - **Metrics**: Peak 8.87 kN; Rise Rate ~3.06 MN/s; Duration 4.02 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -923,6 +925,7 @@
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `EN 12492` | 10 kN | Common threshold for crown impact force transmission in safety helmets.
 - `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
 ## steel-test-ball-drop/control-bare-plate-20240501185448.CSV
@@ -933,7 +936,7 @@
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
-- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `EN 12492` | 10 kN | Threshold for crown impact force transmission in safety helmets.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
@@ -951,7 +954,7 @@
 
 ## steel-test-ball-drop/control-bare-plate-20240501185702.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-intensity impact (9.4 kN) exceeding typical NFL concussive means; indicates potential for "bottoming out" in HEMA gear.
+- **Summary**: High-intensity impact (9.4 kN) exceeds NFL concussive means; indicates "bottoming out" in HEMA gear.
 - **Metrics**: Peak Force: 9423.5 N; Rise Rate: 3.06 MN/s; Duration: ~5.2 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -962,7 +965,7 @@
 - `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
 ## steel-test-ball-drop/control-bare-plate-20240501185804.CSV
-- **Last analyzed**: 2026-06-29 07:33:00
+- **Last analyzed**: 2026-06-29 07:49:00
 - **Summary**: High-intensity, short-duration impact (9.4 kN, 4.4 ms) exceeding typical concussive force ranges; indicates rigid impact with no energy dissipation.
 - **Metrics**: Peak Force: 9421.8 N; Rise Rate: 3.08 MN/s; Duration: 4.42 ms.
 ### Research findings
@@ -982,6 +985,7 @@
 - `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
+- `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
 ## steel-test-ball-drop/control-bare-plate-20240501185925.CSV
@@ -1006,22 +1010,23 @@
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
+- `EN 12492` | 10 kN | Threshold for crown impact force transmission in safety helmets.
 - `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
 ## steel-test-ball-drop/control-bare-plate-20240501190115.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-force (8.8 kN) short-duration impact indicates material bottoming out.
+- **Summary**: High-force (8.8 kN) short-duration impact indicates material bottoming out; exceeds mean concussive force (7.2 kN).
 - **Metrics**: Peak 8815 N, Duration 3.56 ms, Rise Rate 3.36 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
-- `Sports Biomechanics` | 70–120g | Linear acceleration concussion threshold range.
+- `Sports Biomechanics` | 70–120g / 4.5k–6k rad/s² | General concussion threshold range for linear/rotational acceleration.
 - `NFL/Lab Studies` | ~7.2 kN | Mean impact force in concussive NFL events.
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
 ## steel-test-ball-drop/control-bare-plate-20240501190144.CSV
-- **Last analyzed**: 2026-06-29 07:33:00
-- **Summary**: Control bare plate impact shows high-severity, short-duration pulse (~7.6 kN, 3.3 ms) indicating lack of energy dissipation and potential for high injury risk.
+- **Last analyzed**: 2026-06-29 07:49:00
+- **Summary**: Control bare plate impact shows high-severity, short-duration pulse (~7.6 kN, 3.3 ms) indicating lack of energy dissipation and high injury risk.
 - **Metrics**: Peak Force: 7599.6 N; Duration: 3.3 ms; Rise Rate: 2.9 MN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -1033,7 +1038,7 @@
 
 ## steel-test-ball-drop/control-bare-plate-20240501190219.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: High-force, short-duration impact (9.25 kN, 2.64 ms peak) indicates a rigid, non-attenuating surface with high concussion risk potential.
+- **Summary**: High-force (9.25 kN), short-duration (< 4 ms) impact indicates rigid surface/bottoming out.
 - **Metrics**: Peak Force: 9245.6 N; Rise Rate: 3.5 MN/s; Duration: < 4 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -1044,8 +1049,8 @@
 - `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
 ## steel-test-ball-drop/control-bare-plate-20240501190353.CSV
-- **Last analyzed**: 2026-06-29T07:33:00Z
-- **Summary**: High-force (9.1 kN), short-duration (4.3 ms) impact on a rigid surface; exceeds NFL concussive force benchmarks.
+- **Last analyzed**: 2026-06-29T07:49:00Z
+- **Summary**: High-force (9.1 kN), short-duration (4.3 ms) impact on a rigid surface; exceeds NFL concussive force benchmarks and indicates material bottoming out.
 - **Metrics**: Peak: 9132.9 N; Rise Rate: 4.39 MN/s; Duration: 4.34 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -1054,10 +1059,11 @@
 - `Biomechanics` | < 15 ms | Typical sports head impact duration; shorter pulses require higher force for injury.
 - `Injury Tolerance` | 165g | Proposed 10% MTBI risk threshold for collegiate athletes.
 - `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
+- `EN 12492` | 10 kN | Common threshold for crown impact force transmission in safety helmets.
 
 ## steel-test-ball-drop/control-bare-plate-20240501190425.CSV
 - **Last analyzed**: 2026-06-29
-- **Summary**: Peak force of 9.4 kN exceeds typical concussive thresholds (5.6-7.6 kN); high rise rate indicates material bottoming out.
+- **Summary**: Peak force of 9.43 kN significantly exceeds concussive thresholds (5.6-7.6 kN); high rise rate (3.63 MN/s) and short duration (4.54 ms) indicate material bottoming out.
 - **Metrics**: Peak Force: 9430.9 N; Rise Rate: 3.63 MN/s; Duration: 4.54 ms.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
@@ -1080,8 +1086,8 @@
 - `Material Science` | High Rise Rate | Indicates insufficient energy dissipation/potential bottoming out.
 
 ## steel-test-ball-drop/sample_impact_001.csv
-- **Last analyzed**: 2026-06-29T07:33:00Z
-- **Summary**: Analyzed a 9ms, 312.6 N impact event; characterized by high rise rate (78.15 kN/s) suggesting potential material bottoming out if energy were increased.
+- **Last analyzed**: 2026-06-29T07:49:00Z
+- **Summary**: Analyzed 9ms, 312.6 N impact; high rise rate (78.15 kN/s) indicates stiff response/potential bottoming out.
 - **Metrics**: Peak Force: 312.6 N; Duration: 9 ms; Rise Rate: 78.15 kN/s.
 ### Research findings
 - `NHTSA/IIHS` | HIC-15 < 700 | Automotive threshold for acceptable head injury risk.
