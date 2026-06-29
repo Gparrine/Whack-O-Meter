@@ -1,4 +1,4 @@
-import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
 const root = join(import.meta.dirname, '..')
@@ -19,9 +19,9 @@ function parseManagerMemory(markdown) {
   for (const part of parts) {
     const newline = part.indexOf('\n')
     if (newline === -1) continue
-    const filename = part.slice(0, newline).trim()
+    const key = part.slice(0, newline).trim()
     const body = part.slice(newline + 1)
-    sections.set(filename, body)
+    sections.set(key, body)
   }
   return sections
 }
@@ -55,6 +55,7 @@ function buildCatalog(body) {
 
   return {
     nickname: readField(body, 'Nickname'),
+    category: readField(body, 'Category'),
     metrics: peakMatch
       ? {
           peakForceN: Number(peakMatch[1]),
@@ -62,7 +63,7 @@ function buildCatalog(body) {
           timeToPeakMs: readNumber(body, 'Time to peak') ?? 0,
           forceDecayMs: readNumber(body, 'Force decay') ?? 0,
           impulseNs: readNumber(body, 'Impulse') ?? 0,
-          weaponType: 'Steel Test Ball Drop',
+          weaponType: readField(body, 'Weapon type') ?? 'Steel Test Ball Drop',
         }
       : undefined,
     trimMeta: {
@@ -78,6 +79,27 @@ function buildCatalog(body) {
   }
 }
 
+function discoverCsvFiles(dir, prefix = '') {
+  const results = []
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name.startsWith('.')) continue
+    const relativePath = prefix ? `${prefix}/${entry.name}` : entry.name
+    const absolutePath = join(dir, entry.name)
+    if (entry.isDirectory()) {
+      results.push(...discoverCsvFiles(absolutePath, relativePath))
+      continue
+    }
+    if (!entry.name.toLowerCase().endsWith('.csv')) continue
+    if (entry.name === 'csv_manager_memory.md') continue
+    results.push(relativePath)
+  }
+  return results
+}
+
+function encodeRawUrl(relativePath) {
+  return `${rawBase}/${relativePath.split('/').map(encodeURIComponent).join('/')}`
+}
+
 mkdirSync(rawDir, { recursive: true })
 mkdirSync(publicDataDir, { recursive: true })
 mkdirSync(publicAnalysisDir, { recursive: true })
@@ -91,24 +113,27 @@ const managerSections = existsSync(managerMemorySource)
   ? parseManagerMemory(readFileSync(managerMemorySource, 'utf-8'))
   : new Map()
 
-const files = readdirSync(rawDir)
-  .filter((name) => name.toLowerCase().endsWith('.csv'))
-  .sort()
+const files = discoverCsvFiles(rawDir).sort()
 
 const manifest = {
   generatedAt: new Date().toISOString(),
   repo,
   branch,
-  files: files.map((filename) => {
-    const catalog = managerSections.has(filename)
-      ? buildCatalog(managerSections.get(filename))
-      : {}
+  files: files.map((relativePath) => {
+    const basename = relativePath.split('/').pop() ?? relativePath
+    const category = relativePath.includes('/') ? relativePath.split('/')[0] : undefined
+    const catalog = managerSections.has(relativePath)
+      ? buildCatalog(managerSections.get(relativePath))
+      : managerSections.has(basename)
+        ? buildCatalog(managerSections.get(basename))
+        : {}
     return {
-      filename,
-      title: filename.replace(/\.csv$/i, '').replace(/[_-]+/g, ' '),
+      filename: relativePath,
+      title: basename.replace(/\.csv$/i, '').replace(/[_-]+/g, ' '),
       nickname: catalog.nickname,
-      path: `raw_data/${filename}`,
-      rawUrl: `${rawBase}/${encodeURIComponent(filename).replace(/%2F/g, '/')}`,
+      category: catalog.category ?? category,
+      path: `raw_data/${relativePath}`,
+      rawUrl: encodeRawUrl(relativePath),
       metrics: catalog.metrics,
       trimMeta: catalog.trimMeta,
     }

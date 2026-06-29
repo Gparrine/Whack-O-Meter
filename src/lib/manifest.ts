@@ -23,6 +23,7 @@ export interface ManifestEntry {
   filename: string
   title: string
   nickname?: string
+  category?: string
   path: string
   rawUrl: string
   metrics?: FileMetrics

@@ -12,6 +12,14 @@ on:
         required: false
         type: boolean
         default: false
+      csv_weapon_type:
+        description: Optional weapon type for manual runs (e.g. Steel Test Ball Drop)
+        required: false
+        type: string
+      csv_category:
+        description: Optional category slug override (e.g. steel-test-ball-drop)
+        required: false
+        type: string
   push:
     paths:
       - 'raw_data/**'
@@ -34,6 +42,8 @@ jobs:
         env:
           CSV_FILENAME: ${{ github.event.inputs.csv_filename || '' }}
           REPROCESS_ALL: ${{ github.event.inputs.reprocess_all || 'false' }}
+          CSV_WEAPON_TYPE: ${{ github.event.inputs.csv_weapon_type || '' }}
+          CSV_CATEGORY: ${{ github.event.inputs.csv_category || '' }}
         run: python scripts/csv_manager.py
 
       - name: Commit optimized CSV files and manager memory

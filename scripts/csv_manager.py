@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import os
 import re
+import shutil
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -15,10 +16,13 @@ from statistics import median, pstdev
 ROOT = Path(__file__).resolve().parents[1]
 RAW_DIR = ROOT / "raw_data"
 MEMORY_PATH = RAW_DIR / "csv_manager_memory.md"
-WEAPON_TYPE = "Steel Test Ball Drop"
+DEFAULT_WEAPON_TYPE = "Steel Test Ball Drop"
+DEFAULT_CATEGORY_SLUG = "steel-test-ball-drop"
+UNSORTED_ROOT = "unsorted"
 LBF_PER_N = 1 / 4.44822
-MANAGER_VERSION = "Whack-O-Meter CSV Manager v1"
+MANAGER_VERSION = "Whack-O-Meter CSV Manager v2"
 TIMESTAMP_SUFFIX = re.compile(r"-20\d{12}$", re.I)
+SKIP_FILENAMES = {"csv_manager_memory.md"}
 
 
 @dataclass
@@ -56,13 +60,36 @@ class CatalogMetrics:
 
 @dataclass
 class ProcessResult:
-    filename: str
+    relative_path: str
     nickname: str
+    category: str
     metrics: CatalogMetrics
     window: ImpactWindow
     original_samples: int
     retained_samples: int
     content_hash: str
+
+
+def relative_path(path: Path) -> str:
+    return path.relative_to(RAW_DIR).as_posix()
+
+
+def slugify_category(name: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "-", name.strip().lower()).strip("-")
+    return slug or "uncategorized"
+
+
+def discover_csv_files() -> list[Path]:
+    files: list[Path] = []
+    for path in RAW_DIR.rglob("*"):
+        if not path.is_file():
+            continue
+        if path.suffix.lower() != ".csv":
+            continue
+        if path.name in SKIP_FILENAMES:
+            continue
+        files.append(path)
+    return sorted(files, key=lambda item: relative_path(item).lower())
 
 
 def parse_manager_metadata(lines: list[str]) -> dict[str, str]:
@@ -76,6 +103,124 @@ def parse_manager_metadata(lines: list[str]) -> dict[str, str]:
         key, value = text.split(":", 1)
         metadata[key.strip().lower()] = value.strip()
     return metadata
+
+
+def read_weapon_from_parsed(parsed: ParsedCsv | None) -> str | None:
+    if not parsed:
+        return None
+    metadata = parse_manager_metadata(parsed.manager_lines)
+    return metadata.get("weapon type") or None
+
+
+def read_category_from_parsed(parsed: ParsedCsv | None) -> str | None:
+    if not parsed:
+        return None
+    metadata = parse_manager_metadata(parsed.manager_lines)
+    return metadata.get("category") or None
+
+
+def read_weapon_from_memory(sections: dict[str, str], key: str) -> str | None:
+    section = sections.get(key)
+    if not section:
+        return None
+    match = re.search(r"\*\*Weapon type\*\*:\s*(.+)$", section, re.M)
+    return match.group(1).strip() if match else None
+
+
+def read_category_from_memory(sections: dict[str, str], key: str) -> str | None:
+    section = sections.get(key)
+    if not section:
+        return None
+    match = re.search(r"\*\*Category\*\*:\s*(.+)$", section, re.M)
+    return match.group(1).strip() if match else None
+
+
+def migrate_memory_key(sections: dict[str, str], old_key: str, new_key: str) -> None:
+    if old_key == new_key:
+        return
+    if old_key in sections and new_key not in sections:
+        sections[new_key] = sections.pop(old_key)
+    elif old_key in sections and new_key in sections:
+        sections.pop(old_key, None)
+
+
+def resolve_category(
+    path: Path,
+    parsed: ParsedCsv | None,
+    sections: dict[str, str],
+) -> tuple[str, str]:
+    rel = relative_path(path)
+    env_weapon = os.getenv("CSV_WEAPON_TYPE", "").strip()
+    env_category = os.getenv("CSV_CATEGORY", "").strip()
+    if env_weapon:
+        return env_weapon, env_category or slugify_category(env_weapon)
+
+    parsed_weapon = read_weapon_from_parsed(parsed)
+    parsed_category = read_category_from_parsed(parsed)
+    if parsed_weapon:
+        return parsed_weapon, parsed_category or slugify_category(parsed_weapon)
+
+    memory_weapon = read_weapon_from_memory(sections, rel) or read_weapon_from_memory(
+        sections, path.name
+    )
+    memory_category = read_category_from_memory(sections, rel) or read_category_from_memory(
+        sections, path.name
+    )
+    if memory_weapon:
+        return memory_weapon, memory_category or slugify_category(memory_weapon)
+
+    parts = rel.split("/")
+    if len(parts) > 1:
+        parent = parts[0]
+        if parent != UNSORTED_ROOT:
+            weapon = parsed_weapon or memory_weapon or DEFAULT_WEAPON_TYPE
+            return weapon, parent
+
+    if path.parent == RAW_DIR:
+        return DEFAULT_WEAPON_TYPE, DEFAULT_CATEGORY_SLUG
+
+    dated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    return "Uncategorized", f"{UNSORTED_ROOT}/{dated}"
+
+
+def category_directory(category: str) -> Path:
+    return RAW_DIR / category
+
+
+def ensure_categorized_path(
+    path: Path,
+    category: str,
+    sections: dict[str, str],
+) -> Path:
+    dest_dir = category_directory(category)
+    dest_dir.mkdir(parents=True, exist_ok=True)
+    dest = dest_dir / path.name
+    if path.resolve() == dest.resolve():
+        return dest
+
+    old_rel = relative_path(path)
+    new_rel = relative_path(dest)
+    if dest.exists() and dest.resolve() != path.resolve():
+        raise ValueError(f"Cannot move {old_rel} → {new_rel}: destination already exists")
+
+    shutil.move(str(path), str(dest))
+    migrate_memory_key(sections, old_rel, new_rel)
+    migrate_memory_key(sections, path.name, new_rel)
+    print(f"Sorted {path.name} → {new_rel}")
+    return dest
+
+
+def migrate_legacy_root_csvs(sections: dict[str, str]) -> bool:
+    changed = False
+    for path in list(RAW_DIR.iterdir()):
+        if not path.is_file() or path.suffix.lower() != ".csv":
+            continue
+        if path.name in SKIP_FILENAMES:
+            continue
+        dest = ensure_categorized_path(path, DEFAULT_CATEGORY_SLUG, sections)
+        migrate_memory_key(sections, path.name, relative_path(dest))
+        changed = True
+    return changed
 
 
 def read_csv(path: Path) -> ParsedCsv:
@@ -96,14 +241,18 @@ def read_csv(path: Path) -> ParsedCsv:
                 phase = "loadstar"
                 loadstar_lines.append(line)
                 continue
-            if re.search(r"time", line, re.I) and re.search(r"reading|force|\(n\)|impact|_g\b|\bg\b", line, re.I):
+            if re.search(r"time", line, re.I) and re.search(
+                r"reading|force|\(n\)|impact|_g\b|\bg\b", line, re.I
+            ):
                 phase = "data"
                 data_lines.append(line)
                 continue
             continue
 
         if phase == "loadstar":
-            if re.search(r"time", line, re.I) and re.search(r"reading|force|\(n\)|impact|_g\b|\bg\b", line, re.I):
+            if re.search(r"time", line, re.I) and re.search(
+                r"reading|force|\(n\)|impact|_g\b|\bg\b", line, re.I
+            ):
                 phase = "data"
                 data_lines.append(line)
             else:
@@ -188,7 +337,9 @@ def detect_impact_window(rows: list[tuple[float, float]], k: float = 3.0) -> Imp
     )
 
 
-def compute_metrics(rows: list[tuple[float, float]], window: ImpactWindow) -> CatalogMetrics:
+def compute_metrics(
+    rows: list[tuple[float, float]], window: ImpactWindow, weapon_type: str
+) -> CatalogMetrics:
     event_rows = rows[window.start_index : window.end_index + 1]
     peak_force_n = event_rows[window.peak_index - window.start_index][1]
 
@@ -204,7 +355,7 @@ def compute_metrics(rows: list[tuple[float, float]], window: ImpactWindow) -> Ca
         time_to_peak_ms=max(0.0, window.peak_time - window.start_time) * 1000,
         force_decay_ms=max(0.0, window.end_time - window.peak_time) * 1000,
         impulse_ns=impulse_ns,
-        weapon_type=WEAPON_TYPE,
+        weapon_type=weapon_type,
     )
 
 
@@ -241,7 +392,13 @@ def build_nickname(filename: str, metrics: CatalogMetrics, assigned: set[str]) -
         counter += 1
 
 
-def render_csv(parsed: ParsedCsv, window: ImpactWindow, metrics: CatalogMetrics, nickname: str) -> str:
+def render_csv(
+    parsed: ParsedCsv,
+    window: ImpactWindow,
+    metrics: CatalogMetrics,
+    nickname: str,
+    category: str,
+) -> str:
     trimmed_rows = parsed.rows[window.start_index : window.end_index + 1]
     samples_per_sec = parsed.samples_per_sec or 50000
     lines = [
@@ -253,6 +410,8 @@ def render_csv(parsed: ParsedCsv, window: ImpactWindow, metrics: CatalogMetrics,
         f"# Event start: {window.start_time:.5f} sec",
         f"# Event end: {window.end_time:.5f} sec",
         f"# Baseline (N): {window.baseline:.1f}",
+        f"# Weapon type: {metrics.weapon_type}",
+        f"# Category: {category}",
         f"# Nickname: {nickname}",
     ]
 
@@ -292,8 +451,9 @@ def parse_memory_sections(markdown: str) -> dict[str, str]:
 
 def render_memory_section(result: ProcessResult) -> str:
     return (
-        f"## {result.filename}\n"
+        f"## {result.relative_path}\n"
         f"- **Nickname**: {result.nickname}\n"
+        f"- **Category**: {result.category}\n"
         f"- **Processed**: {datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')}\n"
         f"- **Original samples**: {result.original_samples} → **Retained**: {result.retained_samples}\n"
         f"- **Event window**: {result.window.start_time:.5f} – {result.window.end_time:.5f} sec\n"
@@ -317,26 +477,38 @@ def render_memory(sections: dict[str, str]) -> str:
     return header + "\n".join(body)
 
 
-def process_file(path: Path, assigned_nicknames: set[str]) -> ProcessResult | None:
+def process_file(
+    path: Path,
+    assigned_nicknames: set[str],
+    sections: dict[str, str],
+) -> ProcessResult | None:
     parsed = read_csv(path)
+    weapon_type, category = resolve_category(path, parsed, sections)
+    path = ensure_categorized_path(path, category, sections)
+
+    parsed = read_csv(path)
+    weapon_type, category = resolve_category(path, parsed, sections)
     window = detect_impact_window(parsed.rows)
-    metrics = compute_metrics(parsed.rows, window)
+    metrics = compute_metrics(parsed.rows, window, weapon_type)
     nickname = build_nickname(path.name, metrics, assigned_nicknames)
-    rendered = render_csv(parsed, window, metrics, nickname)
+    rendered = render_csv(parsed, window, metrics, nickname, category)
+
     existing_hash = None
     if parsed.manager_lines:
         existing = parse_manager_metadata(parsed.manager_lines)
         existing_hash = existing.get("content hash")
 
     new_hash = content_hash(rendered)
-    if existing_hash == new_hash or path.read_text(encoding="utf-8") == rendered:
+    rel = relative_path(path)
+    if existing_hash == new_hash and path.read_text(encoding="utf-8") == rendered:
         return None
 
     path.write_text(rendered, encoding="utf-8")
     retained = window.end_index - window.start_index + 1
     return ProcessResult(
-        filename=path.name,
+        relative_path=rel,
         nickname=nickname,
+        category=category,
         metrics=metrics,
         window=window,
         original_samples=len(parsed.rows),
@@ -348,18 +520,6 @@ def process_file(path: Path, assigned_nicknames: set[str]) -> ProcessResult | No
 def main() -> int:
     reprocess_all = os.getenv("REPROCESS_ALL", "").lower() in {"1", "true", "yes"}
     target = os.getenv("CSV_FILENAME", "").strip()
-
-    csv_files = sorted(
-        path
-        for path in RAW_DIR.glob("*")
-        if path.suffix.lower() == ".csv" and path.name != "csv_manager_memory.md"
-    )
-    if target:
-        csv_files = [path for path in csv_files if path.name == target]
-
-    if not csv_files:
-        print("No CSV files found.")
-        return 0
 
     memory_text = (
         MEMORY_PATH.read_text(encoding="utf-8")
@@ -373,26 +533,54 @@ def main() -> int:
         if re.search(r"\*\*Nickname\*\*:\s*(.+)$", section, re.M)
     )
 
-    changed = False
+    migrated = migrate_legacy_root_csvs(sections)
+    if migrated:
+        print(f"Moved legacy root CSV files into {DEFAULT_CATEGORY_SLUG}/")
+
+    csv_files = discover_csv_files()
+    if target:
+        csv_files = [
+            path
+            for path in csv_files
+            if path.name == target or relative_path(path) == target or path.name.endswith(target)
+        ]
+
+    if not csv_files:
+        print("No CSV files found.")
+        if migrated:
+            MEMORY_PATH.write_text(render_memory(sections), encoding="utf-8")
+        return 0
+
+    changed = migrated
     for path in csv_files:
-        if not reprocess_all and path.name in sections and not target:
+        rel = relative_path(path)
+        if not reprocess_all and rel in sections and not target:
             current_hash = content_hash(path.read_text(encoding="utf-8"))
-            stored_hash_match = re.search(r"\*\*Content hash\*\*:\s*([a-f0-9]+)", sections[path.name], re.I)
+            stored_hash_match = re.search(r"\*\*Content hash\*\*:\s*([a-f0-9]+)", sections[rel], re.I)
+            if not stored_hash_match:
+                stored_hash_match = re.search(
+                    r"\*\*Content hash\*\*:\s*([a-f0-9]+)", sections.get(path.name, ""), re.I
+                )
             if stored_hash_match and stored_hash_match.group(1) == current_hash:
-                print(f"Skipping unchanged {path.name}")
+                print(f"Skipping unchanged {rel}")
                 continue
 
-        print(f"Processing {path.name}...")
+        print(f"Processing {rel}...")
         try:
-            result = process_file(path, assigned_nicknames)
+            result = process_file(path, assigned_nicknames, sections)
             if result is None:
-                print(f"No changes needed for {path.name}")
+                print(f"No changes needed for {rel}")
                 continue
-            sections[result.filename] = render_memory_section(result).split("\n", 1)[1]
+            sections[result.relative_path] = render_memory_section(result).split("\n", 1)[1]
+            if path.name in sections and path.name != result.relative_path:
+                sections.pop(path.name, None)
             changed = True
-            print(f"Optimized {path.name} ({result.original_samples} → {result.retained_samples} samples)")
+            print(
+                f"Optimized {result.relative_path} "
+                f"({result.original_samples} → {result.retained_samples} samples)"
+            )
         except Exception as exc:  # noqa: BLE001
-            print(f"Failed to process {path.name}: {exc}", file=sys.stderr)
+            print(f"Failed to process {rel}: {exc}", file=sys.stderr)
 
     if changed:
         MEMORY_PATH.write_text(render_memory(sections), encoding="utf-8")

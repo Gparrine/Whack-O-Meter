@@ -327,6 +327,7 @@ def analyze_file(path: Path, sections: dict[str, str]) -> tuple[str, bool]:
     series = read_csv(path)
     metrics = compute_metrics(series)
     research_findings = collect_research_findings(sections)
+    key = relative_key(path)
 
     sample_points = [
         {"t": series.time[i], "f": series.force[i]}
@@ -353,7 +354,7 @@ Stored research findings from analysis/memory.md (reuse and extend; do not dupli
 {research_findings}
 
 Existing memory section for this file (may be empty):
-{sections.get(series.filename, "")}
+{sections.get(key, "")}
 
 Return RESULTS markdown bullets covering:
 - **Last analyzed**: ISO timestamp
@@ -370,8 +371,8 @@ If existing content is substantially the same, reply with EXACTLY: NO_SIGNIFICAN
 """
 
     llm_output = call_llm(prompt)
-    if llm_output.strip() == "NO_SIGNIFICANT_CHANGE" and series.filename in sections:
-        return sections[series.filename], False
+    if llm_output.strip() == "NO_SIGNIFICANT_CHANGE" and key in sections:
+        return sections[key], False
 
     _, memory_output = parse_analysis_response(llm_output)
     timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -381,11 +382,32 @@ If existing content is substantially the same, reply with EXACTLY: NO_SIGNIFICAN
     return memory_output.strip(), True
 
 
+def discover_csv_files() -> list[Path]:
+    files: list[Path] = []
+    for path in RAW_DIR.rglob("*"):
+        if not path.is_file():
+            continue
+        if path.suffix.lower() != ".csv":
+            continue
+        if path.name == "csv_manager_memory.md":
+            continue
+        files.append(path)
+    return sorted(files, key=lambda item: item.relative_to(RAW_DIR).as_posix().lower())
+
+
+def relative_key(path: Path) -> str:
+    return path.relative_to(RAW_DIR).as_posix()
+
+
 def main() -> int:
     target = os.getenv("CSV_FILENAME", "").strip()
-    csv_files = sorted(RAW_DIR.glob("*.csv"))
+    csv_files = discover_csv_files()
     if target:
-        csv_files = [p for p in csv_files if p.name == target]
+        csv_files = [
+            path
+            for path in csv_files
+            if path.name == target or relative_key(path) == target or path.name.endswith(target)
+        ]
 
     if not csv_files:
         print("No CSV files found to analyze.")
@@ -397,17 +419,18 @@ def main() -> int:
 
     changed = False
     for path in csv_files:
-        print(f"Analyzing {path.name}...")
+        key = relative_key(path)
+        print(f"Analyzing {key}...")
         try:
             content, updated = analyze_file(path, sections)
-            if updated or path.name not in sections:
-                sections[path.name] = content
+            if updated or key not in sections:
+                sections[key] = content
                 changed = True
-                print(f"Updated section for {path.name}")
+                print(f"Updated section for {key}")
             else:
-                print(f"No significant change for {path.name}")
+                print(f"No significant change for {key}")
         except Exception as exc:  # noqa: BLE001
-            print(f"Failed to analyze {path.name}: {exc}", file=sys.stderr)
+            print(f"Failed to analyze {key}: {exc}", file=sys.stderr)
 
     if changed:
         MEMORY_PATH.write_text(render_memory(sections), encoding="utf-8")

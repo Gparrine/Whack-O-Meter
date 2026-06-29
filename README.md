@@ -41,6 +41,7 @@ On push to `raw_data/`, `.github/workflows/csv_manager.yml` runs `scripts/csv_ma
 
 - Trims baseline noise from each CSV
 - Assigns a short nickname from the filename
+- Sorts files into category subfolders by weapon/striking object type
 - Writes metrics and trim metadata into `raw_data/csv_manager_memory.md`
 - Rewrites trimmed CSVs in place
 

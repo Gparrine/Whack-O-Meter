@@ -2,7 +2,8 @@
 
 > Auto-updated by the CSV manager bot. Do not edit structure headers.
 
-## 6mm eva+2mm kydex-20240501182849.CSV
+## steel-test-ball-drop/6mm eva+2mm kydex-20240501182849.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm eva 2mm kydex · 11.7kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:35Z
 - **Original samples**: 50000 → **Retained**: 15774
@@ -16,7 +17,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 98fe190ff285d256bd99229a5ec9facc63326b9a3c6bfd12f8e591209ced5009
 
-## 6mm eva+2mm kydex-20240501182938.CSV
+## steel-test-ball-drop/6mm eva+2mm kydex-20240501182938.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm eva 2mm kydex · 12.0kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:35Z
 - **Original samples**: 50000 → **Retained**: 16169
@@ -30,7 +32,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: a3c8e2663c77291b67e22e4559a1e7d5dfa58d01077bc53959589ce4855c9a81
 
-## 6mm eva+2mm kydex-20240501183030.CSV
+## steel-test-ball-drop/6mm eva+2mm kydex-20240501183030.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm eva 2mm kydex · 9.5kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:35Z
 - **Original samples**: 50000 → **Retained**: 10020
@@ -44,7 +47,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: eb2dbfa7eb36b5e2d8d745c683497f36d6d1bef68f559f9ddea75b49f56dacf0
 
-## 6mm eva+2mm kydex-20240501183109.CSV
+## steel-test-ball-drop/6mm eva+2mm kydex-20240501183109.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm eva 2mm kydex · 11.1kN peak · slow decay · run 3
 - **Processed**: 2026-06-26T18:16:50Z
 - **Original samples**: 50000 → **Retained**: 13852
@@ -58,7 +62,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: da939ea4456db746e97245ee8819f64d9f6b6df80447e2bb996c4517d2dfbfd1
 
-## 6mm eva+2mm kydex-20240501183145.CSV
+## steel-test-ball-drop/6mm eva+2mm kydex-20240501183145.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm eva 2mm kydex · 11.4kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:35Z
 - **Original samples**: 50000 → **Retained**: 14780
@@ -72,7 +77,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: a65b0cc8d3fb5b0fa0da150d5fafaa43982a8dd54d47f4f5b062053b3286d288
 
-## 6mm eva+2mm kydex-20240501183225.CSV
+## steel-test-ball-drop/6mm eva+2mm kydex-20240501183225.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm eva 2mm kydex · 9.9kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:35Z
 - **Original samples**: 50000 → **Retained**: 6875
@@ -86,7 +92,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 16ca62bd754063df651ec43c19337c71edc1e4b863030af3935bd24d61324fd2
 
-## 6mm eva+2mm kydex-20240501183308.CSV
+## steel-test-ball-drop/6mm eva+2mm kydex-20240501183308.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm eva 2mm kydex · 10.2kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:35Z
 - **Original samples**: 50000 → **Retained**: 7733
@@ -100,7 +107,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: e804d7b1bc1910a5f9713ae08cc262cd90a3c3bf5bbcf9685b407f547a400347
 
-## 6mm eva+2mm kydex-20240501183346.CSV
+## steel-test-ball-drop/6mm eva+2mm kydex-20240501183346.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm eva 2mm kydex · 10.8kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T18:16:50Z
 - **Original samples**: 50000 → **Retained**: 11905
@@ -114,7 +122,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 6a5e7088ccf4e183efe2966de70b1586199c95ed84f7c19ddd3699cf7c3133c2
 
-## 6mm eva+2mm kydex-20240501183434.CSV
+## steel-test-ball-drop/6mm eva+2mm kydex-20240501183434.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm eva 2mm kydex · 11.1kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:35Z
 - **Original samples**: 50000 → **Retained**: 13511
@@ -128,7 +137,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: b87745fcb2132af28c37dd8d431f5709a8fe9fad6b1f372ab73c37bca16acdc5
 
-## 6mm-ensilite-foam+2mmkydex-20240501201230.CSV
+## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201230.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm ensilite foam 2mmkydex · 7.9kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:35Z
 - **Original samples**: 50000 → **Retained**: 4122
@@ -142,7 +152,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: d17c1ab5ae212753fa2c3399d1d04da7f182abfc52e72de5a74a3c3b2c92fcd6
 
-## 6mm-ensilite-foam+2mmkydex-20240501201301.CSV
+## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201301.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm ensilite foam 2mmkydex · 7.1kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:35Z
 - **Original samples**: 50000 → **Retained**: 3304
@@ -156,7 +167,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 3ba2b9a96dfb186d5a385bb8ec8757814df3be26237fd8427085a8cd092be351
 
-## 6mm-ensilite-foam+2mmkydex-20240501201327.CSV
+## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201327.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm ensilite foam 2mmkydex · 7.0kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:35Z
 - **Original samples**: 50000 → **Retained**: 3583
@@ -170,7 +182,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 11e54714c48501b5490be0c7da1eb10775f195f746903277c9af90d7a46c4b84
 
-## 6mm-ensilite-foam+2mmkydex-20240501201358.CSV
+## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201358.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm ensilite foam 2mmkydex · 5.2kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 1896
@@ -184,7 +197,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: eea851406316f536280995e1f9fb6eab5c7a8078111a993cd0375eac5c6d2e37
 
-## 6mm-ensilite-foam+2mmkydex-20240501201430.CSV
+## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201430.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm ensilite foam 2mmkydex · 5.7kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 2165
@@ -198,7 +212,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: e5a64de29dd71a9f38647baff374aa93aef92dc237fa1d939f35fc54ed2101f0
 
-## 6mm-ensilite-foam+2mmkydex-20240501201508.CSV
+## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201508.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm ensilite foam 2mmkydex · 5.1kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 3017
@@ -212,7 +227,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 44a484d0a6c68474a19fae83263110b953960a0267161a9d51c8e5231d5fa020
 
-## 6mm-ensilite-foam+2mmkydex-20240501201811.CSV
+## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201811.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm ensilite foam 2mmkydex · 8.8kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 3868
@@ -226,7 +242,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: ef69c0f7392c14d92630cb9742b5125c5319f39130b622f5f7952d2e4e334cdb
 
-## 6mm-ensilite-foam+2mmkydex-20240501201908.CSV
+## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201908.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm ensilite foam 2mmkydex · 8.9kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 4398
@@ -240,7 +257,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 3e1bbc037f60e6685d11050db390981c2131ae60a4c9e1883caeb2abbc078311
 
-## 6mm-ensilite-foam+2mmkydex-20240501201953.CSV
+## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201953.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm ensilite foam 2mmkydex · 8.4kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 2789
@@ -254,7 +272,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: b85e6d0ec3206898096ab826c6b64b74f40d0a35e9f7b1fd64f67abfba481f8a
 
-## 6mm-ensilite-foam+2mmkydex-20240501202019.CSV
+## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501202019.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm ensilite foam 2mmkydex · 6.3kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 3485
@@ -268,7 +287,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 2a07e1c710b7f59bd052182f3ecd7169e051f5faf4654ffe67f57a9d02bd6467
 
-## 6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195242.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195242.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.3kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 5986
@@ -282,7 +302,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 6c6d93916e0037a3905c20d18d3800a980109df2cdaf5cf7a8bcdd6a8f685004
 
-## 6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195318.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195318.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.4kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 5993
@@ -296,7 +317,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: af2cd418d7d3cb361682f66d6bd60d87ab1050a15671256efe0ac097a137cf70
 
-## 6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195400.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195400.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.3kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 5174
@@ -310,7 +332,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 7b3afd9c56db08c634b39fc46c47bc6d4940a7de4cd9c1354a59237a84a8b780
 
-## 6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195434.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195434.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 6.1kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 2621
@@ -324,7 +347,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 5ee18d4d977ad485e7d019eb82807edfac67a64592f88b2d0f30c56d66f3af19
 
-## 6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195501.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195501.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 9.0kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 5427
@@ -338,7 +362,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 65deb3b25fb83b4e13ccdbde1615e321b9637fa4d6284b4965293905cac1240d
 
-## 6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195537.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195537.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.4kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 6570
@@ -352,7 +377,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 2d42c3efc0455a042100beb66e3de657cea64f21dd94fd357b31da8c6f05248b
 
-## 6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195616.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195616.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.0kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 4667
@@ -366,7 +392,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 811b657ec8e148010f039fb2d0d6744c28d3b772017ffeed623b5672b6e4eab2
 
-## 6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195740.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195740.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 5.6kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 4436
@@ -380,7 +407,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 24bccc82d45bd5b1397e76ea58a9e523cf4858342bb43ad02b615832822c97ce
 
-## 6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195818.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195818.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.5kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 7192
@@ -394,7 +422,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 317cec98264bcde397acc627c303c4f20dddd01b670f74737cf8e238fdc1bb53
 
-## 6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195857.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195857.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 6.9kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 2757
@@ -408,7 +437,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: d942aa91007b271e9f2600af9146c5375cd5411ab308c8a68665a3a6bd7eb6b8
 
-## 6mm-shoktec-hi-impact-gell+2mm-abs-20240501192349.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-abs-20240501192349.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm abs · 5.1kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 4130
@@ -422,7 +452,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 3f79ba92287c78106f8d2f413629e21aad3bd17dd3a051f002555d8cadd7950d
 
-## 6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192552.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192552.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.7kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 5426
@@ -436,7 +467,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 9f14d47d565cee891ac0023ba12e4dbf9ebbec624e8d0359aff8fd4d27ae0712
 
-## 6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192642.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192642.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 4.9kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 5467
@@ -450,7 +482,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: cf749e1ad774a809f865960d5ba89da16e0c59c6e87f3ba791bf9c2281cc1a50
 
-## 6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192846.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192846.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 4.8kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:36Z
 - **Original samples**: 50000 → **Retained**: 5007
@@ -464,7 +497,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: fe711715ff5e7eaf7186623dacb257abce07fb8bb079e18a027d0782aca7772c
 
-## 6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192930.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192930.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.1kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 5326
@@ -478,7 +512,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 0dc85647bebee05026a9edb5a3efaf528795aa08ecd253640c4e6c27cfb6fcc9
 
-## 6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193056.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193056.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 5317
@@ -492,7 +527,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: dde08fc0c3117bfa92f22facf6a71b0652be1464039c74a0ad721d136c1bc1ab
 
-## 6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193123.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193123.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 4.7kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 2150
@@ -506,7 +542,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: f53b49fedf009ecfe2c45ac035ed9d12b5fcff6d98157f19e5797cee80126b6c
 
-## 6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193202.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193202.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.6kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 5268
@@ -520,7 +557,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: a92d5500b1f2c03600648dea1f8defb07893221a8434eb330fa8d83cebeecb05
 
-## 6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193252.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193252.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 5967
@@ -534,7 +572,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: c21296ad129acc5fef90a9c5f63b265efa1f5ad831a080336fadc6c4af5e3f0a
 
-## 6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193323.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193323.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · slow decay · run 3
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 5214
@@ -548,7 +587,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 1fd3bb6a76457240a1bca6d45d4fdf6bdd08fea446215344bd906f44f36823ac
 
-## 6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193356.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193356.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · slow decay · run 4
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 4884
@@ -562,7 +602,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 58b72deeddceea24d569ea0a83010f056ec6bf5fa8f8d9fed06767bd4685d428
 
-## 6mm-shoktec-hi-impact-gell-20240501193602.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193602.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 6.8kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 6324
@@ -576,7 +617,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 6902b55c57ccbebee0c772e4feed951e561f1abbbba91d657ef68fb1fa2555b8
 
-## 6mm-shoktec-hi-impact-gell-20240501193658.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193658.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 6.3kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 21492
@@ -590,7 +632,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 233695afbd66bd5571ddbf586aa9ffbdd6bd05b389cb9c2a73135fddea91ae16
 
-## 6mm-shoktec-hi-impact-gell-20240501193736.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193736.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 6.5kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 5266
@@ -604,7 +647,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: a12a35bb1dd67c4759b1f16f9fc2cac3a87651c86198bd0dfeaf9b393511c355
 
-## 6mm-shoktec-hi-impact-gell-20240501193815.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193815.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 6.5kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 5101
@@ -618,7 +662,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 31928dbb3b5a70e4f1129603d933655dffc13165dcd53ef8357aac6e98b0e72e
 
-## 6mm-shoktec-hi-impact-gell-20240501193851.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193851.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 5.8kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 5108
@@ -632,7 +677,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 9cabf7e7033dc99d9b207c8d1f1f30fbaa1b403f955916750a3d880bd3f27e3c
 
-## 6mm-shoktec-hi-impact-gell-20240501193928.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193928.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 6.2kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 4658
@@ -646,7 +692,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 22a65804850eecd32d2828c887eff947f4016bdb1d8f683f0051d22b6ff9bd4b
 
-## 6mm-shoktec-hi-impact-gell-20240501194002.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194002.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 6.6kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 4931
@@ -660,7 +707,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: f03f0f637b5314356f2c64dd871a2ad7df955df9dbcdac36925239c76df8626d
 
-## 6mm-shoktec-hi-impact-gell-20240501194031.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194031.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 42N peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 50000
@@ -674,7 +722,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 0afbb9d7937b45009ee24c1b78b5fb1b56635c42c12d0b742bdd295337990919
 
-## 6mm-shoktec-hi-impact-gell-20240501194059.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194059.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 6.1kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 4402
@@ -688,7 +737,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 70ff63e6da2b6f98939a4e2cbb4efe17e8a65e5be69935d1530ee2f38c0cc254
 
-## 6mm-shoktec-hi-impact-gell-20240501194148.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194148.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 6.8kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 20475
@@ -702,7 +752,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 8aad46411c332ba7edc8f295ab435af41679a5e9c967302bf616e7789611d3a1
 
-## 6mm-shoktec-hi-impact-gell-20240501195022.CSV
+## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501195022.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mm shoktec hi impact gell · 5.7kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 4435
@@ -716,7 +767,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: cb2d3caf5a294ce6f8c3a7788acec4e52eb2e6d34d18fc334de5d282cf0297f3
 
-## 6mmEVA-20240501182806.CSV
+## steel-test-ball-drop/6mmEVA-20240501182806.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 11.1kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:37Z
 - **Original samples**: 50000 → **Retained**: 18057
@@ -730,7 +782,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: cc0bb96789e951eb784241f5fc62bf9e62bc436e0fd0994f15077cde9db72a4e
 
-## 6mmEVA-20240501191134.CSV
+## steel-test-ball-drop/6mmEVA-20240501191134.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 11.4kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 4725
@@ -744,7 +797,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 02d518c4896561f2928635b0bed4a8a9eabd5697f4ea0aa1da9e71bf0f8676ec
 
-## 6mmEVA-20240501191408.CSV
+## steel-test-ball-drop/6mmEVA-20240501191408.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 10.6kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 4237
@@ -758,7 +812,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 9fab4ed9d67667988d85995afece6da807b7eec3138c82dbee61e40e64036e4b
 
-## 6mmEVA-20240501191524.CSV
+## steel-test-ball-drop/6mmEVA-20240501191524.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 11.1kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 5489
@@ -772,7 +827,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 9f57afccc399584b1d074e32d07abf401003c4e0e026f2f39b8c56625209acdf
 
-## 6mmEVA-20240501191607.CSV
+## steel-test-ball-drop/6mmEVA-20240501191607.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 10.9kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 2707
@@ -786,7 +842,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: c77930abf9fc8021a247d97e1ad94e0dacfcf26b495e48f9fa2bcbb9e29119c3
 
-## 6mmEVA-20240501191644.CSV
+## steel-test-ball-drop/6mmEVA-20240501191644.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 10.5kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 5851
@@ -800,7 +857,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: b3b71123e47172af142f9c0760e74601c6981d6c1d511d175c7680677ca39aa0
 
-## 6mmEVA-20240501191733.CSV
+## steel-test-ball-drop/6mmEVA-20240501191733.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 10.7kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 5638
@@ -814,7 +872,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: c810d47f496b914c407552fcfedfc5cbe46030202a214255c3cbe36eab7bea0a
 
-## 6mmEVA-20240501191823.CSV
+## steel-test-ball-drop/6mmEVA-20240501191823.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 9.8kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 4948
@@ -828,7 +887,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 12be61b6108be8bcca96500e9d85279602aa877a4d4fed1e109255b8ca5556bc
 
-## 6mmEVA-20240501191929.CSV
+## steel-test-ball-drop/6mmEVA-20240501191929.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 10.9kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 4015
@@ -842,7 +902,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: f41d2da3f5cc6b2a38c8344ba6fba5df7b10c3cbcd5c81b35ee1072e8425d8f0
 
-## 6mmEVA-20240501192008.CSV
+## steel-test-ball-drop/6mmEVA-20240501192008.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 11.7kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 16291
@@ -856,7 +917,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 6caf0b4d6fc2acea6b8ae301cc40940fc783d0a3e45b906e2835fd4c4a934600
 
-## 6mmEVA-20240501192058.CSV
+## steel-test-ball-drop/6mmEVA-20240501192058.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 11.0kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 4476
@@ -870,7 +932,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: afe7ab4abab281d97bb8e4324c52452fb7c63df7850f5226788cafa15069b4ed
 
-## 6mmEVA-20240501192142.CSV
+## steel-test-ball-drop/6mmEVA-20240501192142.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva · 10.9kN peak · slow decay · run 3
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 4457
@@ -884,7 +947,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: dacc03e0685753bc67706f7707287c2a921346f22b7f61885fe61036e61b85d6
 
-## 6mmeva+2mmAbs-20240501183700.CSV
+## steel-test-ball-drop/6mmeva+2mmAbs-20240501183700.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva 2mmabs · 8.5kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 17787
@@ -898,7 +962,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 571037330ea2d38054a4c5860060c6dcc3e3d506cd69228cf7cd2726f101f04c
 
-## 6mmeva+2mmAbs-20240501183852.CSV
+## steel-test-ball-drop/6mmeva+2mmAbs-20240501183852.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 6mmeva 2mmabs · 8.6kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 17061
@@ -912,7 +977,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 3e180a3fae9b062deb4cf843e7dd11f430eae2367b9af5c6e74b09dda540e315
 
-## 7mm-poronxrd-hexgrid-+2mmkydex-20240501200214.CSV
+## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200214.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 3402
@@ -926,7 +992,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: b5428dcfa1b6c023c93da4b50c9843822021964f9794e947b28c89a84b11c781
 
-## 7mm-poronxrd-hexgrid-+2mmkydex-20240501200506.CSV
+## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200506.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.1kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 3523
@@ -940,7 +1007,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 4054034292bfb33e795665f630e73b8cbf15d603d5a798b02816dd25a76d8457
 
-## 7mm-poronxrd-hexgrid-+2mmkydex-20240501200545.CSV
+## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200545.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.2kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 4977
@@ -954,7 +1022,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 4fdc15263e0e5722137c1049ebe4b55081bee50a1bac4707f40fad8b80790d6d
 
-## 7mm-poronxrd-hexgrid-+2mmkydex-20240501200622.CSV
+## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200622.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.2kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 4595
@@ -968,7 +1037,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 2ec309ec1836f7d85d71f4a51d0522adfa3fd1e3aea6eba8653dac279b8839ee
 
-## 7mm-poronxrd-hexgrid-+2mmkydex-20240501200655.CSV
+## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200655.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 3897
@@ -982,7 +1052,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 88112e465aae4ad8230c5d9eceeca8ec78341974f08f936df5b0fd1701a533b0
 
-## 7mm-poronxrd-hexgrid-+2mmkydex-20240501200736.CSV
+## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200736.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.1kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 4674
@@ -996,7 +1067,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 1887b2f3bc1010c451340c4a6a4d7880a08b51bbd98a714de54d389b68bef130
 
-## 7mm-poronxrd-hexgrid-+2mmkydex-20240501200824.CSV
+## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200824.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 3.9kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:38Z
 - **Original samples**: 50000 → **Retained**: 2317
@@ -1010,7 +1082,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 97e069f91c6c56f4e16317cdd8375f937b8456f84a8d70f48eb8b0f2a50d061b
 
-## 7mm-poronxrd-hexgrid-+2mmkydex-20240501200915.CSV
+## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200915.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · slow decay · run 3
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 4820
@@ -1024,7 +1097,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 566813eaaa6b302cab0bfeb7145911fec2abd7611f597a5685113089217cacd0
 
-## 7mm-poronxrd-hexgrid-+2mmkydex-20240501200954.CSV
+## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200954.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.6kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 5715
@@ -1038,7 +1112,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 47113474bed600484f81c27339f0cdaf3b2ba6fd668f262c78544dabeadd8b33
 
-## 7mm-poronxrd-hexgrid-+2mmkydex-20240501201030.CSV
+## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501201030.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · slow decay · run 4
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 4548
@@ -1052,7 +1127,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 18acb3716a9722822bb4df060fe47bae05f44cfe5e97849d5099f91b297e1b72
 
-## control-bare-plate-20240501185351.CSV
+## steel-test-ball-drop/control-bare-plate-20240501185351.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 8.9kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 5934
@@ -1066,7 +1142,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 4311c5b6f3cd8552765ee52465bb92bf2a1a3f43f9e60da54e3d08ddfa05447a
 
-## control-bare-plate-20240501185448.CSV
+## steel-test-ball-drop/control-bare-plate-20240501185448.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 8.7kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 6483
@@ -1080,7 +1157,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: ce17481f26dcb460cbff4425b962dc2f32c000aec03ebf7a2d2f220fa25e7be2
 
-## control-bare-plate-20240501185618.CSV
+## steel-test-ball-drop/control-bare-plate-20240501185618.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 9.4kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 6272
@@ -1094,7 +1172,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 7729593c261b558ca1f131243b77ad40f5bd848a8fe88caae6d56ad43a9dac16
 
-## control-bare-plate-20240501185702.CSV
+## steel-test-ball-drop/control-bare-plate-20240501185702.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 9.4kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 6649
@@ -1108,7 +1187,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 438a4c5605141c1053fd005c8e5ad8169f8233457a3bd3130599a18112fc0856
 
-## control-bare-plate-20240501185804.CSV
+## steel-test-ball-drop/control-bare-plate-20240501185804.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 9.4kN peak · slow decay · run 3
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 6716
@@ -1122,7 +1202,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: e6e3e6796199dfd90d4e94d3d8bee1682f878d42f3f6ed26830489d6ad3700b8
 
-## control-bare-plate-20240501185856.CSV
+## steel-test-ball-drop/control-bare-plate-20240501185856.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 8.6kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 4503
@@ -1136,7 +1217,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: a0465396f8b258bf10b9956720f5fcbb4ec2e4119965d48e6b150319cf2d30fa
 
-## control-bare-plate-20240501185925.CSV
+## steel-test-ball-drop/control-bare-plate-20240501185925.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 8.6kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 5427
@@ -1150,7 +1232,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 14538b2eff9c6b5b96df7e966c1a1aac35038c68435db817dfcc87efc6e62fff
 
-## control-bare-plate-20240501185954.CSV
+## steel-test-ball-drop/control-bare-plate-20240501185954.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 8.7kN peak · slow decay · run 2
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 4316
@@ -1164,7 +1247,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: e666746cb1125c94f714aaf3a3b069ecd530690e74ca157a7a72cd92065228a5
 
-## control-bare-plate-20240501190115.CSV
+## steel-test-ball-drop/control-bare-plate-20240501190115.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 8.8kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 5115
@@ -1178,7 +1262,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: e908a1a7457dd54dffe4c8470689d63c0df18d4520507cbb6f8643baf80ac617
 
-## control-bare-plate-20240501190144.CSV
+## steel-test-ball-drop/control-bare-plate-20240501190144.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 7.6kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 4603
@@ -1192,7 +1277,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: e0c7414185a0e097959ee35fb477a5393744e1190dbf0f8e5e1697022be3e14b
 
-## control-bare-plate-20240501190219.CSV
+## steel-test-ball-drop/control-bare-plate-20240501190219.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 9.2kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 5412
@@ -1206,7 +1292,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 8322ac3dbc1064e61b14f8a2cb2ea2ee1847a2402dd2ace32034aabee3181eb8
 
-## control-bare-plate-20240501190353.CSV
+## steel-test-ball-drop/control-bare-plate-20240501190353.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 9.1kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 3954
@@ -1220,7 +1307,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 6b68677c7ac590ab9cd8c8c724007207478a146824a05dd6e07ed6bf1c88d7aa
 
-## control-bare-plate-20240501190425.CSV
+## steel-test-ball-drop/control-bare-plate-20240501190425.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 9.4kN peak · slow decay · run 4
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 5437
@@ -1234,7 +1322,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: f65c3782c29617517f2dff942ee5b3dd228049db3d284d317012c9ae7911353b
 
-## control-bare-plate-20240501190614.CSV
+## steel-test-ball-drop/control-bare-plate-20240501190614.CSV
+- **Category**: steel-test-ball-drop
 - **Nickname**: control bare plate · 10.0kN peak · slow decay
 - **Processed**: 2026-06-26T14:55:39Z
 - **Original samples**: 50000 → **Retained**: 6374
@@ -1248,7 +1337,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: 5befd28ae28a6fd582853038d78b77476b8c2572745b6a7be0d5d8c53212a731
 
-## sample_impact_001.csv
+## steel-test-ball-drop/sample_impact_001.csv
+- **Category**: steel-test-ball-drop
 - **Nickname**: sample impact 001 · 313N peak · fast decay
 - **Processed**: 2026-06-26T14:52:28Z
 - **Original samples**: 26 → **Retained**: 10
@@ -1262,7 +1352,8 @@
 - **Weapon type**: Rengenyei Standard
 - **Content hash**: af55de7b5102473de71f6b71c05c858102fbc6bebd4a2cec71bb51feb661cc89
 
-## sample_impact_002.csv
+## steel-test-ball-drop/sample_impact_002.csv
+- **Category**: steel-test-ball-drop
 - **Nickname**: sample impact 002 · 25N peak · slow decay
 - **Processed**: 2026-06-26T14:52:41Z
 - **Original samples**: 26 → **Retained**: 10
