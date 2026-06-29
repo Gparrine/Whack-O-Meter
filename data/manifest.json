@@ -1,0 +1,3257 @@
+{
+  "generatedAt": "2026-06-29T19:03:17.652Z",
+  "repo": "Gparrine/Whack-O-Meter",
+  "branch": "main",
+  "files": [
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419154646.CSV",
+      "title": "24 04 19 00001 0 20240419154646",
+      "nickname": "Regenyei · 24 04 19 00001 0 · 30N peak · slow decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419154646.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419154646.CSV",
+      "metrics": {
+        "peakForceN": 29.8,
+        "peakForceLbf": 6.7,
+        "timeToPeakMs": 0.06,
+        "forceDecayMs": 999.92,
+        "impulseNs": -33.34,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 0,
+        "eventEnd": 0.99998,
+        "prefixTrimStart": 0,
+        "prefixTrimEnd": 0,
+        "suffixTrimStart": 0.99998,
+        "suffixTrimEnd": 0.99998,
+        "originalStart": 0,
+        "originalEnd": 0.99998
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419154810.CSV",
+      "title": "24 04 19 00001 0 20240419154810",
+      "nickname": "Regenyei · 24 04 19 00001 0 · 83N peak · slow decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419154810.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419154810.CSV",
+      "metrics": {
+        "peakForceN": 83.1,
+        "peakForceLbf": 18.7,
+        "timeToPeakMs": 11.82,
+        "forceDecayMs": 988.16,
+        "impulseNs": 3.93,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 0,
+        "eventEnd": 0.99998,
+        "prefixTrimStart": 0,
+        "prefixTrimEnd": 0,
+        "suffixTrimStart": 0.99998,
+        "suffixTrimEnd": 0.99998,
+        "originalStart": 0,
+        "originalEnd": 0.99998
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419155030.CSV",
+      "title": "24 04 19 00001 0 20240419155030",
+      "nickname": "Regenyei · 24 04 19 00001 0 · 4.3kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419155030.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419155030.CSV",
+      "metrics": {
+        "peakForceN": 4254.6,
+        "peakForceLbf": 956.5,
+        "timeToPeakMs": 0.66,
+        "forceDecayMs": 3.9,
+        "impulseNs": 5.16,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.45598,
+        "eventEnd": 1.46054,
+        "prefixTrimStart": 1.45578,
+        "prefixTrimEnd": 1.45598,
+        "suffixTrimStart": 1.46054,
+        "suffixTrimEnd": 1.47088,
+        "originalStart": 1.45578,
+        "originalEnd": 1.47088
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155317.CSV",
+      "title": "24 04 19 00001 1 20240419155317",
+      "nickname": "Regenyei · 24 04 19 00001 1 · 4.2kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155317.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155317.CSV",
+      "metrics": {
+        "peakForceN": 4247.4,
+        "peakForceLbf": 954.9,
+        "timeToPeakMs": 0.56,
+        "forceDecayMs": 7.16,
+        "impulseNs": 6.97,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.8038,
+        "eventEnd": 1.81152,
+        "prefixTrimStart": 0.13016,
+        "prefixTrimEnd": 1.8038,
+        "suffixTrimStart": 1.81152,
+        "suffixTrimEnd": 1.8649,
+        "originalStart": 0.13016,
+        "originalEnd": 1.8649
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155835.CSV",
+      "title": "24 04 19 00001 1 20240419155835",
+      "nickname": "Regenyei · 24 04 19 00001 1 · 5.2kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155835.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155835.CSV",
+      "metrics": {
+        "peakForceN": 5157.6,
+        "peakForceLbf": 1159.5,
+        "timeToPeakMs": 0.08,
+        "forceDecayMs": 0.06,
+        "impulseNs": 0.7,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.139,
+        "eventEnd": 1.13914,
+        "prefixTrimStart": 1.1381,
+        "prefixTrimEnd": 1.139,
+        "suffixTrimStart": 1.13914,
+        "suffixTrimEnd": 1.16278,
+        "originalStart": 1.1381,
+        "originalEnd": 1.16278
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155903.CSV",
+      "title": "24 04 19 00001 1 20240419155903",
+      "nickname": "Regenyei · 24 04 19 00001 1 · 5.9kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155903.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155903.CSV",
+      "metrics": {
+        "peakForceN": 5931.3,
+        "peakForceLbf": 1333.4,
+        "timeToPeakMs": 0.04,
+        "forceDecayMs": 0.04,
+        "impulseNs": 0.47,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.62974,
+        "eventEnd": 1.62982,
+        "prefixTrimStart": 1.6288,
+        "prefixTrimEnd": 1.62974,
+        "suffixTrimStart": 1.62982,
+        "suffixTrimEnd": 1.65566,
+        "originalStart": 1.6288,
+        "originalEnd": 1.65566
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155943.CSV",
+      "title": "24 04 19 00001 1 20240419155943",
+      "nickname": "Regenyei · 24 04 19 00001 1 · 6.4kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155943.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155943.CSV",
+      "metrics": {
+        "peakForceN": 6358.6,
+        "peakForceLbf": 1429.5,
+        "timeToPeakMs": 1.82,
+        "forceDecayMs": 1.78,
+        "impulseNs": 6.52,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.18772,
+        "eventEnd": 1.19132,
+        "prefixTrimStart": 1.18712,
+        "prefixTrimEnd": 1.18772,
+        "suffixTrimStart": 1.19132,
+        "suffixTrimEnd": 1.20154,
+        "originalStart": 1.18712,
+        "originalEnd": 1.20154
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419160013.CSV",
+      "title": "24 04 19 00001 1 20240419160013",
+      "nickname": "Regenyei · 24 04 19 00001 1 · 5.3kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419160013.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419160013.CSV",
+      "metrics": {
+        "peakForceN": 5255.6,
+        "peakForceLbf": 1181.5,
+        "timeToPeakMs": 0.06,
+        "forceDecayMs": 0.08,
+        "impulseNs": 0.7,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.26456,
+        "eventEnd": 1.2647,
+        "prefixTrimStart": 1.26348,
+        "prefixTrimEnd": 1.26456,
+        "suffixTrimStart": 1.2647,
+        "suffixTrimEnd": 1.29174,
+        "originalStart": 1.26348,
+        "originalEnd": 1.29174
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-1-5-20240419155656.CSV",
+      "title": "24 04 19 00001 1 5 20240419155656",
+      "nickname": "Regenyei · 24 04 19 00001 1 5 · 5.4kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-5-20240419155656.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-5-20240419155656.CSV",
+      "metrics": {
+        "peakForceN": 5412,
+        "peakForceLbf": 1216.7,
+        "timeToPeakMs": 0.04,
+        "forceDecayMs": 0.12,
+        "impulseNs": 0.84,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.18338,
+        "eventEnd": 1.18354,
+        "prefixTrimStart": 1.18234,
+        "prefixTrimEnd": 1.18338,
+        "suffixTrimStart": 1.18354,
+        "suffixTrimEnd": 1.20852,
+        "originalStart": 1.18234,
+        "originalEnd": 1.20852
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-1-5-20240419155738.CSV",
+      "title": "24 04 19 00001 1 5 20240419155738",
+      "nickname": "Regenyei · 24 04 19 00001 1 5 · 5.3kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-5-20240419155738.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-1-5-20240419155738.CSV",
+      "metrics": {
+        "peakForceN": 5260.6,
+        "peakForceLbf": 1182.6,
+        "timeToPeakMs": 0.06,
+        "forceDecayMs": 0.1,
+        "impulseNs": 0.78,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.04358,
+        "eventEnd": 1.04374,
+        "prefixTrimStart": 1.04262,
+        "prefixTrimEnd": 1.04358,
+        "suffixTrimStart": 1.04374,
+        "suffixTrimEnd": 1.06572,
+        "originalStart": 1.04262,
+        "originalEnd": 1.06572
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419155358.CSV",
+      "title": "24 04 19 00001 2 20240419155358",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 6.0kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419155358.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419155358.CSV",
+      "metrics": {
+        "peakForceN": 6047.5,
+        "peakForceLbf": 1359.5,
+        "timeToPeakMs": 0.62,
+        "forceDecayMs": 0.12,
+        "impulseNs": 1.91,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.44624,
+        "eventEnd": 1.44698,
+        "prefixTrimStart": 1.44602,
+        "prefixTrimEnd": 1.44624,
+        "suffixTrimStart": 1.44698,
+        "suffixTrimEnd": 1.45856,
+        "originalStart": 1.44602,
+        "originalEnd": 1.45856
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161041.CSV",
+      "title": "24 04 19 00001 2 20240419161041",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 5.2kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161041.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161041.CSV",
+      "metrics": {
+        "peakForceN": 5166.4,
+        "peakForceLbf": 1161.5,
+        "timeToPeakMs": 0.62,
+        "forceDecayMs": 0.62,
+        "impulseNs": 3.48,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.43844,
+        "eventEnd": 1.43968,
+        "prefixTrimStart": 1.43772,
+        "prefixTrimEnd": 1.43844,
+        "suffixTrimStart": 1.43968,
+        "suffixTrimEnd": 1.46942,
+        "originalStart": 1.43772,
+        "originalEnd": 1.46942
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161110.CSV",
+      "title": "24 04 19 00001 2 20240419161110",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 8.6kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161110.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161110.CSV",
+      "metrics": {
+        "peakForceN": 8582.1,
+        "peakForceLbf": 1929.3,
+        "timeToPeakMs": 0.26,
+        "forceDecayMs": 0.26,
+        "impulseNs": 3.46,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.1391,
+        "eventEnd": 1.13962,
+        "prefixTrimStart": 1.13872,
+        "prefixTrimEnd": 1.1391,
+        "suffixTrimStart": 1.13962,
+        "suffixTrimEnd": 1.15198,
+        "originalStart": 1.13872,
+        "originalEnd": 1.15198
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161137.CSV",
+      "title": "24 04 19 00001 2 20240419161137",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 5.5kN peak · slow decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161137.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161137.CSV",
+      "metrics": {
+        "peakForceN": 5503.4,
+        "peakForceLbf": 1237.2,
+        "timeToPeakMs": 1.08,
+        "forceDecayMs": 24.74,
+        "impulseNs": 7.75,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.70834,
+        "eventEnd": 1.73416,
+        "prefixTrimStart": 1.70834,
+        "prefixTrimEnd": 1.70834,
+        "suffixTrimStart": 1.73416,
+        "suffixTrimEnd": 1.73416,
+        "originalStart": 1.70834,
+        "originalEnd": 1.73416
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161224.CSV",
+      "title": "24 04 19 00001 2 20240419161224",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 6.7kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161224.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161224.CSV",
+      "metrics": {
+        "peakForceN": 6689.5,
+        "peakForceLbf": 1503.9,
+        "timeToPeakMs": 0.1,
+        "forceDecayMs": 0.1,
+        "impulseNs": 1.3,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.46266,
+        "eventEnd": 1.46286,
+        "prefixTrimStart": 1.4616,
+        "prefixTrimEnd": 1.46266,
+        "suffixTrimStart": 1.46286,
+        "suffixTrimEnd": 1.49556,
+        "originalStart": 1.4616,
+        "originalEnd": 1.49556
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161301.CSV",
+      "title": "24 04 19 00001 2 20240419161301",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 263N peak · slow decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161301.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161301.CSV",
+      "metrics": {
+        "peakForceN": 263.2,
+        "peakForceLbf": 59.2,
+        "timeToPeakMs": 14.18,
+        "forceDecayMs": 563.2,
+        "impulseNs": 32.16,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.06906,
+        "eventEnd": 1.64644,
+        "prefixTrimStart": 0.55582,
+        "prefixTrimEnd": 1.06906,
+        "suffixTrimStart": 1.64644,
+        "suffixTrimEnd": 1.99998,
+        "originalStart": 0.55582,
+        "originalEnd": 1.99998
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161308.CSV",
+      "title": "24 04 19 00001 2 20240419161308",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 733N peak · slow decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161308.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161308.CSV",
+      "metrics": {
+        "peakForceN": 732.8,
+        "peakForceLbf": 164.7,
+        "timeToPeakMs": 1015.06,
+        "forceDecayMs": 20.24,
+        "impulseNs": -6.42,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 0,
+        "eventEnd": 1.0353,
+        "prefixTrimStart": 0,
+        "prefixTrimEnd": 0,
+        "suffixTrimStart": 1.0353,
+        "suffixTrimEnd": 1.0353,
+        "originalStart": 0,
+        "originalEnd": 1.0353
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161535.CSV",
+      "title": "24 04 19 00001 2 20240419161535",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 7.5kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161535.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161535.CSV",
+      "metrics": {
+        "peakForceN": 7452.4,
+        "peakForceLbf": 1675.4,
+        "timeToPeakMs": 0.06,
+        "forceDecayMs": 0.06,
+        "impulseNs": 0.87,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.23566,
+        "eventEnd": 1.23578,
+        "prefixTrimStart": 1.2344,
+        "prefixTrimEnd": 1.23566,
+        "suffixTrimStart": 1.23578,
+        "suffixTrimEnd": 1.26528,
+        "originalStart": 1.2344,
+        "originalEnd": 1.26528
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161703.CSV",
+      "title": "24 04 19 00001 2 20240419161703",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 7.1kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161703.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161703.CSV",
+      "metrics": {
+        "peakForceN": 7091.9,
+        "peakForceLbf": 1594.3,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.22,
+        "impulseNs": 2.33,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.1124,
+        "eventEnd": 1.11282,
+        "prefixTrimStart": 1.11204,
+        "prefixTrimEnd": 1.1124,
+        "suffixTrimStart": 1.11282,
+        "suffixTrimEnd": 1.12018,
+        "originalStart": 1.11204,
+        "originalEnd": 1.12018
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161730.CSV",
+      "title": "24 04 19 00001 2 20240419161730",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 4.1kN peak · slow decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161730.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161730.CSV",
+      "metrics": {
+        "peakForceN": 4144.9,
+        "peakForceLbf": 931.8,
+        "timeToPeakMs": 1,
+        "forceDecayMs": 24.64,
+        "impulseNs": 8.39,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 0.94624,
+        "eventEnd": 0.97188,
+        "prefixTrimStart": 0.94624,
+        "prefixTrimEnd": 0.94624,
+        "suffixTrimStart": 0.97188,
+        "suffixTrimEnd": 0.97188,
+        "originalStart": 0.94624,
+        "originalEnd": 0.97188
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161835.CSV",
+      "title": "24 04 19 00001 2 20240419161835",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 4.4kN peak · slow decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161835.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161835.CSV",
+      "metrics": {
+        "peakForceN": 4393.5,
+        "peakForceLbf": 987.7,
+        "timeToPeakMs": 1051.44,
+        "forceDecayMs": 596.3,
+        "impulseNs": -11.21,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 0.35224,
+        "eventEnd": 1.99998,
+        "prefixTrimStart": 0.35224,
+        "prefixTrimEnd": 0.35224,
+        "suffixTrimStart": 1.99998,
+        "suffixTrimEnd": 1.99998,
+        "originalStart": 0.35224,
+        "originalEnd": 1.99998
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419162115.CSV",
+      "title": "24 04 19 00001 2 20240419162115",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 6.7kN peak · fast decay · run 2",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419162115.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419162115.CSV",
+      "metrics": {
+        "peakForceN": 6723.2,
+        "peakForceLbf": 1511.4,
+        "timeToPeakMs": 0.56,
+        "forceDecayMs": 2.02,
+        "impulseNs": 4.94,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.39366,
+        "eventEnd": 1.39624,
+        "prefixTrimStart": 1.39354,
+        "prefixTrimEnd": 1.39366,
+        "suffixTrimStart": 1.39624,
+        "suffixTrimEnd": 1.40258,
+        "originalStart": 1.39354,
+        "originalEnd": 1.40258
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419163421.CSV",
+      "title": "24 04 19 00001 2 20240419163421",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 3.7kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419163421.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419163421.CSV",
+      "metrics": {
+        "peakForceN": 3666,
+        "peakForceLbf": 824.1,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.08,
+        "impulseNs": 0.96,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.43714,
+        "eventEnd": 1.43742,
+        "prefixTrimStart": 1.43534,
+        "prefixTrimEnd": 1.43714,
+        "suffixTrimStart": 1.43742,
+        "suffixTrimEnd": 1.49724,
+        "originalStart": 1.43534,
+        "originalEnd": 1.49724
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419163507.CSV",
+      "title": "24 04 19 00001 2 20240419163507",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 7.6kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419163507.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419163507.CSV",
+      "metrics": {
+        "peakForceN": 7623.6,
+        "peakForceLbf": 1713.9,
+        "timeToPeakMs": 2.38,
+        "forceDecayMs": 1.62,
+        "impulseNs": 5.96,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.62764,
+        "eventEnd": 1.63164,
+        "prefixTrimStart": 1.627,
+        "prefixTrimEnd": 1.62764,
+        "suffixTrimStart": 1.63164,
+        "suffixTrimEnd": 1.64166,
+        "originalStart": 1.627,
+        "originalEnd": 1.64166
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419170545.CSV",
+      "title": "24 04 19 00001 2 20240419170545",
+      "nickname": "Regenyei · 24 04 19 00001 2 · 166N peak · slow decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419170545.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419170545.CSV",
+      "metrics": {
+        "peakForceN": 165.7,
+        "peakForceLbf": 37.3,
+        "timeToPeakMs": 1414.48,
+        "forceDecayMs": 585.5,
+        "impulseNs": 213.7,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 0,
+        "eventEnd": 1.99998,
+        "prefixTrimStart": 0,
+        "prefixTrimEnd": 0,
+        "suffixTrimStart": 1.99998,
+        "suffixTrimEnd": 1.99998,
+        "originalStart": 0,
+        "originalEnd": 1.99998
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-3-20240419155433.CSV",
+      "title": "24 04 19 00001 3 20240419155433",
+      "nickname": "Regenyei · 24 04 19 00001 3 · 6.3kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-3-20240419155433.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-3-20240419155433.CSV",
+      "metrics": {
+        "peakForceN": 6279.3,
+        "peakForceLbf": 1411.6,
+        "timeToPeakMs": 0.18,
+        "forceDecayMs": 0.2,
+        "impulseNs": 1.99,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.61136,
+        "eventEnd": 1.61174,
+        "prefixTrimStart": 1.61066,
+        "prefixTrimEnd": 1.61136,
+        "suffixTrimStart": 1.61174,
+        "suffixTrimEnd": 1.62594,
+        "originalStart": 1.61066,
+        "originalEnd": 1.62594
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-Thrust-Broke-feder-20240419171633.CSV",
+      "title": "24 04 19 00001 Thrust Broke feder 20240419171633",
+      "nickname": "Regenyei · 24 04 19 00001 thrust broke feder · 9.3kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-Thrust-Broke-feder-20240419171633.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-Thrust-Broke-feder-20240419171633.CSV",
+      "metrics": {
+        "peakForceN": 9292.3,
+        "peakForceLbf": 2089,
+        "timeToPeakMs": 0.18,
+        "forceDecayMs": 0.38,
+        "impulseNs": 3.84,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.25616,
+        "eventEnd": 1.25672,
+        "prefixTrimStart": 1.25568,
+        "prefixTrimEnd": 1.25616,
+        "suffixTrimStart": 1.25672,
+        "suffixTrimEnd": 1.26412,
+        "originalStart": 1.25568,
+        "originalEnd": 1.26412
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171416.CSV",
+      "title": "24 04 19 00001 messing around 20240419171416",
+      "nickname": "Regenyei · 24 04 19 00001 messing around · 6.8kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171416.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171416.CSV",
+      "metrics": {
+        "peakForceN": 6754.9,
+        "peakForceLbf": 1518.6,
+        "timeToPeakMs": 0.06,
+        "forceDecayMs": 0.04,
+        "impulseNs": 0.65,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 0.99772,
+        "eventEnd": 0.99782,
+        "prefixTrimStart": 0.99688,
+        "prefixTrimEnd": 0.99772,
+        "suffixTrimStart": 0.99782,
+        "suffixTrimEnd": 1.01934,
+        "originalStart": 0.99688,
+        "originalEnd": 1.01934
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171442.CSV",
+      "title": "24 04 19 00001 messing around 20240419171442",
+      "nickname": "Regenyei · 24 04 19 00001 messing around · 8.4kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171442.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171442.CSV",
+      "metrics": {
+        "peakForceN": 8404.2,
+        "peakForceLbf": 1889.3,
+        "timeToPeakMs": 0.04,
+        "forceDecayMs": 0.08,
+        "impulseNs": 0.98,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.44876,
+        "eventEnd": 1.44888,
+        "prefixTrimStart": 1.4481,
+        "prefixTrimEnd": 1.44876,
+        "suffixTrimStart": 1.44888,
+        "suffixTrimEnd": 1.46406,
+        "originalStart": 1.4481,
+        "originalEnd": 1.46406
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171617.CSV",
+      "title": "24 04 19 00001 messing around 20240419171617",
+      "nickname": "Regenyei · 24 04 19 00001 messing around · 7.6kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171617.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171617.CSV",
+      "metrics": {
+        "peakForceN": 7638.3,
+        "peakForceLbf": 1717.2,
+        "timeToPeakMs": 0.14,
+        "forceDecayMs": 0.36,
+        "impulseNs": 3.45,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.10678,
+        "eventEnd": 1.10728,
+        "prefixTrimStart": 1.10608,
+        "prefixTrimEnd": 1.10678,
+        "suffixTrimStart": 1.10728,
+        "suffixTrimEnd": 1.12174,
+        "originalStart": 1.10608,
+        "originalEnd": 1.12174
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419173234.CSV",
+      "title": "24 04 19 00001 messing around 20240419173234",
+      "nickname": "Regenyei · 24 04 19 00001 messing around · 6.9kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419173234.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419173234.CSV",
+      "metrics": {
+        "peakForceN": 6948,
+        "peakForceLbf": 1562,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.12,
+        "impulseNs": 2.11,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.1134,
+        "eventEnd": 1.11372,
+        "prefixTrimStart": 1.11156,
+        "prefixTrimEnd": 1.1134,
+        "suffixTrimStart": 1.11372,
+        "suffixTrimEnd": 1.16958,
+        "originalStart": 1.11156,
+        "originalEnd": 1.16958
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175007.CSV",
+      "title": "24 04 19 00001 messing around 20240419175007",
+      "nickname": "Regenyei · 24 04 19 00001 messing around · 3.7kN peak · fast decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175007.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175007.CSV",
+      "metrics": {
+        "peakForceN": 3699.7,
+        "peakForceLbf": 831.7,
+        "timeToPeakMs": 0.08,
+        "forceDecayMs": 0.06,
+        "impulseNs": 0.51,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.59468,
+        "eventEnd": 1.59482,
+        "prefixTrimStart": 1.59378,
+        "prefixTrimEnd": 1.59468,
+        "suffixTrimStart": 1.59482,
+        "suffixTrimEnd": 1.62306,
+        "originalStart": 1.59378,
+        "originalEnd": 1.62306
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175026.CSV",
+      "title": "24 04 19 00001 messing around 20240419175026",
+      "nickname": "Regenyei · 24 04 19 00001 messing around · 5.2kN peak · slow decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175026.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175026.CSV",
+      "metrics": {
+        "peakForceN": 5151.2,
+        "peakForceLbf": 1158,
+        "timeToPeakMs": 0.7,
+        "forceDecayMs": 13.84,
+        "impulseNs": 8.62,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.71882,
+        "eventEnd": 1.73336,
+        "prefixTrimStart": 1.71882,
+        "prefixTrimEnd": 1.71882,
+        "suffixTrimStart": 1.73336,
+        "suffixTrimEnd": 1.73336,
+        "originalStart": 1.71882,
+        "originalEnd": 1.73336
+      }
+    },
+    {
+      "filename": "Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175045.CSV",
+      "title": "24 04 19 00001 messing around 20240419175045",
+      "nickname": "Regenyei · 24 04 19 00001 messing around · 4.7kN peak · slow decay",
+      "category": "Regenyei_Standard_Federschwert",
+      "path": "raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175045.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175045.CSV",
+      "metrics": {
+        "peakForceN": 4714.5,
+        "peakForceLbf": 1059.9,
+        "timeToPeakMs": 0.62,
+        "forceDecayMs": 13.82,
+        "impulseNs": 9.31,
+        "weaponType": "Regenyei Standard Feder"
+      },
+      "trimMeta": {
+        "eventStart": 1.59114,
+        "eventEnd": 1.60558,
+        "prefixTrimStart": 0.6161,
+        "prefixTrimEnd": 1.59114,
+        "suffixTrimStart": 1.60558,
+        "suffixTrimEnd": 1.6696,
+        "originalStart": 0.6161,
+        "originalEnd": 1.6696
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm eva+2mm kydex-20240501182849.CSV",
+      "title": "6mm eva+2mm kydex 20240501182849",
+      "nickname": "6mm eva 2mm kydex · 11.7kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm eva+2mm kydex-20240501182849.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm%20eva%2B2mm%20kydex-20240501182849.CSV",
+      "metrics": {
+        "peakForceN": 11736.6,
+        "peakForceLbf": 2638.5,
+        "timeToPeakMs": 0.4,
+        "forceDecayMs": 0.34,
+        "impulseNs": 5.02,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.5831,
+        "eventEnd": 0.58384,
+        "prefixTrimStart": 0.57696,
+        "prefixTrimEnd": 0.5831,
+        "suffixTrimStart": 0.58384,
+        "suffixTrimEnd": 0.89242,
+        "originalStart": 0.57696,
+        "originalEnd": 0.89242
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm eva+2mm kydex-20240501182938.CSV",
+      "title": "6mm eva+2mm kydex 20240501182938",
+      "nickname": "6mm eva 2mm kydex · 12.0kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm eva+2mm kydex-20240501182938.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm%20eva%2B2mm%20kydex-20240501182938.CSV",
+      "metrics": {
+        "peakForceN": 11960,
+        "peakForceLbf": 2688.7,
+        "timeToPeakMs": 0.44,
+        "forceDecayMs": 0.42,
+        "impulseNs": 5.35,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.61964,
+        "eventEnd": 0.6205,
+        "prefixTrimStart": 0.6134,
+        "prefixTrimEnd": 0.61964,
+        "suffixTrimStart": 0.6205,
+        "suffixTrimEnd": 0.93676,
+        "originalStart": 0.6134,
+        "originalEnd": 0.93676
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm eva+2mm kydex-20240501183030.CSV",
+      "title": "6mm eva+2mm kydex 20240501183030",
+      "nickname": "6mm eva 2mm kydex · 9.5kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm eva+2mm kydex-20240501183030.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm%20eva%2B2mm%20kydex-20240501183030.CSV",
+      "metrics": {
+        "peakForceN": 9467.4,
+        "peakForceLbf": 2128.4,
+        "timeToPeakMs": 0.22,
+        "forceDecayMs": 2.28,
+        "impulseNs": 4.71,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.59368,
+        "eventEnd": 0.59618,
+        "prefixTrimStart": 0.58976,
+        "prefixTrimEnd": 0.59368,
+        "suffixTrimStart": 0.59618,
+        "suffixTrimEnd": 0.79014,
+        "originalStart": 0.58976,
+        "originalEnd": 0.79014
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm eva+2mm kydex-20240501183109.CSV",
+      "title": "6mm eva+2mm kydex 20240501183109",
+      "nickname": "6mm eva 2mm kydex · 11.1kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm eva+2mm kydex-20240501183109.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm%20eva%2B2mm%20kydex-20240501183109.CSV",
+      "metrics": {
+        "peakForceN": 11112,
+        "peakForceLbf": 2498.1,
+        "timeToPeakMs": 0.46,
+        "forceDecayMs": 1.68,
+        "impulseNs": 5.37,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.61122,
+        "eventEnd": 0.61336,
+        "prefixTrimStart": 0.60588,
+        "prefixTrimEnd": 0.61122,
+        "suffixTrimStart": 0.61336,
+        "suffixTrimEnd": 0.8829,
+        "originalStart": 0.60588,
+        "originalEnd": 0.8829
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm eva+2mm kydex-20240501183145.CSV",
+      "title": "6mm eva+2mm kydex 20240501183145",
+      "nickname": "6mm eva 2mm kydex · 11.4kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm eva+2mm kydex-20240501183145.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm%20eva%2B2mm%20kydex-20240501183145.CSV",
+      "metrics": {
+        "peakForceN": 11400.7,
+        "peakForceLbf": 2563,
+        "timeToPeakMs": 0.46,
+        "forceDecayMs": 1.66,
+        "impulseNs": 5.62,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.59194,
+        "eventEnd": 0.59406,
+        "prefixTrimStart": 0.58624,
+        "prefixTrimEnd": 0.59194,
+        "suffixTrimStart": 0.59406,
+        "suffixTrimEnd": 0.88182,
+        "originalStart": 0.58624,
+        "originalEnd": 0.88182
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm eva+2mm kydex-20240501183225.CSV",
+      "title": "6mm eva+2mm kydex 20240501183225",
+      "nickname": "6mm eva 2mm kydex · 9.9kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm eva+2mm kydex-20240501183225.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm%20eva%2B2mm%20kydex-20240501183225.CSV",
+      "metrics": {
+        "peakForceN": 9879.3,
+        "peakForceLbf": 2221,
+        "timeToPeakMs": 0.18,
+        "forceDecayMs": 0.22,
+        "impulseNs": 3.14,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.6242,
+        "eventEnd": 0.6246,
+        "prefixTrimStart": 0.62134,
+        "prefixTrimEnd": 0.6242,
+        "suffixTrimStart": 0.6246,
+        "suffixTrimEnd": 0.75882,
+        "originalStart": 0.62134,
+        "originalEnd": 0.75882
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm eva+2mm kydex-20240501183308.CSV",
+      "title": "6mm eva+2mm kydex 20240501183308",
+      "nickname": "6mm eva 2mm kydex · 10.2kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm eva+2mm kydex-20240501183308.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm%20eva%2B2mm%20kydex-20240501183308.CSV",
+      "metrics": {
+        "peakForceN": 10205.5,
+        "peakForceLbf": 2294.3,
+        "timeToPeakMs": 0.24,
+        "forceDecayMs": 0.26,
+        "impulseNs": 3.99,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.572,
+        "eventEnd": 0.5725,
+        "prefixTrimStart": 0.56888,
+        "prefixTrimEnd": 0.572,
+        "suffixTrimStart": 0.5725,
+        "suffixTrimEnd": 0.72352,
+        "originalStart": 0.56888,
+        "originalEnd": 0.72352
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm eva+2mm kydex-20240501183346.CSV",
+      "title": "6mm eva+2mm kydex 20240501183346",
+      "nickname": "6mm eva 2mm kydex · 10.8kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm eva+2mm kydex-20240501183346.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm%20eva%2B2mm%20kydex-20240501183346.CSV",
+      "metrics": {
+        "peakForceN": 10756.8,
+        "peakForceLbf": 2418.2,
+        "timeToPeakMs": 0.36,
+        "forceDecayMs": 0.24,
+        "impulseNs": 3.93,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.56708,
+        "eventEnd": 0.56768,
+        "prefixTrimStart": 0.56242,
+        "prefixTrimEnd": 0.56708,
+        "suffixTrimStart": 0.56768,
+        "suffixTrimEnd": 0.8005,
+        "originalStart": 0.56242,
+        "originalEnd": 0.8005
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm eva+2mm kydex-20240501183434.CSV",
+      "title": "6mm eva+2mm kydex 20240501183434",
+      "nickname": "6mm eva 2mm kydex · 11.1kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm eva+2mm kydex-20240501183434.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm%20eva%2B2mm%20kydex-20240501183434.CSV",
+      "metrics": {
+        "peakForceN": 11054.3,
+        "peakForceLbf": 2485.1,
+        "timeToPeakMs": 0.4,
+        "forceDecayMs": 0.4,
+        "impulseNs": 4.75,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.59724,
+        "eventEnd": 0.59804,
+        "prefixTrimStart": 0.592,
+        "prefixTrimEnd": 0.59724,
+        "suffixTrimStart": 0.59804,
+        "suffixTrimEnd": 0.8622,
+        "originalStart": 0.592,
+        "originalEnd": 0.8622
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201230.CSV",
+      "title": "6mm ensilite foam+2mmkydex 20240501201230",
+      "nickname": "6mm ensilite foam 2mmkydex · 7.9kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201230.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-ensilite-foam%2B2mmkydex-20240501201230.CSV",
+      "metrics": {
+        "peakForceN": 7900.1,
+        "peakForceLbf": 1776,
+        "timeToPeakMs": 0.36,
+        "forceDecayMs": 0.14,
+        "impulseNs": 2.88,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.73404,
+        "eventEnd": 0.73454,
+        "prefixTrimStart": 0.73198,
+        "prefixTrimEnd": 0.73404,
+        "suffixTrimStart": 0.73454,
+        "suffixTrimEnd": 0.8144,
+        "originalStart": 0.73198,
+        "originalEnd": 0.8144
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201301.CSV",
+      "title": "6mm ensilite foam+2mmkydex 20240501201301",
+      "nickname": "6mm ensilite foam 2mmkydex · 7.1kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201301.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-ensilite-foam%2B2mmkydex-20240501201301.CSV",
+      "metrics": {
+        "peakForceN": 7122,
+        "peakForceLbf": 1601.1,
+        "timeToPeakMs": 0.12,
+        "forceDecayMs": 0.12,
+        "impulseNs": 1.54,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.70946,
+        "eventEnd": 0.7097,
+        "prefixTrimStart": 0.70736,
+        "prefixTrimEnd": 0.70946,
+        "suffixTrimStart": 0.7097,
+        "suffixTrimEnd": 0.77342,
+        "originalStart": 0.70736,
+        "originalEnd": 0.77342
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201327.CSV",
+      "title": "6mm ensilite foam+2mmkydex 20240501201327",
+      "nickname": "6mm ensilite foam 2mmkydex · 7.0kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201327.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-ensilite-foam%2B2mmkydex-20240501201327.CSV",
+      "metrics": {
+        "peakForceN": 7016,
+        "peakForceLbf": 1577.3,
+        "timeToPeakMs": 0.4,
+        "forceDecayMs": 0.12,
+        "impulseNs": 2.69,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.73844,
+        "eventEnd": 0.73896,
+        "prefixTrimStart": 0.73652,
+        "prefixTrimEnd": 0.73844,
+        "suffixTrimStart": 0.73896,
+        "suffixTrimEnd": 0.80816,
+        "originalStart": 0.73652,
+        "originalEnd": 0.80816
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201358.CSV",
+      "title": "6mm ensilite foam+2mmkydex 20240501201358",
+      "nickname": "6mm ensilite foam 2mmkydex · 5.2kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201358.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-ensilite-foam%2B2mmkydex-20240501201358.CSV",
+      "metrics": {
+        "peakForceN": 5245.7,
+        "peakForceLbf": 1179.3,
+        "timeToPeakMs": 0.12,
+        "forceDecayMs": 0.84,
+        "impulseNs": 4.07,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.73744,
+        "eventEnd": 0.7384,
+        "prefixTrimStart": 0.7358,
+        "prefixTrimEnd": 0.73744,
+        "suffixTrimStart": 0.7384,
+        "suffixTrimEnd": 0.7737,
+        "originalStart": 0.7358,
+        "originalEnd": 0.7737
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201430.CSV",
+      "title": "6mm ensilite foam+2mmkydex 20240501201430",
+      "nickname": "6mm ensilite foam 2mmkydex · 5.7kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201430.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-ensilite-foam%2B2mmkydex-20240501201430.CSV",
+      "metrics": {
+        "peakForceN": 5685.7,
+        "peakForceLbf": 1278.2,
+        "timeToPeakMs": 0.06,
+        "forceDecayMs": 0.06,
+        "impulseNs": 0.65,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.71458,
+        "eventEnd": 0.7147,
+        "prefixTrimStart": 0.71304,
+        "prefixTrimEnd": 0.71458,
+        "suffixTrimStart": 0.7147,
+        "suffixTrimEnd": 0.75632,
+        "originalStart": 0.71304,
+        "originalEnd": 0.75632
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201508.CSV",
+      "title": "6mm ensilite foam+2mmkydex 20240501201508",
+      "nickname": "6mm ensilite foam 2mmkydex · 5.1kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201508.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-ensilite-foam%2B2mmkydex-20240501201508.CSV",
+      "metrics": {
+        "peakForceN": 5133.3,
+        "peakForceLbf": 1154,
+        "timeToPeakMs": 1.2,
+        "forceDecayMs": 1.2,
+        "impulseNs": 6.2,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.68902,
+        "eventEnd": 0.69142,
+        "prefixTrimStart": 0.68818,
+        "prefixTrimEnd": 0.68902,
+        "suffixTrimStart": 0.69142,
+        "suffixTrimEnd": 0.7485,
+        "originalStart": 0.68818,
+        "originalEnd": 0.7485
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201811.CSV",
+      "title": "6mm ensilite foam+2mmkydex 20240501201811",
+      "nickname": "6mm ensilite foam 2mmkydex · 8.8kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201811.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-ensilite-foam%2B2mmkydex-20240501201811.CSV",
+      "metrics": {
+        "peakForceN": 8803.1,
+        "peakForceLbf": 1979,
+        "timeToPeakMs": 0.14,
+        "forceDecayMs": 0.14,
+        "impulseNs": 2.07,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.69866,
+        "eventEnd": 0.69894,
+        "prefixTrimStart": 0.69664,
+        "prefixTrimEnd": 0.69866,
+        "suffixTrimStart": 0.69894,
+        "suffixTrimEnd": 0.77398,
+        "originalStart": 0.69664,
+        "originalEnd": 0.77398
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201908.CSV",
+      "title": "6mm ensilite foam+2mmkydex 20240501201908",
+      "nickname": "6mm ensilite foam 2mmkydex · 8.9kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201908.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-ensilite-foam%2B2mmkydex-20240501201908.CSV",
+      "metrics": {
+        "peakForceN": 8898.7,
+        "peakForceLbf": 2000.5,
+        "timeToPeakMs": 0.14,
+        "forceDecayMs": 0.14,
+        "impulseNs": 2.07,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.69386,
+        "eventEnd": 0.69414,
+        "prefixTrimStart": 0.69166,
+        "prefixTrimEnd": 0.69386,
+        "suffixTrimStart": 0.69414,
+        "suffixTrimEnd": 0.7796,
+        "originalStart": 0.69166,
+        "originalEnd": 0.7796
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201953.CSV",
+      "title": "6mm ensilite foam+2mmkydex 20240501201953",
+      "nickname": "6mm ensilite foam 2mmkydex · 8.4kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201953.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-ensilite-foam%2B2mmkydex-20240501201953.CSV",
+      "metrics": {
+        "peakForceN": 8359.5,
+        "peakForceLbf": 1879.3,
+        "timeToPeakMs": 0.1,
+        "forceDecayMs": 0.12,
+        "impulseNs": 1.65,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.67632,
+        "eventEnd": 0.67654,
+        "prefixTrimStart": 0.67462,
+        "prefixTrimEnd": 0.67632,
+        "suffixTrimStart": 0.67654,
+        "suffixTrimEnd": 0.73038,
+        "originalStart": 0.67462,
+        "originalEnd": 0.73038
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501202019.CSV",
+      "title": "6mm ensilite foam+2mmkydex 20240501202019",
+      "nickname": "6mm ensilite foam 2mmkydex · 6.3kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501202019.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-ensilite-foam%2B2mmkydex-20240501202019.CSV",
+      "metrics": {
+        "peakForceN": 6335.4,
+        "peakForceLbf": 1424.3,
+        "timeToPeakMs": 0.1,
+        "forceDecayMs": 0.76,
+        "impulseNs": 3.83,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.68438,
+        "eventEnd": 0.68524,
+        "prefixTrimStart": 0.68248,
+        "prefixTrimEnd": 0.68438,
+        "suffixTrimStart": 0.68524,
+        "suffixTrimEnd": 0.75216,
+        "originalStart": 0.68248,
+        "originalEnd": 0.75216
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195242.CSV",
+      "title": "6mm shoktec hi impact foam+2mm kydex 20240501195242",
+      "nickname": "6mm shoktec hi impact foam 2mm kydex · 8.3kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195242.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam%2B2mm-kydex-20240501195242.CSV",
+      "metrics": {
+        "peakForceN": 8328.6,
+        "peakForceLbf": 1872.3,
+        "timeToPeakMs": 0.18,
+        "forceDecayMs": 0.2,
+        "impulseNs": 2.73,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.67036,
+        "eventEnd": 0.67074,
+        "prefixTrimStart": 0.66762,
+        "prefixTrimEnd": 0.67036,
+        "suffixTrimStart": 0.67074,
+        "suffixTrimEnd": 0.78732,
+        "originalStart": 0.66762,
+        "originalEnd": 0.78732
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195318.CSV",
+      "title": "6mm shoktec hi impact foam+2mm kydex 20240501195318",
+      "nickname": "6mm shoktec hi impact foam 2mm kydex · 8.4kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195318.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam%2B2mm-kydex-20240501195318.CSV",
+      "metrics": {
+        "peakForceN": 8433.5,
+        "peakForceLbf": 1895.9,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.22,
+        "impulseNs": 3.01,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.6139,
+        "eventEnd": 0.61432,
+        "prefixTrimStart": 0.61122,
+        "prefixTrimEnd": 0.6139,
+        "suffixTrimStart": 0.61432,
+        "suffixTrimEnd": 0.73106,
+        "originalStart": 0.61122,
+        "originalEnd": 0.73106
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195400.CSV",
+      "title": "6mm shoktec hi impact foam+2mm kydex 20240501195400",
+      "nickname": "6mm shoktec hi impact foam 2mm kydex · 8.3kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195400.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam%2B2mm-kydex-20240501195400.CSV",
+      "metrics": {
+        "peakForceN": 8325.2,
+        "peakForceLbf": 1871.6,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.2,
+        "impulseNs": 2.86,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.711,
+        "eventEnd": 0.7114,
+        "prefixTrimStart": 0.7086,
+        "prefixTrimEnd": 0.711,
+        "suffixTrimStart": 0.7114,
+        "suffixTrimEnd": 0.81206,
+        "originalStart": 0.7086,
+        "originalEnd": 0.81206
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195434.CSV",
+      "title": "6mm shoktec hi impact foam+2mm kydex 20240501195434",
+      "nickname": "6mm shoktec hi impact foam 2mm kydex · 6.1kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195434.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam%2B2mm-kydex-20240501195434.CSV",
+      "metrics": {
+        "peakForceN": 6086.2,
+        "peakForceLbf": 1368.2,
+        "timeToPeakMs": 0.04,
+        "forceDecayMs": 0.08,
+        "impulseNs": 0.72,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.68526,
+        "eventEnd": 0.68538,
+        "prefixTrimStart": 0.6836,
+        "prefixTrimEnd": 0.68526,
+        "suffixTrimStart": 0.68538,
+        "suffixTrimEnd": 0.736,
+        "originalStart": 0.6836,
+        "originalEnd": 0.736
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195501.CSV",
+      "title": "6mm shoktec hi impact foam+2mm kydex 20240501195501",
+      "nickname": "6mm shoktec hi impact foam 2mm kydex · 9.0kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195501.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam%2B2mm-kydex-20240501195501.CSV",
+      "metrics": {
+        "peakForceN": 8960,
+        "peakForceLbf": 2014.3,
+        "timeToPeakMs": 0.22,
+        "forceDecayMs": 0.2,
+        "impulseNs": 3.22,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.67734,
+        "eventEnd": 0.67776,
+        "prefixTrimStart": 0.67494,
+        "prefixTrimEnd": 0.67734,
+        "suffixTrimStart": 0.67776,
+        "suffixTrimEnd": 0.78346,
+        "originalStart": 0.67494,
+        "originalEnd": 0.78346
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195537.CSV",
+      "title": "6mm shoktec hi impact foam+2mm kydex 20240501195537",
+      "nickname": "6mm shoktec hi impact foam 2mm kydex · 8.4kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195537.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam%2B2mm-kydex-20240501195537.CSV",
+      "metrics": {
+        "peakForceN": 8400.1,
+        "peakForceLbf": 1888.4,
+        "timeToPeakMs": 0.22,
+        "forceDecayMs": 0.24,
+        "impulseNs": 3.26,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.69506,
+        "eventEnd": 0.69552,
+        "prefixTrimStart": 0.6922,
+        "prefixTrimEnd": 0.69506,
+        "suffixTrimStart": 0.69552,
+        "suffixTrimEnd": 0.82358,
+        "originalStart": 0.6922,
+        "originalEnd": 0.82358
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195616.CSV",
+      "title": "6mm shoktec hi impact foam+2mm kydex 20240501195616",
+      "nickname": "6mm shoktec hi impact foam 2mm kydex · 8.0kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195616.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam%2B2mm-kydex-20240501195616.CSV",
+      "metrics": {
+        "peakForceN": 7961.7,
+        "peakForceLbf": 1789.9,
+        "timeToPeakMs": 0.22,
+        "forceDecayMs": 0.18,
+        "impulseNs": 2.72,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.75544,
+        "eventEnd": 0.75584,
+        "prefixTrimStart": 0.75326,
+        "prefixTrimEnd": 0.75544,
+        "suffixTrimStart": 0.75584,
+        "suffixTrimEnd": 0.84658,
+        "originalStart": 0.75326,
+        "originalEnd": 0.84658
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195740.CSV",
+      "title": "6mm shoktec hi impact foam+2mm kydex 20240501195740",
+      "nickname": "6mm shoktec hi impact foam 2mm kydex · 5.6kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195740.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam%2B2mm-kydex-20240501195740.CSV",
+      "metrics": {
+        "peakForceN": 5557.5,
+        "peakForceLbf": 1249.4,
+        "timeToPeakMs": 0.46,
+        "forceDecayMs": 0.4,
+        "impulseNs": 4.22,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.69246,
+        "eventEnd": 0.69332,
+        "prefixTrimStart": 0.69026,
+        "prefixTrimEnd": 0.69246,
+        "suffixTrimStart": 0.69332,
+        "suffixTrimEnd": 0.77896,
+        "originalStart": 0.69026,
+        "originalEnd": 0.77896
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195818.CSV",
+      "title": "6mm shoktec hi impact foam+2mm kydex 20240501195818",
+      "nickname": "6mm shoktec hi impact foam 2mm kydex · 8.5kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195818.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam%2B2mm-kydex-20240501195818.CSV",
+      "metrics": {
+        "peakForceN": 8510.9,
+        "peakForceLbf": 1913.3,
+        "timeToPeakMs": 0.22,
+        "forceDecayMs": 0.28,
+        "impulseNs": 3.62,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.67234,
+        "eventEnd": 0.67284,
+        "prefixTrimStart": 0.66932,
+        "prefixTrimEnd": 0.67234,
+        "suffixTrimStart": 0.67284,
+        "suffixTrimEnd": 0.81314,
+        "originalStart": 0.66932,
+        "originalEnd": 0.81314
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195857.CSV",
+      "title": "6mm shoktec hi impact foam+2mm kydex 20240501195857",
+      "nickname": "6mm shoktec hi impact foam 2mm kydex · 6.9kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195857.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-foam%2B2mm-kydex-20240501195857.CSV",
+      "metrics": {
+        "peakForceN": 6850.8,
+        "peakForceLbf": 1540.1,
+        "timeToPeakMs": 0.12,
+        "forceDecayMs": 0.14,
+        "impulseNs": 1.64,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.68444,
+        "eventEnd": 0.6847,
+        "prefixTrimStart": 0.6828,
+        "prefixTrimEnd": 0.68444,
+        "suffixTrimStart": 0.6847,
+        "suffixTrimEnd": 0.73792,
+        "originalStart": 0.6828,
+        "originalEnd": 0.73792
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-abs-20240501192349.CSV",
+      "title": "6mm shoktec hi impact gell+2mm abs 20240501192349",
+      "nickname": "6mm shoktec hi impact gell 2mm abs · 5.1kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-abs-20240501192349.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-abs-20240501192349.CSV",
+      "metrics": {
+        "peakForceN": 5066.7,
+        "peakForceLbf": 1139,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.26,
+        "impulseNs": 2.27,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.68648,
+        "eventEnd": 0.68694,
+        "prefixTrimStart": 0.68386,
+        "prefixTrimEnd": 0.68648,
+        "suffixTrimStart": 0.68694,
+        "suffixTrimEnd": 0.76644,
+        "originalStart": 0.68386,
+        "originalEnd": 0.76644
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192552.CSV",
+      "title": "6mm shoktec hi impact gell+2mm kydex 20240501192552",
+      "nickname": "6mm shoktec hi impact gell 2mm kydex · 5.7kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192552.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-kydex-20240501192552.CSV",
+      "metrics": {
+        "peakForceN": 5729.1,
+        "peakForceLbf": 1288,
+        "timeToPeakMs": 0.32,
+        "forceDecayMs": 0.4,
+        "impulseNs": 3.9,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.7001,
+        "eventEnd": 0.70082,
+        "prefixTrimStart": 0.69716,
+        "prefixTrimEnd": 0.7001,
+        "suffixTrimStart": 0.70082,
+        "suffixTrimEnd": 0.80566,
+        "originalStart": 0.69716,
+        "originalEnd": 0.80566
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192642.CSV",
+      "title": "6mm shoktec hi impact gell+2mm kydex 20240501192642",
+      "nickname": "6mm shoktec hi impact gell 2mm kydex · 4.9kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192642.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-kydex-20240501192642.CSV",
+      "metrics": {
+        "peakForceN": 4939.4,
+        "peakForceLbf": 1110.4,
+        "timeToPeakMs": 0.28,
+        "forceDecayMs": 0.48,
+        "impulseNs": 3.62,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.67516,
+        "eventEnd": 0.67592,
+        "prefixTrimStart": 0.6722,
+        "prefixTrimEnd": 0.67516,
+        "suffixTrimStart": 0.67592,
+        "suffixTrimEnd": 0.78152,
+        "originalStart": 0.6722,
+        "originalEnd": 0.78152
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192846.CSV",
+      "title": "6mm shoktec hi impact gell+2mm kydex 20240501192846",
+      "nickname": "6mm shoktec hi impact gell 2mm kydex · 4.8kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192846.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-kydex-20240501192846.CSV",
+      "metrics": {
+        "peakForceN": 4830.5,
+        "peakForceLbf": 1085.9,
+        "timeToPeakMs": 0.08,
+        "forceDecayMs": 0.6,
+        "impulseNs": 3.21,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.68294,
+        "eventEnd": 0.68362,
+        "prefixTrimStart": 0.68012,
+        "prefixTrimEnd": 0.68294,
+        "suffixTrimStart": 0.68362,
+        "suffixTrimEnd": 0.78024,
+        "originalStart": 0.68012,
+        "originalEnd": 0.78024
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192930.CSV",
+      "title": "6mm shoktec hi impact gell+2mm kydex 20240501192930",
+      "nickname": "6mm shoktec hi impact gell 2mm kydex · 5.1kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192930.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-kydex-20240501192930.CSV",
+      "metrics": {
+        "peakForceN": 5128.6,
+        "peakForceLbf": 1153,
+        "timeToPeakMs": 0.16,
+        "forceDecayMs": 0.3,
+        "impulseNs": 2.26,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.60164,
+        "eventEnd": 0.6021,
+        "prefixTrimStart": 0.59874,
+        "prefixTrimEnd": 0.60164,
+        "suffixTrimStart": 0.6021,
+        "suffixTrimEnd": 0.70524,
+        "originalStart": 0.59874,
+        "originalEnd": 0.70524
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193056.CSV",
+      "title": "6mm shoktec hi impact gell+2mm kydex 20240501193056",
+      "nickname": "6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193056.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-kydex-20240501193056.CSV",
+      "metrics": {
+        "peakForceN": 5267.5,
+        "peakForceLbf": 1184.2,
+        "timeToPeakMs": 0.16,
+        "forceDecayMs": 0.3,
+        "impulseNs": 2.33,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.5923,
+        "eventEnd": 0.59276,
+        "prefixTrimStart": 0.58946,
+        "prefixTrimEnd": 0.5923,
+        "suffixTrimStart": 0.59276,
+        "suffixTrimEnd": 0.69578,
+        "originalStart": 0.58946,
+        "originalEnd": 0.69578
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193123.CSV",
+      "title": "6mm shoktec hi impact gell+2mm kydex 20240501193123",
+      "nickname": "6mm shoktec hi impact gell 2mm kydex · 4.7kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193123.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-kydex-20240501193123.CSV",
+      "metrics": {
+        "peakForceN": 4716.4,
+        "peakForceLbf": 1060.3,
+        "timeToPeakMs": 0.36,
+        "forceDecayMs": 0.36,
+        "impulseNs": 3.26,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.70968,
+        "eventEnd": 0.7104,
+        "prefixTrimStart": 0.70776,
+        "prefixTrimEnd": 0.70968,
+        "suffixTrimStart": 0.7104,
+        "suffixTrimEnd": 0.75074,
+        "originalStart": 0.70776,
+        "originalEnd": 0.75074
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193202.CSV",
+      "title": "6mm shoktec hi impact gell+2mm kydex 20240501193202",
+      "nickname": "6mm shoktec hi impact gell 2mm kydex · 5.6kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193202.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-kydex-20240501193202.CSV",
+      "metrics": {
+        "peakForceN": 5601.7,
+        "peakForceLbf": 1259.3,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.26,
+        "impulseNs": 2.44,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.65154,
+        "eventEnd": 0.652,
+        "prefixTrimStart": 0.6488,
+        "prefixTrimEnd": 0.65154,
+        "suffixTrimStart": 0.652,
+        "suffixTrimEnd": 0.75414,
+        "originalStart": 0.6488,
+        "originalEnd": 0.75414
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193252.CSV",
+      "title": "6mm shoktec hi impact gell+2mm kydex 20240501193252",
+      "nickname": "6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193252.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-kydex-20240501193252.CSV",
+      "metrics": {
+        "peakForceN": 5346.2,
+        "peakForceLbf": 1201.9,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.3,
+        "impulseNs": 2.53,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.7229,
+        "eventEnd": 0.7234,
+        "prefixTrimStart": 0.71986,
+        "prefixTrimEnd": 0.7229,
+        "suffixTrimStart": 0.7234,
+        "suffixTrimEnd": 0.83918,
+        "originalStart": 0.71986,
+        "originalEnd": 0.83918
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193323.CSV",
+      "title": "6mm shoktec hi impact gell+2mm kydex 20240501193323",
+      "nickname": "6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay · run 3",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193323.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-kydex-20240501193323.CSV",
+      "metrics": {
+        "peakForceN": 5341.2,
+        "peakForceLbf": 1200.7,
+        "timeToPeakMs": 0.14,
+        "forceDecayMs": 0.26,
+        "impulseNs": 2.06,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.68764,
+        "eventEnd": 0.68804,
+        "prefixTrimStart": 0.68486,
+        "prefixTrimEnd": 0.68764,
+        "suffixTrimStart": 0.68804,
+        "suffixTrimEnd": 0.78912,
+        "originalStart": 0.68486,
+        "originalEnd": 0.78912
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193356.CSV",
+      "title": "6mm shoktec hi impact gell+2mm kydex 20240501193356",
+      "nickname": "6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay · run 4",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193356.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell%2B2mm-kydex-20240501193356.CSV",
+      "metrics": {
+        "peakForceN": 5263.4,
+        "peakForceLbf": 1183.3,
+        "timeToPeakMs": 0.12,
+        "forceDecayMs": 0.22,
+        "impulseNs": 1.74,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.63284,
+        "eventEnd": 0.63318,
+        "prefixTrimStart": 0.63018,
+        "prefixTrimEnd": 0.63284,
+        "suffixTrimStart": 0.63318,
+        "suffixTrimEnd": 0.72784,
+        "originalStart": 0.63018,
+        "originalEnd": 0.72784
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193602.CSV",
+      "title": "6mm shoktec hi impact gell 20240501193602",
+      "nickname": "6mm shoktec hi impact gell · 6.8kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193602.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193602.CSV",
+      "metrics": {
+        "peakForceN": 6783.1,
+        "peakForceLbf": 1524.9,
+        "timeToPeakMs": 0.14,
+        "forceDecayMs": 0.4,
+        "impulseNs": 3.25,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.67826,
+        "eventEnd": 0.6788,
+        "prefixTrimStart": 0.6754,
+        "prefixTrimEnd": 0.67826,
+        "suffixTrimStart": 0.6788,
+        "suffixTrimEnd": 0.80186,
+        "originalStart": 0.6754,
+        "originalEnd": 0.80186
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193658.CSV",
+      "title": "6mm shoktec hi impact gell 20240501193658",
+      "nickname": "6mm shoktec hi impact gell · 6.3kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193658.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193658.CSV",
+      "metrics": {
+        "peakForceN": 6319.6,
+        "peakForceLbf": 1420.7,
+        "timeToPeakMs": 0.46,
+        "forceDecayMs": 1.8,
+        "impulseNs": 5.33,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.54064,
+        "eventEnd": 0.5429,
+        "prefixTrimStart": 0.53198,
+        "prefixTrimEnd": 0.54064,
+        "suffixTrimStart": 0.5429,
+        "suffixTrimEnd": 0.9618,
+        "originalStart": 0.53198,
+        "originalEnd": 0.9618
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193736.CSV",
+      "title": "6mm shoktec hi impact gell 20240501193736",
+      "nickname": "6mm shoktec hi impact gell · 6.5kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193736.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193736.CSV",
+      "metrics": {
+        "peakForceN": 6457.5,
+        "peakForceLbf": 1451.7,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.2,
+        "impulseNs": 2.28,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.70486,
+        "eventEnd": 0.70526,
+        "prefixTrimStart": 0.7022,
+        "prefixTrimEnd": 0.70486,
+        "suffixTrimStart": 0.70526,
+        "suffixTrimEnd": 0.8075,
+        "originalStart": 0.7022,
+        "originalEnd": 0.8075
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193815.CSV",
+      "title": "6mm shoktec hi impact gell 20240501193815",
+      "nickname": "6mm shoktec hi impact gell · 6.5kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193815.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193815.CSV",
+      "metrics": {
+        "peakForceN": 6538.7,
+        "peakForceLbf": 1470,
+        "timeToPeakMs": 0.22,
+        "forceDecayMs": 0.2,
+        "impulseNs": 2.43,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.72804,
+        "eventEnd": 0.72846,
+        "prefixTrimStart": 0.72548,
+        "prefixTrimEnd": 0.72804,
+        "suffixTrimStart": 0.72846,
+        "suffixTrimEnd": 0.82748,
+        "originalStart": 0.72548,
+        "originalEnd": 0.82748
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193851.CSV",
+      "title": "6mm shoktec hi impact gell 20240501193851",
+      "nickname": "6mm shoktec hi impact gell · 5.8kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193851.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193851.CSV",
+      "metrics": {
+        "peakForceN": 5767.7,
+        "peakForceLbf": 1296.6,
+        "timeToPeakMs": 0.22,
+        "forceDecayMs": 0.18,
+        "impulseNs": 2.06,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.72468,
+        "eventEnd": 0.72508,
+        "prefixTrimStart": 0.7221,
+        "prefixTrimEnd": 0.72468,
+        "suffixTrimStart": 0.72508,
+        "suffixTrimEnd": 0.82424,
+        "originalStart": 0.7221,
+        "originalEnd": 0.82424
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193928.CSV",
+      "title": "6mm shoktec hi impact gell 20240501193928",
+      "nickname": "6mm shoktec hi impact gell · 6.2kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193928.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193928.CSV",
+      "metrics": {
+        "peakForceN": 6204.2,
+        "peakForceLbf": 1394.8,
+        "timeToPeakMs": 0.32,
+        "forceDecayMs": 0.16,
+        "impulseNs": 2.6,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.7179,
+        "eventEnd": 0.71838,
+        "prefixTrimStart": 0.7156,
+        "prefixTrimEnd": 0.7179,
+        "suffixTrimStart": 0.71838,
+        "suffixTrimEnd": 0.80874,
+        "originalStart": 0.7156,
+        "originalEnd": 0.80874
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194002.CSV",
+      "title": "6mm shoktec hi impact gell 20240501194002",
+      "nickname": "6mm shoktec hi impact gell · 6.6kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194002.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194002.CSV",
+      "metrics": {
+        "peakForceN": 6640.9,
+        "peakForceLbf": 1492.9,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.2,
+        "impulseNs": 2.39,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.69482,
+        "eventEnd": 0.69522,
+        "prefixTrimStart": 0.69232,
+        "prefixTrimEnd": 0.69482,
+        "suffixTrimStart": 0.69522,
+        "suffixTrimEnd": 0.79092,
+        "originalStart": 0.69232,
+        "originalEnd": 0.79092
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194031.CSV",
+      "title": "6mm shoktec hi impact gell 20240501194031",
+      "nickname": "6mm shoktec hi impact gell · 42N peak · slow decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194031.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194031.CSV",
+      "metrics": {
+        "peakForceN": 41.7,
+        "peakForceLbf": 9.4,
+        "timeToPeakMs": 0.78,
+        "forceDecayMs": 999.2,
+        "impulseNs": 15.37,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0,
+        "eventEnd": 0.99998,
+        "prefixTrimStart": 0,
+        "prefixTrimEnd": 0,
+        "suffixTrimStart": 0.99998,
+        "suffixTrimEnd": 0.99998,
+        "originalStart": 0,
+        "originalEnd": 0.99998
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194059.CSV",
+      "title": "6mm shoktec hi impact gell 20240501194059",
+      "nickname": "6mm shoktec hi impact gell · 6.1kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194059.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194059.CSV",
+      "metrics": {
+        "peakForceN": 6120.2,
+        "peakForceLbf": 1375.9,
+        "timeToPeakMs": 0.28,
+        "forceDecayMs": 0.16,
+        "impulseNs": 2.42,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.70856,
+        "eventEnd": 0.709,
+        "prefixTrimStart": 0.70636,
+        "prefixTrimEnd": 0.70856,
+        "suffixTrimStart": 0.709,
+        "suffixTrimEnd": 0.79438,
+        "originalStart": 0.70636,
+        "originalEnd": 0.79438
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194148.CSV",
+      "title": "6mm shoktec hi impact gell 20240501194148",
+      "nickname": "6mm shoktec hi impact gell · 6.8kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194148.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194148.CSV",
+      "metrics": {
+        "peakForceN": 6750.2,
+        "peakForceLbf": 1517.5,
+        "timeToPeakMs": 0.42,
+        "forceDecayMs": 1.86,
+        "impulseNs": 5.26,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.59878,
+        "eventEnd": 0.60106,
+        "prefixTrimStart": 0.5905,
+        "prefixTrimEnd": 0.59878,
+        "suffixTrimStart": 0.60106,
+        "suffixTrimEnd": 0.99998,
+        "originalStart": 0.5905,
+        "originalEnd": 0.99998
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501195022.CSV",
+      "title": "6mm shoktec hi impact gell 20240501195022",
+      "nickname": "6mm shoktec hi impact gell · 5.7kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501195022.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501195022.CSV",
+      "metrics": {
+        "peakForceN": 5672.2,
+        "peakForceLbf": 1275.2,
+        "timeToPeakMs": 0.34,
+        "forceDecayMs": 0.14,
+        "impulseNs": 2.44,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.66548,
+        "eventEnd": 0.66596,
+        "prefixTrimStart": 0.6633,
+        "prefixTrimEnd": 0.66548,
+        "suffixTrimStart": 0.66596,
+        "suffixTrimEnd": 0.75198,
+        "originalStart": 0.6633,
+        "originalEnd": 0.75198
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501182806.CSV",
+      "title": "6mmEVA 20240501182806",
+      "nickname": "6mmeva · 11.1kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501182806.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501182806.CSV",
+      "metrics": {
+        "peakForceN": 11072,
+        "peakForceLbf": 2489.1,
+        "timeToPeakMs": 0.46,
+        "forceDecayMs": 0.42,
+        "impulseNs": 4.74,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.4128,
+        "eventEnd": 0.41368,
+        "prefixTrimStart": 0.40584,
+        "prefixTrimEnd": 0.4128,
+        "suffixTrimStart": 0.41368,
+        "suffixTrimEnd": 0.76696,
+        "originalStart": 0.40584,
+        "originalEnd": 0.76696
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501191134.CSV",
+      "title": "6mmEVA 20240501191134",
+      "nickname": "6mmeva · 11.4kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501191134.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501191134.CSV",
+      "metrics": {
+        "peakForceN": 11423.3,
+        "peakForceLbf": 2568.1,
+        "timeToPeakMs": 0.4,
+        "forceDecayMs": 0.38,
+        "impulseNs": 4.08,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.69368,
+        "eventEnd": 0.69446,
+        "prefixTrimStart": 0.69178,
+        "prefixTrimEnd": 0.69368,
+        "suffixTrimStart": 0.69446,
+        "suffixTrimEnd": 0.78626,
+        "originalStart": 0.69178,
+        "originalEnd": 0.78626
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501191408.CSV",
+      "title": "6mmEVA 20240501191408",
+      "nickname": "6mmeva · 10.6kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501191408.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501191408.CSV",
+      "metrics": {
+        "peakForceN": 10622,
+        "peakForceLbf": 2387.9,
+        "timeToPeakMs": 0.12,
+        "forceDecayMs": 0.14,
+        "impulseNs": 2.36,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.72344,
+        "eventEnd": 0.7237,
+        "prefixTrimStart": 0.7215,
+        "prefixTrimEnd": 0.72344,
+        "suffixTrimStart": 0.7237,
+        "suffixTrimEnd": 0.80622,
+        "originalStart": 0.7215,
+        "originalEnd": 0.80622
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501191524.CSV",
+      "title": "6mmEVA 20240501191524",
+      "nickname": "6mmeva · 11.1kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501191524.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501191524.CSV",
+      "metrics": {
+        "peakForceN": 11051.5,
+        "peakForceLbf": 2484.5,
+        "timeToPeakMs": 0.12,
+        "forceDecayMs": 0.14,
+        "impulseNs": 2.25,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.71502,
+        "eventEnd": 0.71528,
+        "prefixTrimStart": 0.71258,
+        "prefixTrimEnd": 0.71502,
+        "suffixTrimStart": 0.71528,
+        "suffixTrimEnd": 0.82234,
+        "originalStart": 0.71258,
+        "originalEnd": 0.82234
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501191607.CSV",
+      "title": "6mmEVA 20240501191607",
+      "nickname": "6mmeva · 10.9kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501191607.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501191607.CSV",
+      "metrics": {
+        "peakForceN": 10939.9,
+        "peakForceLbf": 2459.4,
+        "timeToPeakMs": 0.12,
+        "forceDecayMs": 0.1,
+        "impulseNs": 1.99,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.74864,
+        "eventEnd": 0.74886,
+        "prefixTrimStart": 0.7472,
+        "prefixTrimEnd": 0.74864,
+        "suffixTrimStart": 0.74886,
+        "suffixTrimEnd": 0.80132,
+        "originalStart": 0.7472,
+        "originalEnd": 0.80132
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501191644.CSV",
+      "title": "6mmEVA 20240501191644",
+      "nickname": "6mmeva · 10.5kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501191644.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501191644.CSV",
+      "metrics": {
+        "peakForceN": 10488.6,
+        "peakForceLbf": 2357.9,
+        "timeToPeakMs": 0.16,
+        "forceDecayMs": 0.18,
+        "impulseNs": 2.77,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.66508,
+        "eventEnd": 0.66542,
+        "prefixTrimStart": 0.66254,
+        "prefixTrimEnd": 0.66508,
+        "suffixTrimStart": 0.66542,
+        "suffixTrimEnd": 0.77954,
+        "originalStart": 0.66254,
+        "originalEnd": 0.77954
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501191733.CSV",
+      "title": "6mmEVA 20240501191733",
+      "nickname": "6mmeva · 10.7kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501191733.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501191733.CSV",
+      "metrics": {
+        "peakForceN": 10743.3,
+        "peakForceLbf": 2415.2,
+        "timeToPeakMs": 0.16,
+        "forceDecayMs": 0.16,
+        "impulseNs": 2.6,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.77232,
+        "eventEnd": 0.77264,
+        "prefixTrimStart": 0.76984,
+        "prefixTrimEnd": 0.77232,
+        "suffixTrimStart": 0.77264,
+        "suffixTrimEnd": 0.88258,
+        "originalStart": 0.76984,
+        "originalEnd": 0.88258
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501191823.CSV",
+      "title": "6mmEVA 20240501191823",
+      "nickname": "6mmeva · 9.8kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501191823.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501191823.CSV",
+      "metrics": {
+        "peakForceN": 9835.6,
+        "peakForceLbf": 2211.1,
+        "timeToPeakMs": 0.16,
+        "forceDecayMs": 0.18,
+        "impulseNs": 2.8,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.69048,
+        "eventEnd": 0.69082,
+        "prefixTrimStart": 0.68832,
+        "prefixTrimEnd": 0.69048,
+        "suffixTrimStart": 0.69082,
+        "suffixTrimEnd": 0.78726,
+        "originalStart": 0.68832,
+        "originalEnd": 0.78726
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501191929.CSV",
+      "title": "6mmEVA 20240501191929",
+      "nickname": "6mmeva · 10.9kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501191929.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501191929.CSV",
+      "metrics": {
+        "peakForceN": 10939.4,
+        "peakForceLbf": 2459.3,
+        "timeToPeakMs": 0.16,
+        "forceDecayMs": 0.12,
+        "impulseNs": 2.43,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.7464,
+        "eventEnd": 0.74668,
+        "prefixTrimStart": 0.74454,
+        "prefixTrimEnd": 0.7464,
+        "suffixTrimStart": 0.74668,
+        "suffixTrimEnd": 0.82482,
+        "originalStart": 0.74454,
+        "originalEnd": 0.82482
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501192008.CSV",
+      "title": "6mmEVA 20240501192008",
+      "nickname": "6mmeva · 11.7kN peak · slow decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501192008.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501192008.CSV",
+      "metrics": {
+        "peakForceN": 11734.6,
+        "peakForceLbf": 2638,
+        "timeToPeakMs": 1.8,
+        "forceDecayMs": 70.86,
+        "impulseNs": 6.06,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.66434,
+        "eventEnd": 0.737,
+        "prefixTrimStart": 0.6594,
+        "prefixTrimEnd": 0.66434,
+        "suffixTrimStart": 0.737,
+        "suffixTrimEnd": 0.9852,
+        "originalStart": 0.6594,
+        "originalEnd": 0.9852
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501192058.CSV",
+      "title": "6mmEVA 20240501192058",
+      "nickname": "6mmeva · 11.0kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501192058.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501192058.CSV",
+      "metrics": {
+        "peakForceN": 10960.1,
+        "peakForceLbf": 2463.9,
+        "timeToPeakMs": 0.16,
+        "forceDecayMs": 0.14,
+        "impulseNs": 2.65,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.69648,
+        "eventEnd": 0.69678,
+        "prefixTrimStart": 0.69446,
+        "prefixTrimEnd": 0.69648,
+        "suffixTrimStart": 0.69678,
+        "suffixTrimEnd": 0.78396,
+        "originalStart": 0.69446,
+        "originalEnd": 0.78396
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmEVA-20240501192142.CSV",
+      "title": "6mmEVA 20240501192142",
+      "nickname": "6mmeva · 10.9kN peak · fast decay · run 3",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmEVA-20240501192142.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmEVA-20240501192142.CSV",
+      "metrics": {
+        "peakForceN": 10935,
+        "peakForceLbf": 2458.3,
+        "timeToPeakMs": 0.14,
+        "forceDecayMs": 0.12,
+        "impulseNs": 2.26,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.77738,
+        "eventEnd": 0.77764,
+        "prefixTrimStart": 0.77534,
+        "prefixTrimEnd": 0.77738,
+        "suffixTrimStart": 0.77764,
+        "suffixTrimEnd": 0.86446,
+        "originalStart": 0.77534,
+        "originalEnd": 0.86446
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmeva+2mmAbs-20240501183700.CSV",
+      "title": "6mmeva+2mmAbs 20240501183700",
+      "nickname": "6mmeva 2mmabs · 8.5kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmeva+2mmAbs-20240501183700.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmeva%2B2mmAbs-20240501183700.CSV",
+      "metrics": {
+        "peakForceN": 8532.1,
+        "peakForceLbf": 1918.1,
+        "timeToPeakMs": 0.4,
+        "forceDecayMs": 0.44,
+        "impulseNs": 4.7,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.5449,
+        "eventEnd": 0.54574,
+        "prefixTrimStart": 0.53792,
+        "prefixTrimEnd": 0.5449,
+        "suffixTrimStart": 0.54574,
+        "suffixTrimEnd": 0.89364,
+        "originalStart": 0.53792,
+        "originalEnd": 0.89364
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/6mmeva+2mmAbs-20240501183852.CSV",
+      "title": "6mmeva+2mmAbs 20240501183852",
+      "nickname": "6mmeva 2mmabs · 8.6kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/6mmeva+2mmAbs-20240501183852.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/6mmeva%2B2mmAbs-20240501183852.CSV",
+      "metrics": {
+        "peakForceN": 8620.5,
+        "peakForceLbf": 1938,
+        "timeToPeakMs": 0.4,
+        "forceDecayMs": 0.4,
+        "impulseNs": 4.52,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.66546,
+        "eventEnd": 0.66626,
+        "prefixTrimStart": 0.65878,
+        "prefixTrimEnd": 0.66546,
+        "suffixTrimStart": 0.66626,
+        "suffixTrimEnd": 0.99998,
+        "originalStart": 0.65878,
+        "originalEnd": 0.99998
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200214.CSV",
+      "title": "7mm poronxrd hexgrid +2mmkydex 20240501200214",
+      "nickname": "7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200214.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-%2B2mmkydex-20240501200214.CSV",
+      "metrics": {
+        "peakForceN": 4311.5,
+        "peakForceLbf": 969.3,
+        "timeToPeakMs": 0.02,
+        "forceDecayMs": 0.1,
+        "impulseNs": 0.52,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.7181,
+        "eventEnd": 0.71822,
+        "prefixTrimStart": 0.71534,
+        "prefixTrimEnd": 0.7181,
+        "suffixTrimStart": 0.71822,
+        "suffixTrimEnd": 0.78336,
+        "originalStart": 0.71534,
+        "originalEnd": 0.78336
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200506.CSV",
+      "title": "7mm poronxrd hexgrid +2mmkydex 20240501200506",
+      "nickname": "7mm poronxrd hexgrid 2mmkydex · 4.1kN peak · slow decay · run 3",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200506.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-%2B2mmkydex-20240501200506.CSV",
+      "metrics": {
+        "peakForceN": 4146,
+        "peakForceLbf": 932.1,
+        "timeToPeakMs": 2.76,
+        "forceDecayMs": 67.68,
+        "impulseNs": 5.79,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.68548,
+        "eventEnd": 0.75592,
+        "prefixTrimStart": 0.68548,
+        "prefixTrimEnd": 0.68548,
+        "suffixTrimStart": 0.75592,
+        "suffixTrimEnd": 0.75592,
+        "originalStart": 0.68548,
+        "originalEnd": 0.75592
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200545.CSV",
+      "title": "7mm poronxrd hexgrid +2mmkydex 20240501200545",
+      "nickname": "7mm poronxrd hexgrid 2mmkydex · 4.2kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200545.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-%2B2mmkydex-20240501200545.CSV",
+      "metrics": {
+        "peakForceN": 4172,
+        "peakForceLbf": 937.9,
+        "timeToPeakMs": 0.4,
+        "forceDecayMs": 0.22,
+        "impulseNs": 2.56,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.76046,
+        "eventEnd": 0.76108,
+        "prefixTrimStart": 0.75752,
+        "prefixTrimEnd": 0.76046,
+        "suffixTrimStart": 0.76108,
+        "suffixTrimEnd": 0.85704,
+        "originalStart": 0.75752,
+        "originalEnd": 0.85704
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200622.CSV",
+      "title": "7mm poronxrd hexgrid +2mmkydex 20240501200622",
+      "nickname": "7mm poronxrd hexgrid 2mmkydex · 4.2kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200622.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-%2B2mmkydex-20240501200622.CSV",
+      "metrics": {
+        "peakForceN": 4186.1,
+        "peakForceLbf": 941.1,
+        "timeToPeakMs": 0.06,
+        "forceDecayMs": 0.36,
+        "impulseNs": 1.75,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.62652,
+        "eventEnd": 0.62694,
+        "prefixTrimStart": 0.6236,
+        "prefixTrimEnd": 0.62652,
+        "suffixTrimStart": 0.62694,
+        "suffixTrimEnd": 0.71548,
+        "originalStart": 0.6236,
+        "originalEnd": 0.71548
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200655.CSV",
+      "title": "7mm poronxrd hexgrid +2mmkydex 20240501200655",
+      "nickname": "7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · slow decay · run 5",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200655.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-%2B2mmkydex-20240501200655.CSV",
+      "metrics": {
+        "peakForceN": 4261,
+        "peakForceLbf": 957.9,
+        "timeToPeakMs": 2.78,
+        "forceDecayMs": 75.14,
+        "impulseNs": 6.41,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.72724,
+        "eventEnd": 0.80516,
+        "prefixTrimStart": 0.72724,
+        "prefixTrimEnd": 0.72724,
+        "suffixTrimStart": 0.80516,
+        "suffixTrimEnd": 0.80516,
+        "originalStart": 0.72724,
+        "originalEnd": 0.80516
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200736.CSV",
+      "title": "7mm poronxrd hexgrid +2mmkydex 20240501200736",
+      "nickname": "7mm poronxrd hexgrid 2mmkydex · 4.1kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200736.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-%2B2mmkydex-20240501200736.CSV",
+      "metrics": {
+        "peakForceN": 4141.9,
+        "peakForceLbf": 931.1,
+        "timeToPeakMs": 0.3,
+        "forceDecayMs": 0.26,
+        "impulseNs": 2.28,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.71186,
+        "eventEnd": 0.71242,
+        "prefixTrimStart": 0.70898,
+        "prefixTrimEnd": 0.71186,
+        "suffixTrimStart": 0.71242,
+        "suffixTrimEnd": 0.80244,
+        "originalStart": 0.70898,
+        "originalEnd": 0.80244
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200824.CSV",
+      "title": "7mm poronxrd hexgrid +2mmkydex 20240501200824",
+      "nickname": "7mm poronxrd hexgrid 2mmkydex · 3.9kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200824.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-%2B2mmkydex-20240501200824.CSV",
+      "metrics": {
+        "peakForceN": 3948.8,
+        "peakForceLbf": 887.7,
+        "timeToPeakMs": 0.22,
+        "forceDecayMs": 0.22,
+        "impulseNs": 1.71,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.63094,
+        "eventEnd": 0.63138,
+        "prefixTrimStart": 0.62882,
+        "prefixTrimEnd": 0.63094,
+        "suffixTrimStart": 0.63138,
+        "suffixTrimEnd": 0.67514,
+        "originalStart": 0.62882,
+        "originalEnd": 0.67514
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200915.CSV",
+      "title": "7mm poronxrd hexgrid +2mmkydex 20240501200915",
+      "nickname": "7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200915.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-%2B2mmkydex-20240501200915.CSV",
+      "metrics": {
+        "peakForceN": 4280.3,
+        "peakForceLbf": 962.3,
+        "timeToPeakMs": 0.12,
+        "forceDecayMs": 0.46,
+        "impulseNs": 2.46,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.70652,
+        "eventEnd": 0.7071,
+        "prefixTrimStart": 0.70362,
+        "prefixTrimEnd": 0.70652,
+        "suffixTrimStart": 0.7071,
+        "suffixTrimEnd": 0.8,
+        "originalStart": 0.70362,
+        "originalEnd": 0.8
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200954.CSV",
+      "title": "7mm poronxrd hexgrid +2mmkydex 20240501200954",
+      "nickname": "7mm poronxrd hexgrid 2mmkydex · 4.6kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200954.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-%2B2mmkydex-20240501200954.CSV",
+      "metrics": {
+        "peakForceN": 4572.5,
+        "peakForceLbf": 1027.9,
+        "timeToPeakMs": 0.34,
+        "forceDecayMs": 0.34,
+        "impulseNs": 2.9,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.71612,
+        "eventEnd": 0.7168,
+        "prefixTrimStart": 0.71302,
+        "prefixTrimEnd": 0.71612,
+        "suffixTrimStart": 0.7168,
+        "suffixTrimEnd": 0.8273,
+        "originalStart": 0.71302,
+        "originalEnd": 0.8273
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501201030.CSV",
+      "title": "7mm poronxrd hexgrid +2mmkydex 20240501201030",
+      "nickname": "7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · fast decay · run 3",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501201030.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/7mm-poronxrd-hexgrid-%2B2mmkydex-20240501201030.CSV",
+      "metrics": {
+        "peakForceN": 4280.6,
+        "peakForceLbf": 962.3,
+        "timeToPeakMs": 0.18,
+        "forceDecayMs": 0.26,
+        "impulseNs": 1.86,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.68774,
+        "eventEnd": 0.68818,
+        "prefixTrimStart": 0.68478,
+        "prefixTrimEnd": 0.68774,
+        "suffixTrimStart": 0.68818,
+        "suffixTrimEnd": 0.77572,
+        "originalStart": 0.68478,
+        "originalEnd": 0.77572
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501185351.CSV",
+      "title": "control bare plate 20240501185351",
+      "nickname": "control bare plate · 8.9kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501185351.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501185351.CSV",
+      "metrics": {
+        "peakForceN": 8866.6,
+        "peakForceLbf": 1993.3,
+        "timeToPeakMs": 0.36,
+        "forceDecayMs": 0.18,
+        "impulseNs": 3.84,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.7066,
+        "eventEnd": 0.70714,
+        "prefixTrimStart": 0.70406,
+        "prefixTrimEnd": 0.7066,
+        "suffixTrimStart": 0.70714,
+        "suffixTrimEnd": 0.82272,
+        "originalStart": 0.70406,
+        "originalEnd": 0.82272
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501185448.CSV",
+      "title": "control bare plate 20240501185448",
+      "nickname": "control bare plate · 8.7kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501185448.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501185448.CSV",
+      "metrics": {
+        "peakForceN": 8730.7,
+        "peakForceLbf": 1962.7,
+        "timeToPeakMs": 0.3,
+        "forceDecayMs": 0.22,
+        "impulseNs": 3.62,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.78006,
+        "eventEnd": 0.78058,
+        "prefixTrimStart": 0.77726,
+        "prefixTrimEnd": 0.78006,
+        "suffixTrimStart": 0.78058,
+        "suffixTrimEnd": 0.9069,
+        "originalStart": 0.77726,
+        "originalEnd": 0.9069
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501185618.CSV",
+      "title": "control bare plate 20240501185618",
+      "nickname": "control bare plate · 9.4kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501185618.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501185618.CSV",
+      "metrics": {
+        "peakForceN": 9421.6,
+        "peakForceLbf": 2118.1,
+        "timeToPeakMs": 0.32,
+        "forceDecayMs": 0.2,
+        "impulseNs": 3.78,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.6837,
+        "eventEnd": 0.68422,
+        "prefixTrimStart": 0.68108,
+        "prefixTrimEnd": 0.6837,
+        "suffixTrimStart": 0.68422,
+        "suffixTrimEnd": 0.8065,
+        "originalStart": 0.68108,
+        "originalEnd": 0.8065
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501185702.CSV",
+      "title": "control bare plate 20240501185702",
+      "nickname": "control bare plate · 9.4kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501185702.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501185702.CSV",
+      "metrics": {
+        "peakForceN": 9423.5,
+        "peakForceLbf": 2118.5,
+        "timeToPeakMs": 0.26,
+        "forceDecayMs": 0.18,
+        "impulseNs": 3.37,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.66094,
+        "eventEnd": 0.66138,
+        "prefixTrimStart": 0.65812,
+        "prefixTrimEnd": 0.66094,
+        "suffixTrimStart": 0.66138,
+        "suffixTrimEnd": 0.79108,
+        "originalStart": 0.65812,
+        "originalEnd": 0.79108
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501185804.CSV",
+      "title": "control bare plate 20240501185804",
+      "nickname": "control bare plate · 9.4kN peak · fast decay · run 3",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501185804.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501185804.CSV",
+      "metrics": {
+        "peakForceN": 9421.8,
+        "peakForceLbf": 2118.1,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.22,
+        "impulseNs": 3.27,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.7279,
+        "eventEnd": 0.72832,
+        "prefixTrimStart": 0.72504,
+        "prefixTrimEnd": 0.7279,
+        "suffixTrimStart": 0.72832,
+        "suffixTrimEnd": 0.85934,
+        "originalStart": 0.72504,
+        "originalEnd": 0.85934
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501185856.CSV",
+      "title": "control bare plate 20240501185856",
+      "nickname": "control bare plate · 8.6kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501185856.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501185856.CSV",
+      "metrics": {
+        "peakForceN": 8597,
+        "peakForceLbf": 1932.7,
+        "timeToPeakMs": 0.4,
+        "forceDecayMs": 0.12,
+        "impulseNs": 3.39,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.708,
+        "eventEnd": 0.70852,
+        "prefixTrimStart": 0.70588,
+        "prefixTrimEnd": 0.708,
+        "suffixTrimStart": 0.70852,
+        "suffixTrimEnd": 0.79592,
+        "originalStart": 0.70588,
+        "originalEnd": 0.79592
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501185925.CSV",
+      "title": "control bare plate 20240501185925",
+      "nickname": "control bare plate · 8.6kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501185925.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501185925.CSV",
+      "metrics": {
+        "peakForceN": 8601.7,
+        "peakForceLbf": 1933.7,
+        "timeToPeakMs": 0.36,
+        "forceDecayMs": 0.16,
+        "impulseNs": 3.44,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.66408,
+        "eventEnd": 0.6646,
+        "prefixTrimStart": 0.66162,
+        "prefixTrimEnd": 0.66408,
+        "suffixTrimStart": 0.6646,
+        "suffixTrimEnd": 0.77014,
+        "originalStart": 0.66162,
+        "originalEnd": 0.77014
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501185954.CSV",
+      "title": "control bare plate 20240501185954",
+      "nickname": "control bare plate · 8.7kN peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501185954.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501185954.CSV",
+      "metrics": {
+        "peakForceN": 8682.9,
+        "peakForceLbf": 1952,
+        "timeToPeakMs": 0.2,
+        "forceDecayMs": 0.16,
+        "impulseNs": 2.77,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.8831,
+        "eventEnd": 0.88346,
+        "prefixTrimStart": 0.88112,
+        "prefixTrimEnd": 0.8831,
+        "suffixTrimStart": 0.88346,
+        "suffixTrimEnd": 0.96742,
+        "originalStart": 0.88112,
+        "originalEnd": 0.96742
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501190115.CSV",
+      "title": "control bare plate 20240501190115",
+      "nickname": "control bare plate · 8.8kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501190115.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501190115.CSV",
+      "metrics": {
+        "peakForceN": 8815,
+        "peakForceLbf": 1981.7,
+        "timeToPeakMs": 0.34,
+        "forceDecayMs": 0.16,
+        "impulseNs": 3.33,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.62874,
+        "eventEnd": 0.62924,
+        "prefixTrimStart": 0.62646,
+        "prefixTrimEnd": 0.62874,
+        "suffixTrimStart": 0.62924,
+        "suffixTrimEnd": 0.72874,
+        "originalStart": 0.62646,
+        "originalEnd": 0.72874
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501190144.CSV",
+      "title": "control bare plate 20240501190144",
+      "nickname": "control bare plate · 7.6kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501190144.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501190144.CSV",
+      "metrics": {
+        "peakForceN": 7599.6,
+        "peakForceLbf": 1708.5,
+        "timeToPeakMs": 0.42,
+        "forceDecayMs": 0.12,
+        "impulseNs": 3.14,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.7273,
+        "eventEnd": 0.72784,
+        "prefixTrimStart": 0.72512,
+        "prefixTrimEnd": 0.7273,
+        "suffixTrimStart": 0.72784,
+        "suffixTrimEnd": 0.81716,
+        "originalStart": 0.72512,
+        "originalEnd": 0.81716
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501190219.CSV",
+      "title": "control bare plate 20240501190219",
+      "nickname": "control bare plate · 9.2kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501190219.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501190219.CSV",
+      "metrics": {
+        "peakForceN": 9245.6,
+        "peakForceLbf": 2078.5,
+        "timeToPeakMs": 0.36,
+        "forceDecayMs": 0.16,
+        "impulseNs": 3.68,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.65682,
+        "eventEnd": 0.65734,
+        "prefixTrimStart": 0.65454,
+        "prefixTrimEnd": 0.65682,
+        "suffixTrimStart": 0.65734,
+        "suffixTrimEnd": 0.76276,
+        "originalStart": 0.65454,
+        "originalEnd": 0.76276
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501190353.CSV",
+      "title": "control bare plate 20240501190353",
+      "nickname": "control bare plate · 9.1kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501190353.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501190353.CSV",
+      "metrics": {
+        "peakForceN": 9132.9,
+        "peakForceLbf": 2053.2,
+        "timeToPeakMs": 0.14,
+        "forceDecayMs": 0.14,
+        "impulseNs": 2.2,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.86288,
+        "eventEnd": 0.86316,
+        "prefixTrimStart": 0.86094,
+        "prefixTrimEnd": 0.86288,
+        "suffixTrimStart": 0.86316,
+        "suffixTrimEnd": 0.94,
+        "originalStart": 0.86094,
+        "originalEnd": 0.94
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501190425.CSV",
+      "title": "control bare plate 20240501190425",
+      "nickname": "control bare plate · 9.4kN peak · fast decay · run 4",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501190425.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501190425.CSV",
+      "metrics": {
+        "peakForceN": 9430.9,
+        "peakForceLbf": 2120.2,
+        "timeToPeakMs": 0.16,
+        "forceDecayMs": 0.18,
+        "impulseNs": 2.65,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.6338,
+        "eventEnd": 0.63414,
+        "prefixTrimStart": 0.63136,
+        "prefixTrimEnd": 0.6338,
+        "suffixTrimStart": 0.63414,
+        "suffixTrimEnd": 0.74008,
+        "originalStart": 0.63136,
+        "originalEnd": 0.74008
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/control-bare-plate-20240501190614.CSV",
+      "title": "control bare plate 20240501190614",
+      "nickname": "control bare plate · 10.0kN peak · fast decay",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/control-bare-plate-20240501190614.CSV",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/control-bare-plate-20240501190614.CSV",
+      "metrics": {
+        "peakForceN": 9985,
+        "peakForceLbf": 2244.7,
+        "timeToPeakMs": 0.22,
+        "forceDecayMs": 0.18,
+        "impulseNs": 3.29,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.74248,
+        "eventEnd": 0.74288,
+        "prefixTrimStart": 0.73982,
+        "prefixTrimEnd": 0.74248,
+        "suffixTrimStart": 0.74288,
+        "suffixTrimEnd": 0.86728,
+        "originalStart": 0.73982,
+        "originalEnd": 0.86728
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/sample_impact_001.csv",
+      "title": "sample impact 001",
+      "nickname": "sample impact 001 · 313N peak · fast decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/sample_impact_001.csv",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/sample_impact_001.csv",
+      "metrics": {
+        "peakForceN": 312.6,
+        "peakForceLbf": 70.3,
+        "timeToPeakMs": 4,
+        "forceDecayMs": 5,
+        "impulseNs": 1.38,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 0.01,
+        "eventEnd": 0.019,
+        "prefixTrimStart": 0.01,
+        "prefixTrimEnd": 0.01,
+        "suffixTrimStart": 0.019,
+        "suffixTrimEnd": 0.019,
+        "originalStart": 0.01,
+        "originalEnd": 0.019
+      }
+    },
+    {
+      "filename": "steel-test-ball-drop/sample_impact_002.csv",
+      "title": "sample impact 002",
+      "nickname": "sample impact 002 · 25N peak · slow decay · run 2",
+      "category": "steel-test-ball-drop",
+      "path": "raw_data/steel-test-ball-drop/sample_impact_002.csv",
+      "rawUrl": "https://raw.githubusercontent.com/Gparrine/Whack-O-Meter/main/raw_data/steel-test-ball-drop/sample_impact_002.csv",
+      "metrics": {
+        "peakForceN": 24.6,
+        "peakForceLbf": 5.5,
+        "timeToPeakMs": 3000,
+        "forceDecayMs": 5000,
+        "impulseNs": 101.55,
+        "weaponType": "Steel Test Ball Drop"
+      },
+      "trimMeta": {
+        "eventStart": 10,
+        "eventEnd": 18,
+        "prefixTrimStart": 9,
+        "prefixTrimEnd": 10,
+        "suffixTrimStart": 18,
+        "suffixTrimEnd": 18,
+        "originalStart": 9,
+        "originalEnd": 18
+      }
+    }
+  ]
+}
