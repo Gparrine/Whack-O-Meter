@@ -2,6 +2,516 @@
 
 > Auto-updated by the CSV manager bot. Do not edit structure headers.
 
+## Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419154646.CSV
+- **Nickname**: 24 04 19 00001 0 · 30N peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:46Z
+- **Original samples**: 50000 → **Retained**: 50000
+- **Event window**: 0.00000 – 0.99998 sec
+- **Prefix trimmed**: 0.00000 – 0.00000 sec
+- **Suffix trimmed**: 0.99998 – 0.99998 sec
+- **Peak**: 29.8 N (6.7 lbf)
+- **Time to peak**: 0.06 ms
+- **Force decay**: 999.92 ms
+- **Impulse**: -33.34 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 30af613a10651c0800a92eb41b03fd8bf71751a6e959b3fc2d8466159e33adfd
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419154810.CSV
+- **Nickname**: 24 04 19 00001 0 · 83N peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:47Z
+- **Original samples**: 50000 → **Retained**: 50000
+- **Event window**: 0.00000 – 0.99998 sec
+- **Prefix trimmed**: 0.00000 – 0.00000 sec
+- **Suffix trimmed**: 0.99998 – 0.99998 sec
+- **Peak**: 83.1 N (18.7 lbf)
+- **Time to peak**: 11.82 ms
+- **Force decay**: 988.16 ms
+- **Impulse**: 3.93 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: f2a2e17ccb9d97804118969c72ae2bb4b3a1eebaa26b9461ed84d7b8367c97e5
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-0-20240419155030.CSV
+- **Nickname**: 24 04 19 00001 0 · 4.3kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:47Z
+- **Original samples**: 150000 → **Retained**: 756
+- **Event window**: 1.45578 – 1.47088 sec
+- **Prefix trimmed**: 0.00000 – 1.45578 sec
+- **Suffix trimmed**: 1.47088 – 2.99998 sec
+- **Peak**: 4254.6 N (956.5 lbf)
+- **Time to peak**: 0.86 ms
+- **Force decay**: 14.24 ms
+- **Impulse**: 7.08 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 4bb2e6f5bb72b72111d9cb2cb2c36f602170f3095ec2d921639b3ef49843ca50
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155317.CSV
+- **Nickname**: 24 04 19 00001 1 · 4.2kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:47Z
+- **Original samples**: 150000 → **Retained**: 86738
+- **Event window**: 0.13016 – 1.86490 sec
+- **Prefix trimmed**: 0.00000 – 0.13016 sec
+- **Suffix trimmed**: 1.86490 – 2.99998 sec
+- **Peak**: 4247.4 N (954.9 lbf)
+- **Time to peak**: 1674.20 ms
+- **Force decay**: 60.54 ms
+- **Impulse**: 60.57 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 637cc40d8a3c881f2bf8c0b02f240da0bb6294ae7e38b28047daec1402f3db6f
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155835.CSV
+- **Nickname**: 24 04 19 00001 1 · 5.2kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:47Z
+- **Original samples**: 100000 → **Retained**: 1235
+- **Event window**: 1.13810 – 1.16278 sec
+- **Prefix trimmed**: 0.00000 – 1.13810 sec
+- **Suffix trimmed**: 1.16278 – 1.99998 sec
+- **Peak**: 5157.6 N (1159.5 lbf)
+- **Time to peak**: 0.98 ms
+- **Force decay**: 23.70 ms
+- **Impulse**: 7.81 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 5b4b6189644b3159e6070249e86518a3f5973a754d05f326594db27d05f2aad2
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155903.CSV
+- **Nickname**: 24 04 19 00001 1 · 5.9kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:47Z
+- **Original samples**: 100000 → **Retained**: 1344
+- **Event window**: 1.62880 – 1.65566 sec
+- **Prefix trimmed**: 0.00000 – 1.62880 sec
+- **Suffix trimmed**: 1.65566 – 1.99998 sec
+- **Peak**: 5931.3 N (1333.4 lbf)
+- **Time to peak**: 0.98 ms
+- **Force decay**: 25.88 ms
+- **Impulse**: 7.86 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 01c511cb06d1fdb94825f4f26365f4fd57421e9b47608414ac7a10782bc444fe
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419155943.CSV
+- **Nickname**: 24 04 19 00001 1 · 6.4kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:48Z
+- **Original samples**: 100000 → **Retained**: 722
+- **Event window**: 1.18712 – 1.20154 sec
+- **Prefix trimmed**: 0.00000 – 1.18712 sec
+- **Suffix trimmed**: 1.20154 – 1.99998 sec
+- **Peak**: 6358.6 N (1429.5 lbf)
+- **Time to peak**: 2.42 ms
+- **Force decay**: 12.00 ms
+- **Impulse**: 9.13 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 2751d4431c9dd9b2fa80c910527bafb43cf988be006fdbde019f3cac89bb4130
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-20240419160013.CSV
+- **Nickname**: 24 04 19 00001 1 · 5.3kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:48Z
+- **Original samples**: 100000 → **Retained**: 1414
+- **Event window**: 1.26348 – 1.29174 sec
+- **Prefix trimmed**: 0.00000 – 1.26348 sec
+- **Suffix trimmed**: 1.29174 – 1.99998 sec
+- **Peak**: 5255.6 N (1181.5 lbf)
+- **Time to peak**: 1.14 ms
+- **Force decay**: 27.12 ms
+- **Impulse**: 7.88 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: e1e841645bd43b7dd38003249532b3ff7ee440da548efad7cf42cfcba9372553
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-5-20240419155656.CSV
+- **Nickname**: 24 04 19 00001 1 5 · 5.4kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:48Z
+- **Original samples**: 150000 → **Retained**: 1310
+- **Event window**: 1.18234 – 1.20852 sec
+- **Prefix trimmed**: 0.00000 – 1.18234 sec
+- **Suffix trimmed**: 1.20852 – 2.99998 sec
+- **Peak**: 5412.0 N (1216.7 lbf)
+- **Time to peak**: 1.08 ms
+- **Force decay**: 25.10 ms
+- **Impulse**: 8.95 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: d6aedb3f65b10be65243646486dc1bcc3984f8c927b90d32c6631d3990928eb6
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-1-5-20240419155738.CSV
+- **Nickname**: 24 04 19 00001 1 5 · 5.3kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:48Z
+- **Original samples**: 100000 → **Retained**: 1156
+- **Event window**: 1.04262 – 1.06572 sec
+- **Prefix trimmed**: 0.00000 – 1.04262 sec
+- **Suffix trimmed**: 1.06572 – 1.99998 sec
+- **Peak**: 5260.6 N (1182.6 lbf)
+- **Time to peak**: 1.02 ms
+- **Force decay**: 22.08 ms
+- **Impulse**: 7.61 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 0031ea9ef85cc396d7e05e4935a7f87983d5272eca10f0ec87d4dd9ea27b448e
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419155358.CSV
+- **Nickname**: 24 04 19 00001 2 · 6.0kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:48Z
+- **Original samples**: 150000 → **Retained**: 628
+- **Event window**: 1.44602 – 1.45856 sec
+- **Prefix trimmed**: 0.00000 – 1.44602 sec
+- **Suffix trimmed**: 1.45856 – 2.99998 sec
+- **Peak**: 6047.5 N (1359.5 lbf)
+- **Time to peak**: 0.84 ms
+- **Force decay**: 11.70 ms
+- **Impulse**: 9.74 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 5b5021801390463af3f378c845aa965b3dfd4de0f243e2c6007dcdd732e74cef
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161041.CSV
+- **Nickname**: 24 04 19 00001 2 · 5.2kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:49Z
+- **Original samples**: 100000 → **Retained**: 1586
+- **Event window**: 1.43772 – 1.46942 sec
+- **Prefix trimmed**: 0.00000 – 1.43772 sec
+- **Suffix trimmed**: 1.46942 – 1.99998 sec
+- **Peak**: 5166.4 N (1161.5 lbf)
+- **Time to peak**: 1.34 ms
+- **Force decay**: 30.36 ms
+- **Impulse**: 6.46 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: bb90fae22fa97a78d98f33766b7cd95f81c7cf4f7b18d19a668a367ab5f8a886
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161110.CSV
+- **Nickname**: 24 04 19 00001 2 · 8.6kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:49Z
+- **Original samples**: 100000 → **Retained**: 664
+- **Event window**: 1.13872 – 1.15198 sec
+- **Prefix trimmed**: 0.00000 – 1.13872 sec
+- **Suffix trimmed**: 1.15198 – 1.99998 sec
+- **Peak**: 8582.1 N (1929.3 lbf)
+- **Time to peak**: 0.64 ms
+- **Force decay**: 12.62 ms
+- **Impulse**: 7.14 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 7293a375e99ff018e23f1f89a3c733641b246874781e1e043bdc6927a88d30b4
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161137.CSV
+- **Nickname**: 24 04 19 00001 2 · 5.5kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:49Z
+- **Original samples**: 100000 → **Retained**: 1292
+- **Event window**: 1.70834 – 1.73416 sec
+- **Prefix trimmed**: 0.00000 – 1.70834 sec
+- **Suffix trimmed**: 1.73416 – 1.99998 sec
+- **Peak**: 5503.4 N (1237.2 lbf)
+- **Time to peak**: 1.08 ms
+- **Force decay**: 24.74 ms
+- **Impulse**: 7.75 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 77f56a228b0b5ce6d91c5ab0015ceadbfc67799a229c42530e9848ffd277bf3d
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161224.CSV
+- **Nickname**: 24 04 19 00001 2 · 6.7kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:49Z
+- **Original samples**: 100000 → **Retained**: 1699
+- **Event window**: 1.46160 – 1.49556 sec
+- **Prefix trimmed**: 0.00000 – 1.46160 sec
+- **Suffix trimmed**: 1.49556 – 1.99998 sec
+- **Peak**: 6689.5 N (1503.9 lbf)
+- **Time to peak**: 1.16 ms
+- **Force decay**: 32.80 ms
+- **Impulse**: 7.75 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 20a277296f0fb4e1e98c6224110f7f27b67429c57a5e27611617e9a43e89e739
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161301.CSV
+- **Nickname**: 24 04 19 00001 2 · 263N peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:49Z
+- **Original samples**: 100000 → **Retained**: 72209
+- **Event window**: 0.55582 – 1.99998 sec
+- **Prefix trimmed**: 0.00000 – 0.55582 sec
+- **Suffix trimmed**: 1.99998 – 1.99998 sec
+- **Peak**: 263.2 N (59.2 lbf)
+- **Time to peak**: 527.42 ms
+- **Force decay**: 916.74 ms
+- **Impulse**: 62.16 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: d49c670ea1c14be35553c559d45cfa0215d3dec0b6eb8a7637c08c291b2a4b87
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161308.CSV
+- **Nickname**: 24 04 19 00001 2 · 733N peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:49Z
+- **Original samples**: 100000 → **Retained**: 51766
+- **Event window**: 0.00000 – 1.03530 sec
+- **Prefix trimmed**: 0.00000 – 0.00000 sec
+- **Suffix trimmed**: 1.03530 – 1.99998 sec
+- **Peak**: 732.8 N (164.7 lbf)
+- **Time to peak**: 1015.06 ms
+- **Force decay**: 20.24 ms
+- **Impulse**: -6.42 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 3e0d243d1ba2568b250be6c5419692ba70d3684909411ff90e8447360dd14280
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161535.CSV
+- **Nickname**: 24 04 19 00001 2 · 7.5kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:50Z
+- **Original samples**: 100000 → **Retained**: 1545
+- **Event window**: 1.23440 – 1.26528 sec
+- **Prefix trimmed**: 0.00000 – 1.23440 sec
+- **Suffix trimmed**: 1.26528 – 1.99998 sec
+- **Peak**: 7452.4 N (1675.4 lbf)
+- **Time to peak**: 1.32 ms
+- **Force decay**: 29.56 ms
+- **Impulse**: 9.66 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 2a38d38557b6dd1e5cd4a386831807508318de9876f1540ccb9ad3b5ddd4299e
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161703.CSV
+- **Nickname**: 24 04 19 00001 2 · 7.1kN peak · fast decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:50Z
+- **Original samples**: 100000 → **Retained**: 408
+- **Event window**: 1.11204 – 1.12018 sec
+- **Prefix trimmed**: 0.00000 – 1.11204 sec
+- **Suffix trimmed**: 1.12018 – 1.99998 sec
+- **Peak**: 7091.9 N (1594.3 lbf)
+- **Time to peak**: 0.56 ms
+- **Force decay**: 7.58 ms
+- **Impulse**: 8.71 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: a0154dba3cd7499f8dbc6f361769847c391fc9b63e070dbe5241a10ff619a0a8
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161730.CSV
+- **Nickname**: 24 04 19 00001 2 · 4.1kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:50Z
+- **Original samples**: 100000 → **Retained**: 1283
+- **Event window**: 0.94624 – 0.97188 sec
+- **Prefix trimmed**: 0.00000 – 0.94624 sec
+- **Suffix trimmed**: 0.97188 – 1.99998 sec
+- **Peak**: 4144.9 N (931.8 lbf)
+- **Time to peak**: 1.00 ms
+- **Force decay**: 24.64 ms
+- **Impulse**: 8.39 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: f79a5163aaefec961e1846014d9f943bcfbda2168f3a2e7e5b6d6e1534ac568f
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419161835.CSV
+- **Nickname**: 24 04 19 00001 2 · 4.4kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:50Z
+- **Original samples**: 100000 → **Retained**: 82388
+- **Event window**: 0.35224 – 1.99998 sec
+- **Prefix trimmed**: 0.00000 – 0.35224 sec
+- **Suffix trimmed**: 1.99998 – 1.99998 sec
+- **Peak**: 4393.5 N (987.7 lbf)
+- **Time to peak**: 1051.44 ms
+- **Force decay**: 596.30 ms
+- **Impulse**: -11.21 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 582c95d4730ea9c6a727906c6685f70265e4613bdda0db75a94486d2e91ed8b4
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419162115.CSV
+- **Nickname**: 24 04 19 00001 2 · 6.7kN peak · slow decay · run 2
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:50Z
+- **Original samples**: 100000 → **Retained**: 453
+- **Event window**: 1.39354 – 1.40258 sec
+- **Prefix trimmed**: 0.00000 – 1.39354 sec
+- **Suffix trimmed**: 1.40258 – 1.99998 sec
+- **Peak**: 6723.2 N (1511.4 lbf)
+- **Time to peak**: 0.68 ms
+- **Force decay**: 8.36 ms
+- **Impulse**: 6.72 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 25d47cae34b022ff00683ee013a7d04001d6dd68a9d04f1789eaea8137e7b383
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419163421.CSV
+- **Nickname**: 24 04 19 00001 2 · 3.7kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:50Z
+- **Original samples**: 100000 → **Retained**: 3096
+- **Event window**: 1.43534 – 1.49724 sec
+- **Prefix trimmed**: 0.00000 – 1.43534 sec
+- **Suffix trimmed**: 1.49724 – 1.99998 sec
+- **Peak**: 3666.0 N (824.1 lbf)
+- **Time to peak**: 2.00 ms
+- **Force decay**: 59.90 ms
+- **Impulse**: 10.34 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 7eea2b7a42a6849b622750214b024cdacde8ee76eca61731a7f150c8b6e57c44
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419163507.CSV
+- **Nickname**: 24 04 19 00001 2 · 7.6kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:51Z
+- **Original samples**: 100000 → **Retained**: 734
+- **Event window**: 1.62700 – 1.64166 sec
+- **Prefix trimmed**: 0.00000 – 1.62700 sec
+- **Suffix trimmed**: 1.64166 – 1.99998 sec
+- **Peak**: 7623.6 N (1713.9 lbf)
+- **Time to peak**: 3.02 ms
+- **Force decay**: 11.64 ms
+- **Impulse**: 10.63 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 0a046f56f9a3cc4dec147a08e35a423a3cdc383a23d4351348f1effc5e26a406
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-2-20240419170545.CSV
+- **Nickname**: 24 04 19 00001 2 · 166N peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:51Z
+- **Original samples**: 100000 → **Retained**: 100000
+- **Event window**: 0.00000 – 1.99998 sec
+- **Prefix trimmed**: 0.00000 – 0.00000 sec
+- **Suffix trimmed**: 1.99998 – 1.99998 sec
+- **Peak**: 165.7 N (37.3 lbf)
+- **Time to peak**: 1414.48 ms
+- **Force decay**: 585.50 ms
+- **Impulse**: 213.70 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 65a493b9b93a7abe6dfbe915e374d869f1fc6cc2ca8640bf4b56ba1616db19a3
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-3-20240419155433.CSV
+- **Nickname**: 24 04 19 00001 3 · 6.3kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:51Z
+- **Original samples**: 150000 → **Retained**: 765
+- **Event window**: 1.61066 – 1.62594 sec
+- **Prefix trimmed**: 0.00000 – 1.61066 sec
+- **Suffix trimmed**: 1.62594 – 2.99998 sec
+- **Peak**: 6279.3 N (1411.6 lbf)
+- **Time to peak**: 0.88 ms
+- **Force decay**: 14.40 ms
+- **Impulse**: 8.34 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: d4794080e76d5f8ba3a91dacd72ff754324a805b8e9784d547877063ed4c02d7
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-Thrust-Broke-feder-20240419171633.CSV
+- **Nickname**: 24 04 19 00001 thrust broke feder · 9.3kN peak · fast decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:52Z
+- **Original samples**: 100000 → **Retained**: 423
+- **Event window**: 1.25568 – 1.26412 sec
+- **Prefix trimmed**: 0.00000 – 1.25568 sec
+- **Suffix trimmed**: 1.26412 – 1.99998 sec
+- **Peak**: 9292.3 N (2089.0 lbf)
+- **Time to peak**: 0.66 ms
+- **Force decay**: 7.78 ms
+- **Impulse**: 10.64 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 1e8c6f3a57ed53a63f06794cf9e8a73af2cc6aee869fbb021a6df78e70f2a25a
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171416.CSV
+- **Nickname**: 24 04 19 00001 messing around · 6.8kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:51Z
+- **Original samples**: 100000 → **Retained**: 1124
+- **Event window**: 0.99688 – 1.01934 sec
+- **Prefix trimmed**: 0.00000 – 0.99688 sec
+- **Suffix trimmed**: 1.01934 – 1.99998 sec
+- **Peak**: 6754.9 N (1518.6 lbf)
+- **Time to peak**: 0.90 ms
+- **Force decay**: 21.56 ms
+- **Impulse**: 6.90 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 3a9302163e4c732085f77eeb8935a8b1c8264b8615285d73fc38ffb425586ae7
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171442.CSV
+- **Nickname**: 24 04 19 00001 messing around · 8.4kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:51Z
+- **Original samples**: 100000 → **Retained**: 799
+- **Event window**: 1.44810 – 1.46406 sec
+- **Prefix trimmed**: 0.00000 – 1.44810 sec
+- **Suffix trimmed**: 1.46406 – 1.99998 sec
+- **Peak**: 8404.2 N (1889.3 lbf)
+- **Time to peak**: 0.70 ms
+- **Force decay**: 15.26 ms
+- **Impulse**: 5.22 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: e1350922039b20d05249ba32e607971f9fab55e738819cf828780d73051e2f1c
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419171617.CSV
+- **Nickname**: 24 04 19 00001 messing around · 7.6kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:51Z
+- **Original samples**: 100000 → **Retained**: 784
+- **Event window**: 1.10608 – 1.12174 sec
+- **Prefix trimmed**: 0.00000 – 1.10608 sec
+- **Suffix trimmed**: 1.12174 – 1.99998 sec
+- **Peak**: 7638.3 N (1717.2 lbf)
+- **Time to peak**: 0.84 ms
+- **Force decay**: 14.82 ms
+- **Impulse**: 10.74 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: aaca090f240e36a7740411e324dfa6999b5744d43b4e263b6c572e0d2da83e70
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419173234.CSV
+- **Nickname**: 24 04 19 00001 messing around · 6.9kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:52Z
+- **Original samples**: 100000 → **Retained**: 2902
+- **Event window**: 1.11156 – 1.16958 sec
+- **Prefix trimmed**: 0.00000 – 1.11156 sec
+- **Suffix trimmed**: 1.16958 – 1.99998 sec
+- **Peak**: 6948.0 N (1562.0 lbf)
+- **Time to peak**: 2.04 ms
+- **Force decay**: 55.98 ms
+- **Impulse**: 23.27 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 403280203728276ccd102884a511091bfe6f1c0d06bf930ae37103ad701aa9d6
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175007.CSV
+- **Nickname**: 24 04 19 00001 messing around · 3.7kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:52Z
+- **Original samples**: 100000 → **Retained**: 1465
+- **Event window**: 1.59378 – 1.62306 sec
+- **Prefix trimmed**: 0.00000 – 1.59378 sec
+- **Suffix trimmed**: 1.62306 – 1.99998 sec
+- **Peak**: 3699.7 N (831.7 lbf)
+- **Time to peak**: 0.98 ms
+- **Force decay**: 28.30 ms
+- **Impulse**: 5.69 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 5732c6e1781b4e433d68cd6352d3101403781077a06f0ea18ac340f8bc6a780e
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175026.CSV
+- **Nickname**: 24 04 19 00001 messing around · 5.2kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:52Z
+- **Original samples**: 100000 → **Retained**: 728
+- **Event window**: 1.71882 – 1.73336 sec
+- **Prefix trimmed**: 0.00000 – 1.71882 sec
+- **Suffix trimmed**: 1.73336 – 1.99998 sec
+- **Peak**: 5151.2 N (1158.0 lbf)
+- **Time to peak**: 0.70 ms
+- **Force decay**: 13.84 ms
+- **Impulse**: 8.62 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 93fdcb0346c61c3461ec3634e69e56b2d291bad03f4da7fc81d1b4bcb4469390
+
+## Regenyei_Standard_Federschwert/24-04-19-00001-messing-around-20240419175045.CSV
+- **Nickname**: 24 04 19 00001 messing around · 4.7kN peak · slow decay
+- **Category**: Regenyei_Standard_Federschwert
+- **Processed**: 2026-06-29T15:39:52Z
+- **Original samples**: 100000 → **Retained**: 52676
+- **Event window**: 0.61610 – 1.66960 sec
+- **Prefix trimmed**: 0.00000 – 0.61610 sec
+- **Suffix trimmed**: 1.66960 – 1.99998 sec
+- **Peak**: 4714.5 N (1059.9 lbf)
+- **Time to peak**: 975.66 ms
+- **Force decay**: 77.84 ms
+- **Impulse**: 56.10 N·s
+- **Weapon type**: Steel Test Ball Drop
+- **Content hash**: 47a7686dd0d6c935befff4e74544ad36a2964d304fbbac381e7589c632a76334
+
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501182849.CSV
 - **Category**: steel-test-ball-drop
 - **Nickname**: 6mm eva 2mm kydex · 11.7kN peak · slow decay
