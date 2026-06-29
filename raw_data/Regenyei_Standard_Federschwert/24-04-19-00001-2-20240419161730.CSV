@@ -1,14 +1,14 @@
 # Whack-O-Meter CSV Manager v2
-# Original samples: 100000
+# Original samples: 1283
 # Samples/sec: 50000
-# Prefix trimmed: 0.00000 - 0.94624 sec
-# Suffix trimmed: 0.97188 - 1.99998 sec
+# Prefix trimmed: 0.94624 - 0.94624 sec
+# Suffix trimmed: 0.97188 - 0.97188 sec
 # Event start: 0.94624 sec
 # Event end: 0.97188 sec
 # Baseline (N): 56.9
-# Weapon type: Steel Test Ball Drop
+# Weapon type: Regenyei Standard Feder
 # Category: Regenyei_Standard_Federschwert
-# Nickname: 24 04 19 00001 2 · 4.1kN peak · slow decay
+# Nickname: Regenyei · 24 04 19 00001 2 · 4.1kN peak · slow decay
 Loadstar Sensors LV-1000HS-10K - Log File
 Sensor:,Whackometer 2-0
 Samples/Sec:,50000

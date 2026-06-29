@@ -10,12 +10,13 @@ CSV files are sorted into category subfolders by striking object / weapon type:
 
 ```text
 raw_data/
-├── steel-test-ball-drop/     # 2" steel test ball drops (existing dataset)
-├── unsorted/YYYY-MM-DD/      # uploads when weapon type cannot be determined
-└── csv_manager_memory.md     # bot metadata (nicknames, metrics, categories)
+├── steel-test-ball-drop/           # 2" steel test ball drops
+├── Regenyei_Standard_Federschwert/ # Regenyei Standard Feder strikes
+├── unsorted/YYYY-MM-DD/            # uploads when weapon type cannot be determined
+└── csv_manager_memory.md           # bot metadata (nicknames, metrics, categories)
 ```
 
-Future categories get their own slug folder (for example `longsword-steel/`). Folder slugs are lowercase with hyphens, derived from the weapon type name.
+Category folders map to a **weapon type** and optional **nickname prefix** via `CATEGORY_REGISTRY` in `scripts/csv_manager.py`. Example: files in `Regenyei_Standard_Federschwert/` get weapon type **Regenyei Standard Feder** and nicknames prefixed with **Regenyei ·**.
 
 ## What the bot does
 
@@ -36,9 +37,11 @@ Future categories get their own slug folder (for example `longsword-steel/`). Fo
 
 | Situation | Destination |
 |-----------|-------------|
-| Known weapon type (header, memory, env, or folder) | `raw_data/{category-slug}/` |
+| Known category folder (registry in `csv_manager.py`) | `raw_data/{folder}/` with mapped weapon type |
 | Legacy file at repo root | `raw_data/steel-test-ball-drop/` |
 | Weapon type unknown | `raw_data/unsorted/YYYY-MM-DD/` |
+
+To add a new weapon category, create a subfolder under `raw_data/` and add an entry to `CATEGORY_REGISTRY` in `scripts/csv_manager.py` with `weapon_type` and optional `nickname_prefix`.
 
 Optional workflow inputs when running the bot manually:
 
