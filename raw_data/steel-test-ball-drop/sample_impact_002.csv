@@ -1,17 +1,18 @@
-# Whack-O-Meter CSV Manager v1
-# Original samples: 26
+# Whack-O-Meter CSV Manager v2
+# Original samples: 10
 # Samples/sec: 50000
-# Prefix trimmed: 0.00000 - 9.00000 sec
-# Suffix trimmed: 18.00000 - 25.00000 sec
-# Event start: 9.00000 sec
+# Prefix trimmed: 9.00000 - 10.00000 sec
+# Suffix trimmed: 18.00000 - 18.00000 sec
+# Event start: 10.00000 sec
 # Event end: 18.00000 sec
-# Baseline (N): 0.8
+# Baseline (N): 1.2
+# Weapon type: Steel Test Ball Drop
+# Category: steel-test-ball-drop
 # Nickname: sample impact 002 · 25N peak · slow decay
 Loadstar Sensors LV-1000HS-10K - Log File
 Sensor:,Whackometer
 Samples/Sec:,50000
 timestamp_ms,impact_g
-9.00000,0.9
 10.00000,2.1
 11.00000,8.4
 12.00000,18.2

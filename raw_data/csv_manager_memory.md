@@ -513,9 +513,9 @@
 - **Content hash**: b77ae23c4966dcad424834c1637129aa70bc5fe3c63a9203cf07ee05e4749b57
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501182849.CSV
-- **Nickname**: 6mm eva 2mm kydex · 11.7kN peak · fast decay
+- **Nickname**: 6mm eva 2mm kydex · 11.7kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 15774 → **Retained**: 38
 - **Event window**: 0.58310 – 0.58384 sec
 - **Prefix trimmed**: 0.57696 – 0.58310 sec
@@ -525,12 +525,12 @@
 - **Force decay**: 0.34 ms
 - **Impulse**: 5.02 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 18146698cfe844947feb272aa6f514dbf27bbcac5a8df6d6dfe4d3ad3df6fdb9
+- **Content hash**: b595389bd7a502dc3d0a13d39cee18cdb547e2146f595fdc05d25d772314c980
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501182938.CSV
-- **Nickname**: 6mm eva 2mm kydex · 12.0kN peak · fast decay
+- **Nickname**: 6mm eva 2mm kydex · 12.0kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 16169 → **Retained**: 44
 - **Event window**: 0.61964 – 0.62050 sec
 - **Prefix trimmed**: 0.61340 – 0.61964 sec
@@ -540,12 +540,12 @@
 - **Force decay**: 0.42 ms
 - **Impulse**: 5.35 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 79c91b80f03fdf175c0a701f75700929dd841575b323c999dcebf5b29d509e28
+- **Content hash**: dfe21b3d1357168c10ff77ad23f7c43c7d85be80bd9cb0018a884f546f945440
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183030.CSV
-- **Nickname**: 6mm eva 2mm kydex · 9.5kN peak · fast decay
+- **Nickname**: 6mm eva 2mm kydex · 9.5kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 10020 → **Retained**: 126
 - **Event window**: 0.59368 – 0.59618 sec
 - **Prefix trimmed**: 0.58976 – 0.59368 sec
@@ -555,12 +555,12 @@
 - **Force decay**: 2.28 ms
 - **Impulse**: 4.71 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: c651087ac7e7f798b09724951f56f4f39da98fd2e12fb5f0a5077aa17ba3c9c0
+- **Content hash**: aaac4a5834761e88964896885a4972f9fb904faa1af5056b2e56add4b9d3c27b
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183109.CSV
-- **Nickname**: 6mm eva 2mm kydex · 11.1kN peak · fast decay
+- **Nickname**: 6mm eva 2mm kydex · 11.1kN peak · fast decay · run 3
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 13852 → **Retained**: 108
 - **Event window**: 0.61122 – 0.61336 sec
 - **Prefix trimmed**: 0.60588 – 0.61122 sec
@@ -570,12 +570,12 @@
 - **Force decay**: 1.68 ms
 - **Impulse**: 5.37 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 59cb8cc5b949e2fe83bdc83a6960e428396eaddb352a3b2d1c0cb74853ef2eff
+- **Content hash**: 2934f41efb84998e5daa10393ea25ce9698b6c00acf256cf308a39e476e88925
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183145.CSV
-- **Nickname**: 6mm eva 2mm kydex · 11.4kN peak · fast decay
+- **Nickname**: 6mm eva 2mm kydex · 11.4kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 14780 → **Retained**: 107
 - **Event window**: 0.59194 – 0.59406 sec
 - **Prefix trimmed**: 0.58624 – 0.59194 sec
@@ -585,12 +585,12 @@
 - **Force decay**: 1.66 ms
 - **Impulse**: 5.62 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: a9ac4493873d6f1d21b54b9723a26ed9c6a7fc227e0a5845489e7f26b476141d
+- **Content hash**: d7c3690962593e31deb1cb723c445a2d90bb754fc7b6c617adb32af2abd3cb93
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183225.CSV
-- **Nickname**: 6mm eva 2mm kydex · 9.9kN peak · fast decay
+- **Nickname**: 6mm eva 2mm kydex · 9.9kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 6875 → **Retained**: 21
 - **Event window**: 0.62420 – 0.62460 sec
 - **Prefix trimmed**: 0.62134 – 0.62420 sec
@@ -600,12 +600,12 @@
 - **Force decay**: 0.22 ms
 - **Impulse**: 3.14 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: c187b8bd5e5df7f7a1ba321286f44eda24f2b4534d6e3f5c53f1994d5c570986
+- **Content hash**: e4e70378dc1ffaed3a9fd368e37a4ff53aa015495ccfd1b877fd919da5087aab
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183308.CSV
-- **Nickname**: 6mm eva 2mm kydex · 10.2kN peak · fast decay
+- **Nickname**: 6mm eva 2mm kydex · 10.2kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 7733 → **Retained**: 26
 - **Event window**: 0.57200 – 0.57250 sec
 - **Prefix trimmed**: 0.56888 – 0.57200 sec
@@ -615,12 +615,12 @@
 - **Force decay**: 0.26 ms
 - **Impulse**: 3.99 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: c73fce86d9283e099bad16f50bf80a9257873bff02638d8a1fde16ebf8560480
+- **Content hash**: 6bfdbcc3e0d9e298e6e796ba3ace03197b666d2df1f80886979a0305c793baba
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183346.CSV
-- **Nickname**: 6mm eva 2mm kydex · 10.8kN peak · fast decay
+- **Nickname**: 6mm eva 2mm kydex · 10.8kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 11905 → **Retained**: 31
 - **Event window**: 0.56708 – 0.56768 sec
 - **Prefix trimmed**: 0.56242 – 0.56708 sec
@@ -630,12 +630,12 @@
 - **Force decay**: 0.24 ms
 - **Impulse**: 3.93 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 68bcfba690c9e6d726d322d209730ad5f87a97c36f5300680d7f5dc0a316b02e
+- **Content hash**: d657bc1200ed3d704bf35fd57152bcb47ba6a07010ab801c55c66caf16c5a560
 
 ## steel-test-ball-drop/6mm eva+2mm kydex-20240501183434.CSV
-- **Nickname**: 6mm eva 2mm kydex · 11.1kN peak · fast decay · run 2
+- **Nickname**: 6mm eva 2mm kydex · 11.1kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 13511 → **Retained**: 41
 - **Event window**: 0.59724 – 0.59804 sec
 - **Prefix trimmed**: 0.59200 – 0.59724 sec
@@ -645,12 +645,12 @@
 - **Force decay**: 0.40 ms
 - **Impulse**: 4.75 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: dce68b64e43a2f5fcfce82027c628660191d4b5b1eecb6a80669bbbe2f3d4c98
+- **Content hash**: 5bf20c6c29344d2b93469bacff1ea17900428dfd19c85a3d88276da7c8086bfd
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201230.CSV
-- **Nickname**: 6mm ensilite foam 2mmkydex · 7.9kN peak · fast decay
+- **Nickname**: 6mm ensilite foam 2mmkydex · 7.9kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4122 → **Retained**: 26
 - **Event window**: 0.73404 – 0.73454 sec
 - **Prefix trimmed**: 0.73198 – 0.73404 sec
@@ -660,12 +660,12 @@
 - **Force decay**: 0.14 ms
 - **Impulse**: 2.88 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: f06782436f237f60c68326ff3c76a497e4ac19f12184e42589d143314763e3a8
+- **Content hash**: bc91dc060b6240f07a2b75d6accc4693f7f684f6857b92e8f09204852dc2d45b
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201301.CSV
-- **Nickname**: 6mm ensilite foam 2mmkydex · 7.1kN peak · fast decay
+- **Nickname**: 6mm ensilite foam 2mmkydex · 7.1kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 3304 → **Retained**: 13
 - **Event window**: 0.70946 – 0.70970 sec
 - **Prefix trimmed**: 0.70736 – 0.70946 sec
@@ -675,12 +675,12 @@
 - **Force decay**: 0.12 ms
 - **Impulse**: 1.54 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 8d0080000a9d1c87eddfef415267c95054f57fb2bafc490f8163c5dc8805fce8
+- **Content hash**: 6b5968dbbc2d65c5706b81bafe4ca4b6ffcf8ab6bdea72f8b832b9e3f17c3bcc
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201327.CSV
-- **Nickname**: 6mm ensilite foam 2mmkydex · 7.0kN peak · fast decay
+- **Nickname**: 6mm ensilite foam 2mmkydex · 7.0kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 3583 → **Retained**: 27
 - **Event window**: 0.73844 – 0.73896 sec
 - **Prefix trimmed**: 0.73652 – 0.73844 sec
@@ -690,12 +690,12 @@
 - **Force decay**: 0.12 ms
 - **Impulse**: 2.69 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 6d40f72670bae7cd328a303d3676897838a4550c090f2f3ed8c928739703c62e
+- **Content hash**: 51b782290a9ff6b8a0d64129fa109e44b8f304059f95b70574bd54f219f30087
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201358.CSV
-- **Nickname**: 6mm ensilite foam 2mmkydex · 5.2kN peak · fast decay
+- **Nickname**: 6mm ensilite foam 2mmkydex · 5.2kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 1896 → **Retained**: 49
 - **Event window**: 0.73744 – 0.73840 sec
 - **Prefix trimmed**: 0.73580 – 0.73744 sec
@@ -705,12 +705,12 @@
 - **Force decay**: 0.84 ms
 - **Impulse**: 4.07 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 742373e4416f6f7694992034da4e42761ff71071e370b5cc929d08c9a4aa6578
+- **Content hash**: 5da53f99c72821ec690f9118f00f2d34eb33366d15a0454eeaddd1f06b92fb4d
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201430.CSV
-- **Nickname**: 6mm ensilite foam 2mmkydex · 5.7kN peak · fast decay
+- **Nickname**: 6mm ensilite foam 2mmkydex · 5.7kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 2165 → **Retained**: 7
 - **Event window**: 0.71458 – 0.71470 sec
 - **Prefix trimmed**: 0.71304 – 0.71458 sec
@@ -720,12 +720,12 @@
 - **Force decay**: 0.06 ms
 - **Impulse**: 0.65 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 0473a8cbb2f408b13800d9a34e15258b9659a23090908f51ae28f2df94bd2a78
+- **Content hash**: 8288020df5ae939d88ea5bd89ebb367d2a2e946b988589970ca5b9e98a4c197f
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201508.CSV
-- **Nickname**: 6mm ensilite foam 2mmkydex · 5.1kN peak · fast decay
+- **Nickname**: 6mm ensilite foam 2mmkydex · 5.1kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 3017 → **Retained**: 121
 - **Event window**: 0.68902 – 0.69142 sec
 - **Prefix trimmed**: 0.68818 – 0.68902 sec
@@ -735,12 +735,12 @@
 - **Force decay**: 1.20 ms
 - **Impulse**: 6.20 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 08d98be3aff487a1e440ee69bfd2cdda203079e400222c1e4566d438708415e1
+- **Content hash**: a489af64c29e9fd6d10c14aa92fb489463db168a08acff948374173dcd876d63
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201811.CSV
-- **Nickname**: 6mm ensilite foam 2mmkydex · 8.8kN peak · fast decay
+- **Nickname**: 6mm ensilite foam 2mmkydex · 8.8kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 3868 → **Retained**: 15
 - **Event window**: 0.69866 – 0.69894 sec
 - **Prefix trimmed**: 0.69664 – 0.69866 sec
@@ -750,12 +750,12 @@
 - **Force decay**: 0.14 ms
 - **Impulse**: 2.07 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: fdef6e67fcb3ea7e23e442e04104ca197c8f8fa6790c3475459d30aa4f4f3dfc
+- **Content hash**: 830830fb9ba9e4abfd74a276b10cc8b9680045e7981593b80675f6119fedc1af
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201908.CSV
-- **Nickname**: 6mm ensilite foam 2mmkydex · 8.9kN peak · fast decay
+- **Nickname**: 6mm ensilite foam 2mmkydex · 8.9kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4398 → **Retained**: 15
 - **Event window**: 0.69386 – 0.69414 sec
 - **Prefix trimmed**: 0.69166 – 0.69386 sec
@@ -765,12 +765,12 @@
 - **Force decay**: 0.14 ms
 - **Impulse**: 2.07 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 4ee4d3893a9037caf52db37fabf3abef0c15cdb7471385659f59c7d65e353fd6
+- **Content hash**: 4c0f330adb110c79462b7cae3783d79df40ab4e521d2915af3f82b53dc8a1406
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501201953.CSV
-- **Nickname**: 6mm ensilite foam 2mmkydex · 8.4kN peak · fast decay
+- **Nickname**: 6mm ensilite foam 2mmkydex · 8.4kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 2789 → **Retained**: 12
 - **Event window**: 0.67632 – 0.67654 sec
 - **Prefix trimmed**: 0.67462 – 0.67632 sec
@@ -780,12 +780,12 @@
 - **Force decay**: 0.12 ms
 - **Impulse**: 1.65 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 799aded94d20f406e50bd889d3f7995d532e872f90389e183e77cfdc69f79401
+- **Content hash**: faede7e7727b1bd2617e0ed016a3922bd8976b0e7665515dc4060e31203612c0
 
 ## steel-test-ball-drop/6mm-ensilite-foam+2mmkydex-20240501202019.CSV
-- **Nickname**: 6mm ensilite foam 2mmkydex · 6.3kN peak · fast decay
+- **Nickname**: 6mm ensilite foam 2mmkydex · 6.3kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 3485 → **Retained**: 44
 - **Event window**: 0.68438 – 0.68524 sec
 - **Prefix trimmed**: 0.68248 – 0.68438 sec
@@ -795,12 +795,12 @@
 - **Force decay**: 0.76 ms
 - **Impulse**: 3.83 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 1b9ee1d9cba3e03bc5a842c514f425c45f62669b1680c6134027e44de53b50f3
+- **Content hash**: 9e1963bafb1b2daa3bc0f9f064b7beacb7ae6c44981b550ce21053f7520721ca
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195242.CSV
-- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.3kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.3kN peak · fast decay · run 3
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5986 → **Retained**: 20
 - **Event window**: 0.67036 – 0.67074 sec
 - **Prefix trimmed**: 0.66762 – 0.67036 sec
@@ -810,12 +810,12 @@
 - **Force decay**: 0.20 ms
 - **Impulse**: 2.73 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 79af3a3dfb6f558653866da39262ec2e539d7d32c680711e0de956393db73599
+- **Content hash**: b71653cc840fafebc4da691fc045077c5e7bba8fb180d76581b05e4f51131ee0
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195318.CSV
-- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.4kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.4kN peak · fast decay · run 3
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5993 → **Retained**: 22
 - **Event window**: 0.61390 – 0.61432 sec
 - **Prefix trimmed**: 0.61122 – 0.61390 sec
@@ -825,12 +825,12 @@
 - **Force decay**: 0.22 ms
 - **Impulse**: 3.01 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 67d3c96d46c1af0fd1ca4a7bad3905f90420402c49c9d0aa2ed882bf79207473
+- **Content hash**: 62c48595f8266a0c525d2671c0e4350d2bf76996259ed3cb881e447cd1aa7ab4
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195400.CSV
-- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.3kN peak · fast decay · run 2
+- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.3kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5174 → **Retained**: 21
 - **Event window**: 0.71100 – 0.71140 sec
 - **Prefix trimmed**: 0.70860 – 0.71100 sec
@@ -840,12 +840,12 @@
 - **Force decay**: 0.20 ms
 - **Impulse**: 2.86 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 88b619ca0ab7f9d2c9610a6cb84abc105507b432aaa40ea07cbc556b47e379f8
+- **Content hash**: c775b37abf01a7bd9bd1fe7a0316f11b147f710acf9f7f69e7735d46e869a9dc
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195434.CSV
-- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 6.1kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 6.1kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 2621 → **Retained**: 7
 - **Event window**: 0.68526 – 0.68538 sec
 - **Prefix trimmed**: 0.68360 – 0.68526 sec
@@ -855,12 +855,12 @@
 - **Force decay**: 0.08 ms
 - **Impulse**: 0.72 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 4edc3ad0cb35837d5c5b1cb9208c075a283e904eff78b344e9085f61f8661c22
+- **Content hash**: 60a774d3192e277131859ed6f164f409415ebb7fff5679230511fb770cb31e44
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195501.CSV
-- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 9.0kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 9.0kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5427 → **Retained**: 22
 - **Event window**: 0.67734 – 0.67776 sec
 - **Prefix trimmed**: 0.67494 – 0.67734 sec
@@ -870,12 +870,12 @@
 - **Force decay**: 0.20 ms
 - **Impulse**: 3.22 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 35106a62cbc90ceff4ef8502a087449cefc4ce2f51bb6594dd7df1562a19bfc6
+- **Content hash**: 371e46f8b9c422cb78ccf13b0fd46d20232cfcef93178b6f7b9ed077405cee82
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195537.CSV
-- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.4kN peak · fast decay · run 2
+- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.4kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 6570 → **Retained**: 24
 - **Event window**: 0.69506 – 0.69552 sec
 - **Prefix trimmed**: 0.69220 – 0.69506 sec
@@ -885,12 +885,12 @@
 - **Force decay**: 0.24 ms
 - **Impulse**: 3.26 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 7b274aacb270a439e2e8129a55b99b2057d0b7f364600445f008e8883398a6b1
+- **Content hash**: 2e1cf77468f143000fd88e27a98ee621b97c35b365354ada3728a5ea85ffb618
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195616.CSV
-- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.0kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.0kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4667 → **Retained**: 21
 - **Event window**: 0.75544 – 0.75584 sec
 - **Prefix trimmed**: 0.75326 – 0.75544 sec
@@ -900,12 +900,12 @@
 - **Force decay**: 0.18 ms
 - **Impulse**: 2.72 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 921ec5cef14abaca25f8e22fc4a6b286fe3fdc875651dc992a6d7940c0ef9ebf
+- **Content hash**: 0c1e4974ca5688b8f7eb25c002396e386c8d5e65d61093fea73dbbd917bb3c19
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195740.CSV
-- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 5.6kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 5.6kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4436 → **Retained**: 44
 - **Event window**: 0.69246 – 0.69332 sec
 - **Prefix trimmed**: 0.69026 – 0.69246 sec
@@ -915,12 +915,12 @@
 - **Force decay**: 0.40 ms
 - **Impulse**: 4.22 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 16b6c4aa80060b7c2b6cf9ab59fcbfc4e853ce6bd13e0a7f58c43c6d01b2e143
+- **Content hash**: 86c97feceb4c54dd9032cff97d73fe438e8de86a8d334695524ad9f84f25f61c
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195818.CSV
-- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.5kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 8.5kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 7192 → **Retained**: 26
 - **Event window**: 0.67234 – 0.67284 sec
 - **Prefix trimmed**: 0.66932 – 0.67234 sec
@@ -930,12 +930,12 @@
 - **Force decay**: 0.28 ms
 - **Impulse**: 3.62 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 12fb4fbab23a11c3c93feef77706d7ecc1bd30d2ceec7984161c58695eeeb481
+- **Content hash**: bbc0476d7ad067ba5c6d9b0feb1d4d87505b3e1328caa470d7825080c8499930
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-foam+2mm-kydex-20240501195857.CSV
-- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 6.9kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact foam 2mm kydex · 6.9kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 2757 → **Retained**: 14
 - **Event window**: 0.68444 – 0.68470 sec
 - **Prefix trimmed**: 0.68280 – 0.68444 sec
@@ -945,12 +945,12 @@
 - **Force decay**: 0.14 ms
 - **Impulse**: 1.64 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: d13ad68f11a170b4865652bdd376b329667f4b2902f90b62726add3a0e8ec604
+- **Content hash**: baf2d28fff514d70245cd41eec1080fec85a6cb2924586927b774c9e615a5c77
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-abs-20240501192349.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm abs · 5.1kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell 2mm abs · 5.1kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4130 → **Retained**: 24
 - **Event window**: 0.68648 – 0.68694 sec
 - **Prefix trimmed**: 0.68386 – 0.68648 sec
@@ -960,12 +960,12 @@
 - **Force decay**: 0.26 ms
 - **Impulse**: 2.27 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: e4218347ce011860f64abfc78c7266f5424e81912b68847d43955aa8e94392bb
+- **Content hash**: 2f9d1b5811eba8691f9e15d1b472578acfdeb4e2c973ce7cc317eed6786b0dd7
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192552.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.7kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.7kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5426 → **Retained**: 37
 - **Event window**: 0.70010 – 0.70082 sec
 - **Prefix trimmed**: 0.69716 – 0.70010 sec
@@ -975,12 +975,12 @@
 - **Force decay**: 0.40 ms
 - **Impulse**: 3.90 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 1e03a43507a07949371c286d745ef1029b5f89d9fb67ecc11f0135b283c3743d
+- **Content hash**: c4ca36eb4c2f191c471956bb151518b3fe53e5aa7a263d5e3d7565090ec73bc3
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192642.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 4.9kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 4.9kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5467 → **Retained**: 39
 - **Event window**: 0.67516 – 0.67592 sec
 - **Prefix trimmed**: 0.67220 – 0.67516 sec
@@ -990,12 +990,12 @@
 - **Force decay**: 0.48 ms
 - **Impulse**: 3.62 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: ee5df01dd5f54c700dc3ce6d1688b3ab01d36b7f76ff049b41d6f73989300bde
+- **Content hash**: 829db52f68bcb5b00221d62646ca2392fae65d36f0f9cdd970f1060981bc2597
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192846.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 4.8kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 4.8kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5007 → **Retained**: 35
 - **Event window**: 0.68294 – 0.68362 sec
 - **Prefix trimmed**: 0.68012 – 0.68294 sec
@@ -1005,12 +1005,12 @@
 - **Force decay**: 0.60 ms
 - **Impulse**: 3.21 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 49de96443c5d082151dff9a0ed812c3f679b3b516ecd14b48bd73d0e8e3b3f9d
+- **Content hash**: f73a99c88cca9da1b92559d0170305adade4ade88864a15505afdbbfa7c2077e
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501192930.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.1kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.1kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5326 → **Retained**: 24
 - **Event window**: 0.60164 – 0.60210 sec
 - **Prefix trimmed**: 0.59874 – 0.60164 sec
@@ -1020,12 +1020,12 @@
 - **Force decay**: 0.30 ms
 - **Impulse**: 2.26 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: ee4d24063acf93eb464ed39fdde6f30c6ee353f2033e488f878efb4f648e9660
+- **Content hash**: 4fd2204b6de5a5a72d861dd96625aa95f3fd428ed4c150b0b33c3600cc0f01b6
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193056.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay · run 5
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5317 → **Retained**: 24
 - **Event window**: 0.59230 – 0.59276 sec
 - **Prefix trimmed**: 0.58946 – 0.59230 sec
@@ -1035,12 +1035,12 @@
 - **Force decay**: 0.30 ms
 - **Impulse**: 2.33 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 5f66fb8556c81b94b2b7aed99d056a4c1d59aeea441622429e06a424629326b8
+- **Content hash**: a30da160fb4b6eaf6a237bd38d5a335138c3ca473526e79f793e6084cd0dab9a
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193123.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 4.7kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 4.7kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 2150 → **Retained**: 37
 - **Event window**: 0.70968 – 0.71040 sec
 - **Prefix trimmed**: 0.70776 – 0.70968 sec
@@ -1050,12 +1050,12 @@
 - **Force decay**: 0.36 ms
 - **Impulse**: 3.26 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 5040dec4e98f2bcdcabd0810c6f51265271d47d3b77b80882e0a92f348cf5aad
+- **Content hash**: f8eb72a59d2a0dbc93e1a4ed746d2409db0a4499c3fa648f8601a98e11b33cf5
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193202.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.6kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.6kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5268 → **Retained**: 24
 - **Event window**: 0.65154 – 0.65200 sec
 - **Prefix trimmed**: 0.64880 – 0.65154 sec
@@ -1065,12 +1065,12 @@
 - **Force decay**: 0.26 ms
 - **Impulse**: 2.44 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 33f23659742c338b5b5b5e836e81a2f897221f7e88c82db50ef4110f8491208c
+- **Content hash**: 2c7ba3db101e9bad97e4ccc9fa32e6da74019d44a7b2042b325723484cd3bd9a
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193252.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay · run 2
+- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay · run 6
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5967 → **Retained**: 26
 - **Event window**: 0.72290 – 0.72340 sec
 - **Prefix trimmed**: 0.71986 – 0.72290 sec
@@ -1080,12 +1080,12 @@
 - **Force decay**: 0.30 ms
 - **Impulse**: 2.53 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 636f2b3a831ff1b9317cd746ca8fd00755a60c210c54728a3963ebcb91e6d824
+- **Content hash**: 6e9e0a8af558b670f02cc76923c284a13f45ea19810c6f727b9b2d923e494de4
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193323.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay · run 3
+- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay · run 7
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5214 → **Retained**: 21
 - **Event window**: 0.68764 – 0.68804 sec
 - **Prefix trimmed**: 0.68486 – 0.68764 sec
@@ -1095,12 +1095,12 @@
 - **Force decay**: 0.26 ms
 - **Impulse**: 2.06 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: d665f904091c3bac8ee96f390bc22e5cbf00cee42505658fc47ebfff2ede0596
+- **Content hash**: 29e1e2605d0bbe15e936f74becfa5cbcc015faac6bbaa9d09f9b738f5286ad01
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell+2mm-kydex-20240501193356.CSV
-- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay · run 4
+- **Nickname**: 6mm shoktec hi impact gell 2mm kydex · 5.3kN peak · fast decay · run 8
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4884 → **Retained**: 18
 - **Event window**: 0.63284 – 0.63318 sec
 - **Prefix trimmed**: 0.63018 – 0.63284 sec
@@ -1110,12 +1110,12 @@
 - **Force decay**: 0.22 ms
 - **Impulse**: 1.74 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 321cda576beff0aa5a105553519451023a57d034f57532dc287dea5b0b14b128
+- **Content hash**: 84c9e57eaab841994ece5e5b552d98d9d9c36c03f4dfc92fb1ca5ff952e79b9e
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193602.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 6.8kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell · 6.8kN peak · fast decay · run 3
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:52Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 6324 → **Retained**: 28
 - **Event window**: 0.67826 – 0.67880 sec
 - **Prefix trimmed**: 0.67540 – 0.67826 sec
@@ -1125,12 +1125,12 @@
 - **Force decay**: 0.40 ms
 - **Impulse**: 3.25 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 9b5d5859d5c3eef489ce33202d99a5e2421c4df09fb307add547a1998d8feec4
+- **Content hash**: cdf577e04e33f824a853224a6a2f0b9708d24f65b0b42478291c78eca3a8bb18
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193658.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 6.3kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell · 6.3kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 21492 → **Retained**: 114
 - **Event window**: 0.54064 – 0.54290 sec
 - **Prefix trimmed**: 0.53198 – 0.54064 sec
@@ -1140,12 +1140,12 @@
 - **Force decay**: 1.80 ms
 - **Impulse**: 5.33 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: e4846128e65424e905e4b8a0a91303e74f1a4640c90468fd3bf1e86e5a286979
+- **Content hash**: 21cd902d14d442fa2410410f6f3b52ac398c30aa854d5121c32fe8bc61d7210a
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193736.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 6.5kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell · 6.5kN peak · fast decay · run 3
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5266 → **Retained**: 21
 - **Event window**: 0.70486 – 0.70526 sec
 - **Prefix trimmed**: 0.70220 – 0.70486 sec
@@ -1155,12 +1155,12 @@
 - **Force decay**: 0.20 ms
 - **Impulse**: 2.28 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: fb8c66ccd7fc92362174600c61c04df569e287b0c4fc7f3adfac7cf96cbedefe
+- **Content hash**: d63c3631d36f5a138bf546027c4d718222998bd29c07e4340b4eec132f92daeb
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193815.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 6.5kN peak · fast decay · run 2
+- **Nickname**: 6mm shoktec hi impact gell · 6.5kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5101 → **Retained**: 22
 - **Event window**: 0.72804 – 0.72846 sec
 - **Prefix trimmed**: 0.72548 – 0.72804 sec
@@ -1170,12 +1170,12 @@
 - **Force decay**: 0.20 ms
 - **Impulse**: 2.43 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 4e5a25395620df8d375ab6cd97de889fe088298857038ebce61abda4586992c9
+- **Content hash**: a1eca411ac250d0216fdaa341c71fd64d28a3e5934f0034b26ad758fa824d7ee
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193851.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 5.8kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell · 5.8kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5108 → **Retained**: 21
 - **Event window**: 0.72468 – 0.72508 sec
 - **Prefix trimmed**: 0.72210 – 0.72468 sec
@@ -1185,12 +1185,12 @@
 - **Force decay**: 0.18 ms
 - **Impulse**: 2.06 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 45a387eced2bf0bf70b0818f9e1b11fcd9d8cfb71123f101482fdf5b20ad037c
+- **Content hash**: e01ff70492b94e42180c5e2a61c5c0266c431632ec4804779d5a2187d25153f2
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501193928.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 6.2kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell · 6.2kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4658 → **Retained**: 25
 - **Event window**: 0.71790 – 0.71838 sec
 - **Prefix trimmed**: 0.71560 – 0.71790 sec
@@ -1200,12 +1200,12 @@
 - **Force decay**: 0.16 ms
 - **Impulse**: 2.60 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: fded3e13bc875d9defd6c3e4533deeaa4239cdfba045cfcb838b4f9f614fc2ae
+- **Content hash**: 45c75baeeab24f752eb61f89fc1b459af279091348efc00a9ad7d45658d822ae
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194002.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 6.6kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell · 6.6kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4931 → **Retained**: 21
 - **Event window**: 0.69482 – 0.69522 sec
 - **Prefix trimmed**: 0.69232 – 0.69482 sec
@@ -1215,12 +1215,12 @@
 - **Force decay**: 0.20 ms
 - **Impulse**: 2.39 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: ee9e15a4e865b7c0524348fa00ca45527a287d57772f3ab8182d08b2f0c17958
+- **Content hash**: 241c2bcb9f15002c541f1c95924e6f037a9317357de5f69bcc590f99368372ac
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194031.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 42N peak · slow decay · run 2
+- **Nickname**: 6mm shoktec hi impact gell · 42N peak · slow decay
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 50000 → **Retained**: 50000
 - **Event window**: 0.00000 – 0.99998 sec
 - **Prefix trimmed**: 0.00000 – 0.00000 sec
@@ -1230,12 +1230,12 @@
 - **Force decay**: 999.20 ms
 - **Impulse**: 15.37 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: d7d2a9f7a80276106d4cabd93dbeac1b7e3058fab3f9a44640362791a15e9e96
+- **Content hash**: 4ac7fe085e013bd000f181b6c68c1387c436615117849181e4e31a5515792074
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194059.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 6.1kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell · 6.1kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4402 → **Retained**: 23
 - **Event window**: 0.70856 – 0.70900 sec
 - **Prefix trimmed**: 0.70636 – 0.70856 sec
@@ -1245,12 +1245,12 @@
 - **Force decay**: 0.16 ms
 - **Impulse**: 2.42 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 1b8488644007384df76d8255a441e7b287351c44b8d898e49e34207168f83ba9
+- **Content hash**: 928355ae4d663d0028b840cc4e4d648cf14db6e870211f5a6685a92b5a29ab52
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501194148.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 6.8kN peak · fast decay · run 2
+- **Nickname**: 6mm shoktec hi impact gell · 6.8kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 20475 → **Retained**: 115
 - **Event window**: 0.59878 – 0.60106 sec
 - **Prefix trimmed**: 0.59050 – 0.59878 sec
@@ -1260,12 +1260,12 @@
 - **Force decay**: 1.86 ms
 - **Impulse**: 5.26 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: d02744f6632c147b6ba1ae92ed907c3a55332d93b57ae57935c03f68bf861aee
+- **Content hash**: 6805c5e1cbc23c1ca39602f7b8ed5e020bcc3e4e891f763398471d64b2b77eb9
 
 ## steel-test-ball-drop/6mm-shoktec-hi-impact-gell-20240501195022.CSV
-- **Nickname**: 6mm shoktec hi impact gell · 5.7kN peak · fast decay
+- **Nickname**: 6mm shoktec hi impact gell · 5.7kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4435 → **Retained**: 25
 - **Event window**: 0.66548 – 0.66596 sec
 - **Prefix trimmed**: 0.66330 – 0.66548 sec
@@ -1275,12 +1275,12 @@
 - **Force decay**: 0.14 ms
 - **Impulse**: 2.44 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 561c84956114e3b26e938e7052eacea4496ed0d8ca57971f5540af8eaa8f9125
+- **Content hash**: 82764aacc3624babf9101365bb73853561434c67df6e97e345754e8492c1385e
 
 ## steel-test-ball-drop/6mmEVA-20240501182806.CSV
-- **Nickname**: 6mmeva · 11.1kN peak · fast decay
+- **Nickname**: 6mmeva · 11.1kN peak · fast decay · run 3
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 18057 → **Retained**: 45
 - **Event window**: 0.41280 – 0.41368 sec
 - **Prefix trimmed**: 0.40584 – 0.41280 sec
@@ -1290,12 +1290,12 @@
 - **Force decay**: 0.42 ms
 - **Impulse**: 4.74 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 6f340af6e0024133c1a4bed1d288737c8552fce96bc56479f52306bfb98de0e0
+- **Content hash**: b6c156b81373d1bc752836619228454b454e397186bd2097f8169bf76a6aa670
 
 ## steel-test-ball-drop/6mmEVA-20240501191134.CSV
-- **Nickname**: 6mmeva · 11.4kN peak · fast decay
+- **Nickname**: 6mmeva · 11.4kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4725 → **Retained**: 40
 - **Event window**: 0.69368 – 0.69446 sec
 - **Prefix trimmed**: 0.69178 – 0.69368 sec
@@ -1305,12 +1305,12 @@
 - **Force decay**: 0.38 ms
 - **Impulse**: 4.08 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 078bcc295c0fd9968c86d47af09c39dbdeef69ae9d49f5f85a41fc5f188612af
+- **Content hash**: bd96c257d81abe563b6976836e3c92223525be7eccf132d0fca92db67a62249a
 
 ## steel-test-ball-drop/6mmEVA-20240501191408.CSV
-- **Nickname**: 6mmeva · 10.6kN peak · fast decay
+- **Nickname**: 6mmeva · 10.6kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 4237 → **Retained**: 14
 - **Event window**: 0.72344 – 0.72370 sec
 - **Prefix trimmed**: 0.72150 – 0.72344 sec
@@ -1320,12 +1320,12 @@
 - **Force decay**: 0.14 ms
 - **Impulse**: 2.36 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: ca1efc24466a5ab64fa036c8bf69298b5057d8e89d2a0fc2fc1690fef0cf1d16
+- **Content hash**: c9f971f0e3e12989c7560d922b6e6f900f8b1bdfd99379c1ae4df11c006d691b
 
 ## steel-test-ball-drop/6mmEVA-20240501191524.CSV
-- **Nickname**: 6mmeva · 11.1kN peak · fast decay · run 2
+- **Nickname**: 6mmeva · 11.1kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5489 → **Retained**: 14
 - **Event window**: 0.71502 – 0.71528 sec
 - **Prefix trimmed**: 0.71258 – 0.71502 sec
@@ -1335,12 +1335,12 @@
 - **Force decay**: 0.14 ms
 - **Impulse**: 2.25 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 04af5db0a0a9941fb3779760891ca09040ec84ba1d1786d980d00f7b8e413cb2
+- **Content hash**: 28e25b13a65c7036e5a60a6dad0a5c787a0703158a2c04bc058fc13be0aadeea
 
 ## steel-test-ball-drop/6mmEVA-20240501191607.CSV
-- **Nickname**: 6mmeva · 10.9kN peak · fast decay
+- **Nickname**: 6mmeva · 10.9kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 2707 → **Retained**: 12
 - **Event window**: 0.74864 – 0.74886 sec
 - **Prefix trimmed**: 0.74720 – 0.74864 sec
@@ -1350,12 +1350,12 @@
 - **Force decay**: 0.10 ms
 - **Impulse**: 1.99 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 0cee105d46476f94e5066981f6e1beee258287bab146006eabab508c7e0c6e25
+- **Content hash**: e5241039d7926e696986d362a5c2e2ba5a84cfc99f0305a5df61f48031339390
 
 ## steel-test-ball-drop/6mmEVA-20240501191644.CSV
-- **Nickname**: 6mmeva · 10.5kN peak · fast decay
+- **Nickname**: 6mmeva · 10.5kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 5851 → **Retained**: 18
 - **Event window**: 0.66508 – 0.66542 sec
 - **Prefix trimmed**: 0.66254 – 0.66508 sec
@@ -1365,12 +1365,12 @@
 - **Force decay**: 0.18 ms
 - **Impulse**: 2.77 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: cbfadb5f865a99068cf89b7837d8ea045d5c52eab3a33db2e84e23215899118c
+- **Content hash**: d760c33e2d18e7d2cc01cc7cc5892cc6f4d4a094e38b7192156831f607674d69
 
 ## steel-test-ball-drop/6mmEVA-20240501191733.CSV
-- **Nickname**: 6mmeva · 10.7kN peak · fast decay
+- **Nickname**: 6mmeva · 10.7kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 5638 → **Retained**: 17
 - **Event window**: 0.77232 – 0.77264 sec
 - **Prefix trimmed**: 0.76984 – 0.77232 sec
@@ -1380,12 +1380,12 @@
 - **Force decay**: 0.16 ms
 - **Impulse**: 2.60 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 804623be801ae51ed9cd6ced3245163a07e37f8b9d9d0e399843f0f14cb384e9
+- **Content hash**: 27187ec21a8ceb2ab94c2dbd9e440aad3e28c7157c97226f8a67518afe8bc820
 
 ## steel-test-ball-drop/6mmEVA-20240501191823.CSV
-- **Nickname**: 6mmeva · 9.8kN peak · fast decay
+- **Nickname**: 6mmeva · 9.8kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4948 → **Retained**: 18
 - **Event window**: 0.69048 – 0.69082 sec
 - **Prefix trimmed**: 0.68832 – 0.69048 sec
@@ -1395,12 +1395,12 @@
 - **Force decay**: 0.18 ms
 - **Impulse**: 2.80 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 0098f81e37fcec749ac2debc4ecf6fc473c5e2c62d99bb3f89ed8d015dfb2b37
+- **Content hash**: 612b4da1bb85eb2e4a655d069e000141e57c9bec3e58e29d5fc22d3a2ede63b8
 
 ## steel-test-ball-drop/6mmEVA-20240501191929.CSV
-- **Nickname**: 6mmeva · 10.9kN peak · fast decay · run 2
+- **Nickname**: 6mmeva · 10.9kN peak · fast decay · run 5
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4015 → **Retained**: 15
 - **Event window**: 0.74640 – 0.74668 sec
 - **Prefix trimmed**: 0.74454 – 0.74640 sec
@@ -1410,12 +1410,12 @@
 - **Force decay**: 0.12 ms
 - **Impulse**: 2.43 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 8e78cb32539c6ec730ee4c14fdccd97fa609159b1ddd175b6d36d500f8c2e65d
+- **Content hash**: e99703a912c9be025d863e4250fa816eafd50df3826ee144298f6f412b0cf0e9
 
 ## steel-test-ball-drop/6mmEVA-20240501192008.CSV
-- **Nickname**: 6mmeva · 11.7kN peak · slow decay · run 2
+- **Nickname**: 6mmeva · 11.7kN peak · slow decay
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 16291 → **Retained**: 3634
 - **Event window**: 0.66434 – 0.73700 sec
 - **Prefix trimmed**: 0.65940 – 0.66434 sec
@@ -1425,12 +1425,12 @@
 - **Force decay**: 70.86 ms
 - **Impulse**: 6.06 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: e7374e08a3db9593f416e08222790cb9e1b119b4b489901faf7da2412741d7f1
+- **Content hash**: 1f445e2f04a81e65426a4a0be34e47461347ef0ac7f90daa8a29597816162262
 
 ## steel-test-ball-drop/6mmEVA-20240501192058.CSV
-- **Nickname**: 6mmeva · 11.0kN peak · fast decay
+- **Nickname**: 6mmeva · 11.0kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4476 → **Retained**: 16
 - **Event window**: 0.69648 – 0.69678 sec
 - **Prefix trimmed**: 0.69446 – 0.69648 sec
@@ -1440,12 +1440,12 @@
 - **Force decay**: 0.14 ms
 - **Impulse**: 2.65 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 66643d57d6ebc007bf3c95ca14eb90f05b7a38cbdcb6c9953967ebf8bfe6a481
+- **Content hash**: 566def45623cf7278f6916bf28b74d92e726c67f618d94255a821bed17ec9aa2
 
 ## steel-test-ball-drop/6mmEVA-20240501192142.CSV
-- **Nickname**: 6mmeva · 10.9kN peak · fast decay · run 3
+- **Nickname**: 6mmeva · 10.9kN peak · fast decay · run 6
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4457 → **Retained**: 14
 - **Event window**: 0.77738 – 0.77764 sec
 - **Prefix trimmed**: 0.77534 – 0.77738 sec
@@ -1455,12 +1455,12 @@
 - **Force decay**: 0.12 ms
 - **Impulse**: 2.26 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: f295406909c6ef9bceb3ed7c50ea171acb7e67a47ec2d266cf7e986b577c38b9
+- **Content hash**: a8930c32b7aae51d1dd70acb00920eab5c5216d90eb1673028713ee4f800a68c
 
 ## steel-test-ball-drop/6mmeva+2mmAbs-20240501183700.CSV
-- **Nickname**: 6mmeva 2mmabs · 8.5kN peak · fast decay
+- **Nickname**: 6mmeva 2mmabs · 8.5kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 17787 → **Retained**: 43
 - **Event window**: 0.54490 – 0.54574 sec
 - **Prefix trimmed**: 0.53792 – 0.54490 sec
@@ -1470,12 +1470,12 @@
 - **Force decay**: 0.44 ms
 - **Impulse**: 4.70 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 38370bc9def90dfe8b73274a765ea55c9c6279e6e5809f1d0e77df0018dba52c
+- **Content hash**: 77f4f5983b88a43a43ee86216a2bde6210125a88be59b298054e387b70bfd728
 
 ## steel-test-ball-drop/6mmeva+2mmAbs-20240501183852.CSV
-- **Nickname**: 6mmeva 2mmabs · 8.6kN peak · fast decay
+- **Nickname**: 6mmeva 2mmabs · 8.6kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:15Z
 - **Original samples**: 17061 → **Retained**: 41
 - **Event window**: 0.66546 – 0.66626 sec
 - **Prefix trimmed**: 0.65878 – 0.66546 sec
@@ -1485,12 +1485,12 @@
 - **Force decay**: 0.40 ms
 - **Impulse**: 4.52 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 616b8a7688397616d0a11435f29c1bd29cf18cbe150361e0f0ab3557e67e7e84
+- **Content hash**: 665743193018a3c5a6e3ab5739487f36a4a953427a1992958329b6e96450661d
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200214.CSV
-- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · fast decay
+- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 3402 → **Retained**: 7
 - **Event window**: 0.71810 – 0.71822 sec
 - **Prefix trimmed**: 0.71534 – 0.71810 sec
@@ -1500,12 +1500,12 @@
 - **Force decay**: 0.10 ms
 - **Impulse**: 0.52 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 31329b2fb4c9ba5356bc042497ec70adbe72c6774cead8e8ba34c9eb4961492c
+- **Content hash**: c589820de72bb999ceb4606a9826ec4ea52d68b8ddd20be7c29be9bbd94f2e15
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200506.CSV
-- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.1kN peak · slow decay · run 3
+- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.1kN peak · slow decay
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 3523 → **Retained**: 3523
 - **Event window**: 0.68548 – 0.75592 sec
 - **Prefix trimmed**: 0.68548 – 0.68548 sec
@@ -1515,12 +1515,12 @@
 - **Force decay**: 67.68 ms
 - **Impulse**: 5.79 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 5ba376094b033067ce47a8b9969775d67ca21a44a791412d7bd2691fffb204e4
+- **Content hash**: 8641c64ae7fd6523e0ab9e0edf2e147128636f2aac1cc7c32ac8cab8a190f797
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200545.CSV
-- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.2kN peak · fast decay
+- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.2kN peak · fast decay · run 3
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4977 → **Retained**: 32
 - **Event window**: 0.76046 – 0.76108 sec
 - **Prefix trimmed**: 0.75752 – 0.76046 sec
@@ -1530,12 +1530,12 @@
 - **Force decay**: 0.22 ms
 - **Impulse**: 2.56 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 9a6089622f70e88ac205657d359a5b687ad648643637fd420b913db7a8305ff2
+- **Content hash**: 1a7d5e6a0b68f1ca7b8eaa691af1bac817f1321dc6254c5c940d46a39a5f1986
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200622.CSV
-- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.2kN peak · fast decay · run 2
+- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.2kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4595 → **Retained**: 22
 - **Event window**: 0.62652 – 0.62694 sec
 - **Prefix trimmed**: 0.62360 – 0.62652 sec
@@ -1545,12 +1545,12 @@
 - **Force decay**: 0.36 ms
 - **Impulse**: 1.75 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: e41d7488a88f17254ae7e7499d2f9aa45b4cafdb5671b6fa466196414e21c967
+- **Content hash**: 1e97ec09b22bb66a68b3ac78f7934903e7a63a790ec1190335802f0dcf8a3a5e
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200655.CSV
-- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · slow decay · run 5
+- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · slow decay
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 3897 → **Retained**: 3897
 - **Event window**: 0.72724 – 0.80516 sec
 - **Prefix trimmed**: 0.72724 – 0.72724 sec
@@ -1560,12 +1560,12 @@
 - **Force decay**: 75.14 ms
 - **Impulse**: 6.41 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 39a8957d7997dbeebe9a41c363dc34603cd8c2e942e0c7e78ca81f8f2e199d0f
+- **Content hash**: 47968251ba3506856a48499a19b14a56712862f80b491e504b895305c90e381e
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200736.CSV
-- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.1kN peak · fast decay
+- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.1kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4674 → **Retained**: 29
 - **Event window**: 0.71186 – 0.71242 sec
 - **Prefix trimmed**: 0.70898 – 0.71186 sec
@@ -1575,12 +1575,12 @@
 - **Force decay**: 0.26 ms
 - **Impulse**: 2.28 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 627dd3b94dd96ee81617f123b2405c83fe92130fdbc3c37e8445a7a5b595f11f
+- **Content hash**: 0b4c5db92a94cf8253b731aa49fd06f673ace9fbed64055abed3498ec1da3362
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200824.CSV
-- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 3.9kN peak · fast decay
+- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 3.9kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 2317 → **Retained**: 23
 - **Event window**: 0.63094 – 0.63138 sec
 - **Prefix trimmed**: 0.62882 – 0.63094 sec
@@ -1590,12 +1590,12 @@
 - **Force decay**: 0.22 ms
 - **Impulse**: 1.71 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: bc08dedbb5989b44d0fbee30b57f94764b4136d30ef8b74acbd5b6b19689b40a
+- **Content hash**: 61ebef95721feb47ee8f6b1596e1a20ba1842ad51dba2c8db0f6555e746bee3e
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200915.CSV
-- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · fast decay · run 2
+- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · fast decay · run 5
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4820 → **Retained**: 30
 - **Event window**: 0.70652 – 0.70710 sec
 - **Prefix trimmed**: 0.70362 – 0.70652 sec
@@ -1605,12 +1605,12 @@
 - **Force decay**: 0.46 ms
 - **Impulse**: 2.46 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 35d7b11d9e785476ca80fc009fdf6a3c7553c3ae60dfb95710bbce923cc8f616
+- **Content hash**: be35604e91fbefeda88885c10b452615488b315c499aa6c58e420a67d0215620
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501200954.CSV
-- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.6kN peak · fast decay
+- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.6kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 5715 → **Retained**: 35
 - **Event window**: 0.71612 – 0.71680 sec
 - **Prefix trimmed**: 0.71302 – 0.71612 sec
@@ -1620,12 +1620,12 @@
 - **Force decay**: 0.34 ms
 - **Impulse**: 2.90 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: d9e63c1b0cd1779b475ba7ef930409b655c38c1bbdd1f4e4513d36fe1009060f
+- **Content hash**: 39c2e666d1c93b4beb259bd38240227b6e80132d1f00e9e701017435572374e2
 
 ## steel-test-ball-drop/7mm-poronxrd-hexgrid-+2mmkydex-20240501201030.CSV
-- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · fast decay · run 3
+- **Nickname**: 7mm poronxrd hexgrid 2mmkydex · 4.3kN peak · fast decay · run 6
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4548 → **Retained**: 23
 - **Event window**: 0.68774 – 0.68818 sec
 - **Prefix trimmed**: 0.68478 – 0.68774 sec
@@ -1635,12 +1635,12 @@
 - **Force decay**: 0.26 ms
 - **Impulse**: 1.86 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: add688238cfbf2fa5cb1bd6f5f4e16a671ce68e15bbfeaf0eef1f58869ede5ff
+- **Content hash**: b20246dd03e52cbe4f6b98e34ad7cc0e044a705fb4b232d7210bcf5e9b843c81
 
 ## steel-test-ball-drop/control-bare-plate-20240501185351.CSV
-- **Nickname**: control bare plate · 8.9kN peak · fast decay
+- **Nickname**: control bare plate · 8.9kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 5934 → **Retained**: 28
 - **Event window**: 0.70660 – 0.70714 sec
 - **Prefix trimmed**: 0.70406 – 0.70660 sec
@@ -1650,12 +1650,12 @@
 - **Force decay**: 0.18 ms
 - **Impulse**: 3.84 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 610d3b88366aa496dfdad0f2bf3571ea387ee952f06c475a9177545e76db7e7d
+- **Content hash**: 943b572a064873368ba57c32e9df2e655dd22a8a1ee0071da69cac3983174089
 
 ## steel-test-ball-drop/control-bare-plate-20240501185448.CSV
-- **Nickname**: control bare plate · 8.7kN peak · fast decay
+- **Nickname**: control bare plate · 8.7kN peak · fast decay · run 3
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 6483 → **Retained**: 27
 - **Event window**: 0.78006 – 0.78058 sec
 - **Prefix trimmed**: 0.77726 – 0.78006 sec
@@ -1665,12 +1665,12 @@
 - **Force decay**: 0.22 ms
 - **Impulse**: 3.62 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: db3b9e115c22bf750117520d324718fd44efce01eeaa698a134f4e0d92f34a0e
+- **Content hash**: 908e52154d131d433c5b011006666d81a2a0a6c27bbbc7047d9b0eed6bb9bc9b
 
 ## steel-test-ball-drop/control-bare-plate-20240501185618.CSV
-- **Nickname**: control bare plate · 9.4kN peak · fast decay
+- **Nickname**: control bare plate · 9.4kN peak · fast decay · run 5
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 6272 → **Retained**: 27
 - **Event window**: 0.68370 – 0.68422 sec
 - **Prefix trimmed**: 0.68108 – 0.68370 sec
@@ -1680,12 +1680,12 @@
 - **Force decay**: 0.20 ms
 - **Impulse**: 3.78 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 6b46e334555c005634231be7114088d983c5751d5bd74702e87dd56c3f021dc1
+- **Content hash**: bc762838e36ea61687e48baefd5681a3186d2e05722f928ed1a4b655061171b8
 
 ## steel-test-ball-drop/control-bare-plate-20240501185702.CSV
-- **Nickname**: control bare plate · 9.4kN peak · fast decay · run 2
+- **Nickname**: control bare plate · 9.4kN peak · fast decay · run 6
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 6649 → **Retained**: 23
 - **Event window**: 0.66094 – 0.66138 sec
 - **Prefix trimmed**: 0.65812 – 0.66094 sec
@@ -1695,12 +1695,12 @@
 - **Force decay**: 0.18 ms
 - **Impulse**: 3.37 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 51520183f54b13259250523cc310be1171204e5dc0c0ba9b7604c51d5a0501a0
+- **Content hash**: 58e1a9301660ee9285badc92d2e13043f664acb290e519384836e0ab1089fba9
 
 ## steel-test-ball-drop/control-bare-plate-20240501185804.CSV
-- **Nickname**: control bare plate · 9.4kN peak · fast decay · run 3
+- **Nickname**: control bare plate · 9.4kN peak · fast decay · run 7
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 6716 → **Retained**: 22
 - **Event window**: 0.72790 – 0.72832 sec
 - **Prefix trimmed**: 0.72504 – 0.72790 sec
@@ -1710,12 +1710,12 @@
 - **Force decay**: 0.22 ms
 - **Impulse**: 3.27 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 8d2fcfe683e9be5e865a0c9157478e78cfecc7ed520a2e67707b45293c2d2d64
+- **Content hash**: 6dd8825656ca7313ac53e4ecf50e821e5b4c7ea7be73a539c8a4ce3aea647eba
 
 ## steel-test-ball-drop/control-bare-plate-20240501185856.CSV
-- **Nickname**: control bare plate · 8.6kN peak · fast decay
+- **Nickname**: control bare plate · 8.6kN peak · fast decay · run 3
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4503 → **Retained**: 27
 - **Event window**: 0.70800 – 0.70852 sec
 - **Prefix trimmed**: 0.70588 – 0.70800 sec
@@ -1725,12 +1725,12 @@
 - **Force decay**: 0.12 ms
 - **Impulse**: 3.39 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 926ea8dc6d61b574eaaf9d744ed37e96192b63a9d4b1c5b013a14d09f3ed41b2
+- **Content hash**: b54aaf3b5de16ba4c0cea15c40ee6659415b0a6e0f44c5f51cad656804aff13c
 
 ## steel-test-ball-drop/control-bare-plate-20240501185925.CSV
-- **Nickname**: control bare plate · 8.6kN peak · fast decay · run 2
+- **Nickname**: control bare plate · 8.6kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 5427 → **Retained**: 27
 - **Event window**: 0.66408 – 0.66460 sec
 - **Prefix trimmed**: 0.66162 – 0.66408 sec
@@ -1740,12 +1740,12 @@
 - **Force decay**: 0.16 ms
 - **Impulse**: 3.44 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 37e6cbe8e4e1d04eb44aec540565ee2f1f9ee39662dd259c0500a7843b6f9710
+- **Content hash**: 36f03a0059c00e40c7324a7b5d131d0c3806b0be50c3551078f68ccb41a8e9ea
 
 ## steel-test-ball-drop/control-bare-plate-20240501185954.CSV
-- **Nickname**: control bare plate · 8.7kN peak · fast decay · run 2
+- **Nickname**: control bare plate · 8.7kN peak · fast decay · run 4
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4316 → **Retained**: 19
 - **Event window**: 0.88310 – 0.88346 sec
 - **Prefix trimmed**: 0.88112 – 0.88310 sec
@@ -1755,12 +1755,12 @@
 - **Force decay**: 0.16 ms
 - **Impulse**: 2.77 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 3a296953855005e007c82540642aa2ac84b2c72b96be4d95eacd76b8d9c6205c
+- **Content hash**: cbf415681ad354bb33eb88ee6891dcb0841885fe37bebfa0f64f139fb6d0f4d0
 
 ## steel-test-ball-drop/control-bare-plate-20240501190115.CSV
-- **Nickname**: control bare plate · 8.8kN peak · fast decay
+- **Nickname**: control bare plate · 8.8kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 5115 → **Retained**: 26
 - **Event window**: 0.62874 – 0.62924 sec
 - **Prefix trimmed**: 0.62646 – 0.62874 sec
@@ -1770,12 +1770,12 @@
 - **Force decay**: 0.16 ms
 - **Impulse**: 3.33 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 15ba78ccf71a91b6b0df8025b1121a50686e525c4861b4436431b287c57467c5
+- **Content hash**: 37d1da1e5f735a9228816ea743dfc1d64e7fc14d38e4d5f6e85312b52a49d5c8
 
 ## steel-test-ball-drop/control-bare-plate-20240501190144.CSV
-- **Nickname**: control bare plate · 7.6kN peak · fast decay
+- **Nickname**: control bare plate · 7.6kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 4603 → **Retained**: 28
 - **Event window**: 0.72730 – 0.72784 sec
 - **Prefix trimmed**: 0.72512 – 0.72730 sec
@@ -1785,12 +1785,12 @@
 - **Force decay**: 0.12 ms
 - **Impulse**: 3.14 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 11aaa241306e3ca41b341697c2b8a0259a6b5e58db6fe74f7b09487afdae3e2b
+- **Content hash**: 3b91a7ce825f006c3b3806c2dc704e44b23e1bc716147ad9981af31ab82f4890
 
 ## steel-test-ball-drop/control-bare-plate-20240501190219.CSV
-- **Nickname**: control bare plate · 9.2kN peak · fast decay
+- **Nickname**: control bare plate · 9.2kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 5412 → **Retained**: 27
 - **Event window**: 0.65682 – 0.65734 sec
 - **Prefix trimmed**: 0.65454 – 0.65682 sec
@@ -1800,12 +1800,12 @@
 - **Force decay**: 0.16 ms
 - **Impulse**: 3.68 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 63402deaf1bdcbefd2479848484c6dae239646add2c8f50fd8c5163bed6f80cb
+- **Content hash**: fb15ea858da848048128f2dfbaf34b0c53e74d0729173515c1a4c51cd43a9cf1
 
 ## steel-test-ball-drop/control-bare-plate-20240501190353.CSV
-- **Nickname**: control bare plate · 9.1kN peak · fast decay
+- **Nickname**: control bare plate · 9.1kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 3954 → **Retained**: 15
 - **Event window**: 0.86288 – 0.86316 sec
 - **Prefix trimmed**: 0.86094 – 0.86288 sec
@@ -1815,12 +1815,12 @@
 - **Force decay**: 0.14 ms
 - **Impulse**: 2.20 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 6a61ecacd0c3c41085ba12ed4a2c8fb85c523482d2fa7657cb48733736ee5e89
+- **Content hash**: 45dbc3c22ba4e4fc1472ab553475af65114ec656cf9ce3d465361891506bfdf2
 
 ## steel-test-ball-drop/control-bare-plate-20240501190425.CSV
-- **Nickname**: control bare plate · 9.4kN peak · fast decay · run 4
+- **Nickname**: control bare plate · 9.4kN peak · fast decay · run 8
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 5437 → **Retained**: 18
 - **Event window**: 0.63380 – 0.63414 sec
 - **Prefix trimmed**: 0.63136 – 0.63380 sec
@@ -1830,12 +1830,12 @@
 - **Force decay**: 0.18 ms
 - **Impulse**: 2.65 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 3e8af3a79480efafe7d0eb4b9b012bcc146e95ef79739d19639b040266d119ee
+- **Content hash**: 05a7b93a19b5bfc43e2a88fc9fba9a6ce1d76a03e301591ac7dc2c004ca054e4
 
 ## steel-test-ball-drop/control-bare-plate-20240501190614.CSV
-- **Nickname**: control bare plate · 10.0kN peak · fast decay
+- **Nickname**: control bare plate · 10.0kN peak · fast decay · run 2
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 6374 → **Retained**: 21
 - **Event window**: 0.74248 – 0.74288 sec
 - **Prefix trimmed**: 0.73982 – 0.74248 sec
@@ -1845,12 +1845,12 @@
 - **Force decay**: 0.18 ms
 - **Impulse**: 3.29 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 65375c6ad609013ad913d131ef9675974b3b5d486bb22f91a7821832ae5844c7
+- **Content hash**: 389ef2f41b34e78084e302a5266a4b2a55bf01ddea6cb066343a6bc4dccbbc40
 
 ## steel-test-ball-drop/sample_impact_001.csv
-- **Nickname**: sample impact 001 · 313N peak · fast decay · run 2
+- **Nickname**: sample impact 001 · 313N peak · fast decay
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 10 → **Retained**: 10
 - **Event window**: 0.01000 – 0.01900 sec
 - **Prefix trimmed**: 0.01000 – 0.01000 sec
@@ -1860,12 +1860,12 @@
 - **Force decay**: 5.00 ms
 - **Impulse**: 1.38 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 2d85a4377f00ade3b1f5414a8ff3fbce0ac07fef378023b8c029c6667687bba7
+- **Content hash**: 6ba1bea2629c4f8ff987307934f88b240ceff0fd5791077c93a36f4bbfa4f4a7
 
 ## steel-test-ball-drop/sample_impact_002.csv
-- **Nickname**: sample impact 002 · 25N peak · slow decay · run 2
+- **Nickname**: sample impact 002 · 25N peak · slow decay
 - **Category**: steel-test-ball-drop
-- **Processed**: 2026-06-29T18:12:53Z
+- **Processed**: 2026-06-29T19:03:16Z
 - **Original samples**: 10 → **Retained**: 9
 - **Event window**: 10.00000 – 18.00000 sec
 - **Prefix trimmed**: 9.00000 – 10.00000 sec
@@ -1875,4 +1875,4 @@
 - **Force decay**: 5000.00 ms
 - **Impulse**: 101.55 N·s
 - **Weapon type**: Steel Test Ball Drop
-- **Content hash**: 2bdcfd035227566cc4660f526b34d39adda95dfc3cd3eec7f492dc57247f0116
+- **Content hash**: e2cee21af1a9e3bdf02bc3cf42871854720afa8f4e5fd6fc9e30bfdfc7236f1d
